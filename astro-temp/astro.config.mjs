@@ -3,7 +3,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://pretensaosalarial.com.br',
-  base: '/',
+  site: 'https://areiasthiago.github.io',
+  base: '/pretensaosalarial',
   integrations: [sitemap()]
 });
