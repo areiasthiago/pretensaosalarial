@@ -246,3 +246,10 @@ async function hashEmail(email) {
   const hashArray = Array.from(new Uint8Array(hashBuffer))
   return hashArray.map(b => b.toString(16).padStart(2, '0')).join('')
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const salarioInput = document.getElementById('salario')
+  if (salarioInput) {
+    aplicarMascaraMoeda(salarioInput)
+  }
+})

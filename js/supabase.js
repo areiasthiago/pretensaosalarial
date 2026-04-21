@@ -1,4 +1,0 @@
-const SUPABASE_URL = 'https://mzbczjzmeuadyysexubj.supabase.co'
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im16YmN6anptZXVhZHl5c2V4dWJqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY3ODkyNzYsImV4cCI6MjA5MjM2NTI3Nn0.Z1qaFsgK92iyb1oQNnhLnnEdKBr5j-beVWFfgzPL9nA'
-
-const db = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)

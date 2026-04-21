@@ -116,7 +116,7 @@ import Layout from '../../layouts/Layout.astro'
           <div class="input-group">
             <label class="input-label">Salário bruto mensal</label>
             <span class="input-hint">Informe o valor em reais (R$)</span>
-            <input class="input" type="text" id="salario" placeholder="Ex: R$ 8.500,00" required>
+            <input class="input" type="text" id="salario" placeholder="Ex: R$ 8.500,00" data-mask="currency" required>
           </div>
           <div class="input-group">
             <label class="input-label">Recebe bônus ou PLR?</label>
@@ -259,7 +259,9 @@ import Layout from '../../layouts/Layout.astro'
     </div>
   </main>
 
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" is:inline></script>
   <script src="/js/supabase.js" is:inline></script>
+  <script src="/js/utils.js" is:inline></script>
   <script src="/js/ibge.js" is:inline></script>
   <script src="/js/cadastro.js" is:inline></script>
 </Layout>
