@@ -22,6 +22,8 @@
   /* =====================
      Cores — Neutros
   ===================== */
+  --color-white: #ffffff;
+  --color-black: #000000;
   --color-bg:      #F8F7FF;
   --color-surface: #F1F0F9;
   --color-border:  #E4E2F0;

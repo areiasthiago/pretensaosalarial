@@ -25,7 +25,7 @@
 
 .btn-primary {
   background: var(--color-primary-500);
-  color: #fff;
+  color: var(--color-white) !important;
 }
 
 .btn-primary:hover {
@@ -74,7 +74,7 @@
   padding-inline: var(--space-4);
   border-radius: var(--radius-md);
   border: 1.5px solid var(--color-border);
-  background: #fff;
+  background: var(--color-white);
   font-family: var(--font-base);
   font-size: var(--text-base);
   color: var(--color-text);
@@ -141,7 +141,7 @@
    Cards
 ===================== */
 .card {
-  background: #fff;
+  background: var(--color-white);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   padding: var(--space-6);
@@ -211,7 +211,7 @@
 ===================== */
 .navbar {
   height: var(--nav-height);
-  background: #fff;
+  background: var(--color-white);
   border-bottom: 1px solid var(--color-border);
   display: flex;
   align-items: center;
@@ -333,13 +333,13 @@
 .step.active .step-number {
   background: var(--color-primary-500);
   border-color: var(--color-primary-500);
-  color: #fff;
+  color: var(--color-white);
 }
 
 .step.done .step-number {
   background: var(--color-teal-400);
   border-color: var(--color-teal-400);
-  color: #fff;
+  color: var(--color-white);
 }
 
 .step-divider {
