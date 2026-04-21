@@ -50,7 +50,7 @@ import Layout from '../../layouts/Layout.astro'
             <span class="input-hint">Não será associado ao seu salário</span>
             <input class="input" type="email" id="email" placeholder="seu@email.com" required>
           </div>
-          <div class="input-group">
+          <div class="input-group break">
             <label class="input-label">Cargo</label>
             <input class="input" type="text" id="cargo" placeholder="Ex: Analista de Marketing" required>
           </div>
@@ -118,7 +118,7 @@ import Layout from '../../layouts/Layout.astro'
             <span class="input-hint">Informe o valor em reais (R$)</span>
             <input class="input" type="text" id="salario" placeholder="Ex: R$ 8.500,00" data-mask="currency" required>
           </div>
-          <div class="input-group">
+          <div class="input-group break">
             <label class="input-label">Recebe bônus ou PLR?</label>
             <div class="bonus-options">
               <div class="check-item" id="bonus-sim" onclick="selectBonus(true)">
@@ -129,7 +129,7 @@ import Layout from '../../layouts/Layout.astro'
               </div>
             </div>
           </div>
-          <div class="input-group">
+          <div class="input-group full">
             <label class="input-label">Benefícios <span class="input-hint" style="display:inline">(opcional)</span></label>
             <div class="checklist" id="beneficios">
               <div class="check-item" data-value="Vale Refeição/Alimentação" onclick="toggleBeneficio(this)"><div class="check-dot"></div>Vale Refeição/Alimentação</div>

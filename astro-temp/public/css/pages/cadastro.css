@@ -40,12 +40,33 @@
 }
 
 /* =====================
-   Grid de 2 colunas
+   Grid de 2 colunas no cadastro
+===================== */
+@media (min-width: 640px) {
+  .cadastro-main .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-6);
+  }
+  .cadastro-main .input-group.full {
+    grid-column: 1 / -1;
+  }
+  .cadastro-main .input-group.break {
+    grid-column: 1;
+  }
+  .checklist {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* =====================
+   Grid de 2 colunas explícito
 ===================== */
 .form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--space-4);
+  grid-column: 1 / -1;
 }
 
 /* =====================
@@ -60,6 +81,7 @@
   color: var(--color-primary-700);
   line-height: 1.6;
   margin-bottom: var(--space-4);
+  grid-column: 1 / -1;
 }
 
 .privacy-note a {
@@ -124,9 +146,8 @@
 }
 
 /* =====================
-   Form
+   Input group
 ===================== */
-
 .input-group {
   position: relative;
 }

@@ -58,4 +58,80 @@ import Layout from '../layouts/Layout.astro'
     </div>
   </section>
 
+  <!-- FAQ -->
+  <section class="faq-section">
+    <div class="container">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            Meus dados são realmente anônimos?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Sim. Seu email é armazenado separadamente dos seus dados salariais e nunca são associados entre si. Qualquer pessoa que acesse o banco de dados vê apenas cargos, salários e informações profissionais — nunca a identidade de quem cadastrou.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Por que vocês pedem meu email?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Apenas para evitar cadastros duplicados. Armazenamos somente um código criptografado do seu email — não o email em si — e ele nunca é associado ao salário que você cadastrou.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Com que frequência posso atualizar meu salário?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Uma vez a cada 24 horas. Se seu salário mudou, basta aguardar esse período e cadastrar novamente. Mantemos apenas os dados dos últimos 36 meses para garantir que as informações sejam sempre relevantes.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Os dados são confiáveis?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Fazemos o possível para garantir a qualidade — aplicamos filtros anti-spam, removemos entradas antigas e exibimos resultados apenas quando há um número mínimo de respostas para aquele cargo. Quanto mais pessoas contribuem, mais precisos ficam os dados.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Por que devo informar dados de diversidade?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Para identificar desigualdades salariais entre gêneros, raças e outros grupos. Esses dados são completamente opcionais e nunca associados à sua identidade — mas quando compartilhados, ajudam a construir um retrato mais justo e completo do mercado de trabalho brasileiro.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            O site é gratuito? Como vocês se sustentam?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Sim, completamente gratuito para usuários. O site é mantido por anúncios não intrusivos. Não vendemos seus dados — nunca.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement
+        const isOpen = item.classList.contains('open')
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'))
+        if (!isOpen) item.classList.add('open')
+      })
+    })
+  })
+  </script>
+
 </Layout>
