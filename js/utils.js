@@ -1,22 +1,3 @@
-async function loadVersion() {
-  try {
-    const paths = ['package.json', '../package.json']
-    let pkg = null
-    for (const path of paths) {
-      try {
-        const res = await fetch(path)
-        if (res.ok) { pkg = await res.json(); break }
-      } catch {}
-    }
-    if (pkg) {
-      const badges = document.querySelectorAll('.version-tag')
-      badges.forEach(el => el.textContent = `beta v${pkg.version}`)
-    }
-  } catch (e) {
-    console.warn('Versão não encontrada')
-  }
-}
-
 function aplicarMascaraMoeda(input) {
   input.addEventListener('input', () => {
     let valor = input.value.replace(/\D/g, '')

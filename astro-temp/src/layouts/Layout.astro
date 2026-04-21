@@ -1,4 +1,5 @@
 ---
+import pkg from '../../package.json'
 const { title, description } = Astro.props
 ---
 <!DOCTYPE html>
@@ -20,7 +21,7 @@ const { title, description } = Astro.props
     <div class="container">
       <a href="/" class="navbar-brand">
         <img src="/favicon.svg" alt="" width="24" height="24" style="display:inline-block; vertical-align: middle; margin-right: 8px; position: relative; top: -1px;">
-        pretensão salarial <span class="version-tag">beta</span>
+        pretensão salarial <span class="version-tag">beta v{pkg.version}</span>
       </a>
       <div class="navbar-links">
         <a href="/consulta/">Consultar salários</a>
@@ -37,8 +38,6 @@ const { title, description } = Astro.props
       <p>© 2025 Pretensão Salarial · <a href="/privacidade/">Privacidade</a> · <a href="/termos/">Termos de uso</a> · <a href="/sobre/">Sobre</a></p>
     </div>
   </footer>
-
-  <script src="/js/utils.js" is:inline></script>
 
 </body>
 </html>
