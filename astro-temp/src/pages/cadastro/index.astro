@@ -1,0 +1,265 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+<Layout
+  title="Cadastrar salário"
+  description="Cadastre seu salário de forma anônima e ajude outros profissionais brasileiros."
+>
+  <link rel="stylesheet" href="/css/pages/cadastro.css" slot="head">
+  <script src="https://www.google.com/recaptcha/api.js?render=6Ld0QsMsAAAAAFzRqvyWkbJnFhmv_vhIVVqCUKEd" is:inline></script>
+
+  <main class="cadastro-main">
+    <div class="container-sm">
+
+      <div class="page-header">
+        <h1>Cadastrar meu salário</h1>
+        <p>Leva menos de 3 minutos. Seus dados são 100% anônimos.</p>
+      </div>
+
+      <div class="steps" id="steps">
+        <div class="step active" id="step-1">
+          <div class="step-number">1</div>
+          <span>Cargo</span>
+        </div>
+        <div class="step-divider"></div>
+        <div class="step" id="step-2">
+          <div class="step-number">2</div>
+          <span>Salário</span>
+        </div>
+        <div class="step-divider"></div>
+        <div class="step" id="step-3">
+          <div class="step-number">3</div>
+          <span>Contexto</span>
+        </div>
+        <div class="step-divider"></div>
+        <div class="step" id="step-4">
+          <div class="step-number">4</div>
+          <span>Diversidade</span>
+        </div>
+      </div>
+
+      <!-- ETAPA 1 — CARGO -->
+      <div class="form-panel active" id="panel-1">
+        <div class="privacy-note">
+          Seu email nunca será associado aos seus dados salariais. Ele é usado apenas para evitar cadastros duplicados.
+          <a href="/privacidade/">Saiba mais</a>
+        </div>
+        <div class="card">
+          <div class="input-group">
+            <label class="input-label">Email</label>
+            <span class="input-hint">Não será associado ao seu salário</span>
+            <input class="input" type="email" id="email" placeholder="seu@email.com" required>
+          </div>
+          <div class="input-group">
+            <label class="input-label">Cargo</label>
+            <input class="input" type="text" id="cargo" placeholder="Ex: Analista de Marketing" required>
+          </div>
+          <div class="input-group">
+            <label class="input-label">Área</label>
+            <input class="input" type="text" id="area" placeholder="Ex: Marketing, Tecnologia..." autocomplete="off" required>
+            <div class="autocomplete-list" id="area-suggestions"></div>
+          </div>
+          <div class="form-row">
+            <div class="input-group">
+              <label class="input-label">Posição</label>
+              <select class="select" id="posicao" required>
+                <option value="">Selecione</option>
+                <option>Analista</option>
+                <option>Especialista</option>
+                <option>Consultor</option>
+                <option>Coordenador</option>
+                <option>Gerente</option>
+                <option>Diretor</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label class="input-label">Nível</label>
+              <select class="select" id="nivel" required>
+                <option value="">Selecione</option>
+                <option>Júnior</option>
+                <option>Pleno</option>
+                <option>Sênior</option>
+                <option>Não se aplica</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="input-group">
+              <label class="input-label">Regime</label>
+              <select class="select" id="regime" required>
+                <option value="">Selecione</option>
+                <option>CLT</option>
+                <option>PJ</option>
+                <option>Freelancer</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label class="input-label">Modelo</label>
+              <select class="select" id="modelo" required>
+                <option value="">Selecione</option>
+                <option>Presencial</option>
+                <option>Híbrido</option>
+                <option>Home office</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="form-actions">
+          <div></div>
+          <button class="btn btn-primary" onclick="validarEAvancar(1)">Próximo →</button>
+        </div>
+      </div>
+
+      <!-- ETAPA 2 — SALÁRIO -->
+      <div class="form-panel" id="panel-2">
+        <div class="card">
+          <div class="input-group">
+            <label class="input-label">Salário bruto mensal</label>
+            <span class="input-hint">Informe o valor em reais (R$)</span>
+            <input class="input" type="text" id="salario" placeholder="Ex: R$ 8.500,00" required>
+          </div>
+          <div class="input-group">
+            <label class="input-label">Recebe bônus ou PLR?</label>
+            <div class="bonus-options">
+              <div class="check-item" id="bonus-sim" onclick="selectBonus(true)">
+                <div class="check-dot"></div>Sim
+              </div>
+              <div class="check-item" id="bonus-nao" onclick="selectBonus(false)">
+                <div class="check-dot"></div>Não
+              </div>
+            </div>
+          </div>
+          <div class="input-group">
+            <label class="input-label">Benefícios <span class="input-hint" style="display:inline">(opcional)</span></label>
+            <div class="checklist" id="beneficios">
+              <div class="check-item" data-value="Vale Refeição/Alimentação" onclick="toggleBeneficio(this)"><div class="check-dot"></div>Vale Refeição/Alimentação</div>
+              <div class="check-item" data-value="Plano de Saúde" onclick="toggleBeneficio(this)"><div class="check-dot"></div>Plano de Saúde</div>
+              <div class="check-item" data-value="Plano Odontológico" onclick="toggleBeneficio(this)"><div class="check-dot"></div>Plano Odontológico</div>
+              <div class="check-item" data-value="Vale Transporte" onclick="toggleBeneficio(this)"><div class="check-dot"></div>Vale Transporte</div>
+              <div class="check-item" data-value="Auxílio Home Office" onclick="toggleBeneficio(this)"><div class="check-dot"></div>Auxílio Home Office</div>
+              <div class="check-item" data-value="Previdência Privada" onclick="toggleBeneficio(this)"><div class="check-dot"></div>Previdência Privada</div>
+              <div class="check-item" data-value="Gympass/Wellhub" onclick="toggleBeneficio(this)"><div class="check-dot"></div>Gympass/Wellhub</div>
+              <div class="check-item" data-value="Stock Options/Equity" onclick="toggleBeneficio(this)"><div class="check-dot"></div>Stock Options/Equity</div>
+              <div class="check-item" data-value="Outros" onclick="toggleBeneficio(this)"><div class="check-dot"></div>Outros</div>
+            </div>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-ghost" onclick="goToStep(1)">← Voltar</button>
+          <button class="btn btn-primary" onclick="validarEAvancar(2)">Próximo →</button>
+        </div>
+      </div>
+
+      <!-- ETAPA 3 — CONTEXTO -->
+      <div class="form-panel" id="panel-3">
+        <div class="card">
+          <div class="form-row">
+            <div class="input-group">
+              <label class="input-label">Estado da empresa</label>
+              <input class="input" type="text" id="estado" placeholder="Ex: RJ, SP..." autocomplete="off" required>
+              <div class="autocomplete-list" id="estado-suggestions"></div>
+            </div>
+            <div class="input-group">
+              <label class="input-label">Cidade da empresa</label>
+              <input class="input" type="text" id="cidade" placeholder="Digite o estado primeiro..." autocomplete="off" required disabled>
+              <div class="autocomplete-list" id="cidade-suggestions"></div>
+            </div>
+          </div>
+          <div class="input-group">
+            <label class="input-label">Porte da empresa</label>
+            <select class="select" id="porte" required>
+              <option value="">Selecione</option>
+              <option>Startup</option>
+              <option>PME</option>
+              <option>Grande empresa</option>
+              <option>Multinacional</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label class="input-label">Setor da empresa</label>
+            <input class="input" type="text" id="setor" placeholder="Ex: Tecnologia, Varejo..." autocomplete="off" required>
+            <div class="autocomplete-list" id="setor-suggestions"></div>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-ghost" onclick="goToStep(2)">← Voltar</button>
+          <button class="btn btn-primary" onclick="validarEAvancar(3)">Próximo →</button>
+        </div>
+      </div>
+
+      <!-- ETAPA 4 — DIVERSIDADE -->
+      <div class="form-panel" id="panel-4">
+        <div class="privacy-note">
+          Esses dados são completamente opcionais e nos ajudam a identificar desigualdades salariais. Nunca serão associados à sua identidade.
+        </div>
+        <div style="display:none" aria-hidden="true">
+          <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+        </div>
+        <div class="card">
+          <div class="input-group">
+            <label class="input-label">Gênero <span class="input-hint" style="display:inline">(opcional)</span></label>
+            <select class="select" id="genero">
+              <option value="">Prefiro não informar</option>
+              <option>Homem cis</option>
+              <option>Mulher cis</option>
+              <option>Homem trans</option>
+              <option>Mulher trans</option>
+              <option>Não-binário</option>
+              <option>Intersexo</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label class="input-label">Orientação sexual <span class="input-hint" style="display:inline">(opcional)</span></label>
+            <select class="select" id="orientacao">
+              <option value="">Prefiro não informar</option>
+              <option>Heterossexual</option>
+              <option>Homossexual</option>
+              <option>Bissexual</option>
+              <option>Pansexual</option>
+              <option>Assexual</option>
+              <option>Queer</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label class="input-label">Raça/Etnia <span class="input-hint" style="display:inline">(opcional)</span></label>
+            <select class="select" id="raca">
+              <option value="">Prefiro não informar</option>
+              <option>Branco</option>
+              <option>Preto</option>
+              <option>Pardo</option>
+              <option>Amarelo</option>
+              <option>Indígena</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label class="input-label">Pessoa com deficiência (PCD) <span class="input-hint" style="display:inline">(opcional)</span></label>
+            <select class="select" id="pcd">
+              <option value="">Prefiro não informar</option>
+              <option>Sim</option>
+              <option>Não</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-ghost" onclick="goToStep(3)">← Voltar</button>
+          <button class="btn btn-primary" id="btn-enviar" onclick="enviarCadastro()" style="background:#14B8A6">Enviar cadastro ✓</button>
+        </div>
+      </div>
+
+      <!-- SUCESSO -->
+      <div class="form-panel" id="panel-sucesso">
+        <div class="sucesso-card">
+          <div class="sucesso-icon">✓</div>
+          <h2>Cadastro enviado!</h2>
+          <p>Obrigado por contribuir com a pesquisa. Seus dados ajudam milhares de profissionais brasileiros.</p>
+          <a href="/consulta/" class="btn btn-primary btn-lg">Consultar salários agora</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="/js/supabase.js" is:inline></script>
+  <script src="/js/ibge.js" is:inline></script>
+  <script src="/js/cadastro.js" is:inline></script>
+</Layout>

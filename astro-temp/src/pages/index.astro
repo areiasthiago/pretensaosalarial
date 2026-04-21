@@ -1,0 +1,61 @@
+---
+import Layout from '../layouts/Layout.astro'
+---
+<Layout 
+  title="Pesquisa colaborativa de salários no Brasil"
+  description="Pesquisa colaborativa e gratuita de salários no Brasil. Consulte faixas salariais por cargo, área, senioridade e região."
+>
+
+  <link rel="stylesheet" href="/css/pages/home.css" slot="head">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <span class="tag tag-primary">100% gratuito e anônimo</span>
+        <h1>Descubra quanto<br>vale o seu trabalho</h1>
+        <p>Dados reais compartilhados por profissionais como você. Consulte faixas salariais por cargo, área, senioridade e região.</p>
+        <div class="hero-actions">
+          <a href="/consulta/" class="btn btn-primary btn-lg">Consultar salários</a>
+          <a href="/cadastro/" class="btn btn-secondary btn-lg">Cadastrar meu salário</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="how-it-works">
+    <div class="container">
+      <h2>Como funciona</h2>
+      <div class="steps-grid">
+        <div class="how-step">
+          <div class="how-step-number">1</div>
+          <h4>Compartilhe seu salário</h4>
+          <p>Preencha um formulário rápido e anônimo. Seu email nunca é associado aos seus dados salariais.</p>
+        </div>
+        <div class="how-step">
+          <div class="how-step-number">2</div>
+          <h4>Dados reais se acumulam</h4>
+          <p>Cada contribuição torna a pesquisa mais precisa para todos os profissionais brasileiros.</p>
+        </div>
+        <div class="how-step">
+          <div class="how-step-number">3</div>
+          <h4>Consulte e negocie melhor</h4>
+          <p>Use os dados para embasar sua pretensão salarial ou pleitear um aumento com confiança.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-card">
+        <h2>Contribua com a pesquisa</h2>
+        <p>Leva menos de 3 minutos. Seus dados são anônimos e ajudam milhares de profissionais.</p>
+        <a href="/cadastro/" class="btn btn-primary btn-lg">Cadastrar meu salário</a>
+      </div>
+    </div>
+  </section>
+
+</Layout>

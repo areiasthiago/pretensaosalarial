@@ -1,0 +1,43 @@
+---
+const { title, description } = Astro.props
+---
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content={description}>
+  <title>{title} — Pretensão Salarial</title>
+
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <slot name="head" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="/" class="navbar-brand">
+        pretensão salarial <span class="version-tag">beta</span>
+      </a>
+      <div class="navbar-links">
+        <a href="/consulta/">Consultar salários</a>
+        <a href="/sobre/">Sobre</a>
+        <a href="/cadastro/" class="btn btn-primary btn-sm">Cadastrar meu salário</a>
+      </div>
+    </div>
+  </nav>
+
+  <slot />
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Pretensão Salarial · <a href="/privacidade/">Privacidade</a> · <a href="/termos/">Termos de uso</a> · <a href="/sobre/">Sobre</a></p>
+    </div>
+  </footer>
+
+  <script src="/js/utils.js" is:inline></script>
+
+</body>
+</html>
