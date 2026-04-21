@@ -145,6 +145,7 @@
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   padding: var(--space-6);
+  overflow: visible;
 }
 
 .card-sm {
@@ -377,4 +378,48 @@
   border-radius: var(--radius-full);
   vertical-align: middle;
   margin-left: var(--space-1);
+}
+
+/* =====================
+   Autocomplete
+===================== */
+.autocomplete-list {
+  position: absolute;
+  width: 100%;
+  background: var(--color-surface);
+  border: 1.5px solid var(--color-primary-400);
+  border-radius: var(--radius-md);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 50;
+  display: none;
+  left: 0;
+  top: auto;
+  margin-top: var(--space-1);
+}
+
+.autocomplete-list.visible {
+  display: block;
+}
+
+.autocomplete-item {
+  padding: var(--space-3) var(--space-4);
+  font-size: var(--text-sm);
+  cursor: pointer;
+  color: var(--color-text);
+  background: var(--color-white);
+}
+
+.autocomplete-item:first-child {
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+
+.autocomplete-item:last-child {
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+}
+
+.autocomplete-item:hover,
+.autocomplete-item.selected {
+  background: var(--color-primary-50);
+  color: var(--color-primary-700);
 }
