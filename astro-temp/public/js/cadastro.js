@@ -1,6 +1,38 @@
 let bonusValue = null
 let currentStep = 1
 
+function aplicarMascaraMoeda(input) {
+  input.addEventListener('input', () => {
+    let valor = input.value.replace(/\D/g, '')
+    if (!valor) { input.value = ''; return }
+    valor = (parseInt(valor) / 100).toFixed(2)
+    const [inteiro, decimal] = valor.split('.')
+    const inteiroFormatado = inteiro.replace(/\B(?=(\d{3})+(?!\d))/g, '.')
+    input.value = `R$ ${inteiroFormatado},${decimal}`
+  })
+}
+
+function matchFuzzy(texto, lista) {
+  if (!texto || !lista.length) return null
+  const t = texto.toLowerCase().trim()
+
+  const exato = lista.find(item => item.toLowerCase() === t)
+  if (exato) return exato
+
+  const inclui = lista.find(item =>
+    item.toLowerCase().includes(t) || t.includes(item.toLowerCase())
+  )
+  if (inclui) return inclui
+
+  const inicio = lista.find(item =>
+    item.toLowerCase().startsWith(t.substring(0, 4)) ||
+    t.startsWith(item.toLowerCase().substring(0, 4))
+  )
+  if (inicio) return inicio
+
+  return null
+}
+
 function goToStep(n) {
   document.getElementById('panel-' + currentStep).classList.remove('active')
   document.getElementById('step-' + currentStep).classList.remove('active')
@@ -195,11 +227,25 @@ async function enviarCadastro() {
       }
     }
 
-    const areaMatch = await db.from('areas').select('id').ilike('nome', area).maybeSingle()
-    const area_id = areaMatch.data ? areaMatch.data.id : null
+    const { data: areasList } = await db.from('areas').select('id, nome')
+    let area_id = null
+    if (area && areasList) {
+      const matchArea = matchFuzzy(area, areasList.map(a => a.nome))
+      if (matchArea) {
+        const encontrado = areasList.find(a => a.nome === matchArea)
+        area_id = encontrado ? encontrado.id : null
+      }
+    }
 
-    const setorMatch = await db.from('setores').select('id').ilike('nome', setor).maybeSingle()
-    const setor_id = setorMatch.data ? setorMatch.data.id : null
+    const { data: setoresList } = await db.from('setores').select('id, nome')
+    let setor_id = null
+    if (setor && setoresList) {
+      const matchSetor = matchFuzzy(setor, setoresList.map(s => s.nome))
+      if (matchSetor) {
+        const encontrado = setoresList.find(s => s.nome === matchSetor)
+        setor_id = encontrado ? encontrado.id : null
+      }
+    }
 
     const { error } = await db.from('salaries').insert({
       cargo,

@@ -1,12 +1,357 @@
 ---
 import Layout from '../../layouts/Layout.astro'
+import '../../styles/pages/consulta.css'
 ---
 <Layout
   title="Consultar salários"
-  description="Consulte faixas salariais por cargo, área, senioridade e região."
+  description="Consulte faixas salariais por cargo, área, senioridade e região. Dados reais de profissionais brasileiros."
 >
-  <main class="container" style="padding-block: 4rem">
-    <h1>Consultar salários</h1>
-    <p>Em breve.</p>
+
+  <style slot="head">
+    .filter-dropdown { display: none !important; }
+    .filter-dropdown.open { display: block !important; }
+    .consulta-results { opacity: 0; }
+    .consulta-results.loaded { opacity: 1; transition: opacity .2s ease; }
+  </style>
+  
+  <div class="consulta-header">
+    <div class="container">
+      <h1>Consultar salários</h1>
+      <p>Use os filtros abaixo para encontrar a faixa salarial do seu cargo.</p>
+    </div>
+  </div>
+
+  <div class="filters-bar">
+    <div class="container">
+      <div class="filters-row">
+        <div class="filter-group">
+          <div class="filter-chip" id="chip-cargo" onclick="toggleFilter('cargo')">
+            <span id="chip-cargo-label">Cargo</span>
+            <span class="chip-arrow">▾</span>
+          </div>
+          <div class="filter-dropdown" id="dropdown-cargo">
+            <div class="input-group">
+              <input class="input" type="text" id="filtro-cargo" placeholder="Ex: Analista de Marketing" autocomplete="off">
+              <div class="autocomplete-list" id="filtro-cargo-suggestions"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-chip" id="chip-area" onclick="toggleFilter('area')">
+            <span id="chip-area-label">Área</span>
+            <span class="chip-arrow">▾</span>
+          </div>
+          <div class="filter-dropdown" id="dropdown-area">
+            <div class="input-group">
+              <input class="input" type="text" id="filtro-area" placeholder="Ex: Marketing, Tecnologia..." autocomplete="off">
+              <div class="autocomplete-list" id="filtro-area-suggestions"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-chip" id="chip-posicao" onclick="toggleFilter('posicao')">
+            <span id="chip-posicao-label">Posição</span>
+            <span class="chip-arrow">▾</span>
+          </div>
+          <div class="filter-dropdown" id="dropdown-posicao">
+            <select class="select" id="filtro-posicao" onchange="applySelectFilter('posicao', this.value)">
+              <option value="">Todos</option>
+              <option>Analista</option>
+              <option>Especialista</option>
+              <option>Consultor</option>
+              <option>Coordenador</option>
+              <option>Gerente</option>
+              <option>Diretor</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-chip" id="chip-nivel" onclick="toggleFilter('nivel')">
+            <span id="chip-nivel-label">Nível</span>
+            <span class="chip-arrow">▾</span>
+          </div>
+          <div class="filter-dropdown" id="dropdown-nivel">
+            <select class="select" id="filtro-nivel" onchange="applySelectFilter('nivel', this.value)">
+              <option value="">Todos</option>
+              <option>Júnior</option>
+              <option>Pleno</option>
+              <option>Sênior</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-chip" id="chip-regime" onclick="toggleFilter('regime')">
+            <span id="chip-regime-label">Regime</span>
+            <span class="chip-arrow">▾</span>
+          </div>
+          <div class="filter-dropdown" id="dropdown-regime">
+            <select class="select" id="filtro-regime" onchange="applySelectFilter('regime', this.value)">
+              <option value="">Todos</option>
+              <option>CLT</option>
+              <option>PJ</option>
+              <option>Freelancer</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-chip" id="chip-modelo" onclick="toggleFilter('modelo')">
+            <span id="chip-modelo-label">Modelo</span>
+            <span class="chip-arrow">▾</span>
+          </div>
+          <div class="filter-dropdown" id="dropdown-modelo">
+            <select class="select" id="filtro-modelo" onchange="applySelectFilter('modelo', this.value)">
+              <option value="">Todos</option>
+              <option>Presencial</option>
+              <option>Híbrido</option>
+              <option>Home office</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="filter-divider"></div>
+
+        <div class="filter-group">
+          <div class="filter-chip" id="chip-estado" onclick="toggleFilter('estado')">
+            <span id="chip-estado-label">Estado</span>
+            <span class="chip-arrow">▾</span>
+          </div>
+          <div class="filter-dropdown" id="dropdown-estado">
+            <div class="input-group">
+              <input class="input" type="text" id="filtro-estado" placeholder="Ex: RJ, SP..." autocomplete="off">
+              <div class="autocomplete-list" id="filtro-estado-suggestions"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-chip" id="chip-cidade" onclick="toggleFilter('cidade')">
+            <span id="chip-cidade-label">Cidade</span>
+            <span class="chip-arrow">▾</span>
+          </div>
+          <div class="filter-dropdown" id="dropdown-cidade">
+            <div class="input-group">
+              <input class="input" type="text" id="filtro-cidade" placeholder="Digite o estado primeiro..." autocomplete="off" disabled>
+              <div class="autocomplete-list" id="filtro-cidade-suggestions"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-chip" id="chip-mais" onclick="toggleFilter('mais')">
+            <span>+ mais filtros</span>
+          </div>
+          <div class="filter-dropdown filter-dropdown-wide" id="dropdown-mais">
+            <div class="mais-filtros-grid">
+              <div class="input-group">
+                <label class="input-label">Porte da empresa</label>
+                <select class="select" id="filtro-porte" onchange="applySelectFilter('porte', this.value)">
+                  <option value="">Todos</option>
+                  <option>Startup</option>
+                  <option>PME</option>
+                  <option>Grande empresa</option>
+                  <option>Multinacional</option>
+                </select>
+              </div>
+              <div class="input-group">
+                <label class="input-label">Setor</label>
+                <input class="input" type="text" id="filtro-setor" placeholder="Ex: Tecnologia..." autocomplete="off">
+                <div class="autocomplete-list" id="filtro-setor-suggestions"></div>
+              </div>
+              <div class="input-group">
+                <label class="input-label">Gênero</label>
+                <select class="select" id="filtro-genero" onchange="applySelectFilter('genero', this.value)">
+                  <option value="">Todos</option>
+                  <option>Homem cis</option>
+                  <option>Mulher cis</option>
+                  <option>Homem trans</option>
+                  <option>Mulher trans</option>
+                  <option>Não-binário</option>
+                  <option>Intersexo</option>
+                </select>
+              </div>
+              <div class="input-group">
+                <label class="input-label">Orientação sexual</label>
+                <select class="select" id="filtro-orientacao" onchange="applySelectFilter('orientacao', this.value)">
+                  <option value="">Todos</option>
+                  <option>Heterossexual</option>
+                  <option>Homossexual</option>
+                  <option>Bissexual</option>
+                  <option>Pansexual</option>
+                  <option>Assexual</option>
+                  <option>Queer</option>
+                </select>
+              </div>
+              <div class="input-group">
+                <label class="input-label">Raça/Etnia</label>
+                <select class="select" id="filtro-raca" onchange="applySelectFilter('raca', this.value)">
+                  <option value="">Todos</option>
+                  <option>Branco</option>
+                  <option>Preto</option>
+                  <option>Pardo</option>
+                  <option>Amarelo</option>
+                  <option>Indígena</option>
+                </select>
+              </div>
+              <div class="input-group">
+                <label class="input-label">PCD</label>
+                <select class="select" id="filtro-pcd" onchange="applySelectFilter('pcd', this.value)">
+                  <option value="">Todos</option>
+                  <option>Sim</option>
+                  <option>Não</option>
+                </select>
+              </div>
+              <div class="input-group">
+                <label class="input-label">Bônus/PLR</label>
+                <select class="select" id="filtro-bonus" onchange="applySelectFilter('bonus', this.value)">
+                  <option value="">Todos</option>
+                  <option value="true">Recebe</option>
+                  <option value="false">Não recebe</option>
+                </select>
+              </div>
+            </div>
+            <div class="mais-filtros-footer">
+              <button class="btn btn-primary btn-sm" onclick="document.getElementById('dropdown-mais').classList.remove('open')">Aplicar</button>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn-limpar" id="btn-limpar" onclick="limparFiltros()" style="display:none">Limpar filtros</button>
+      </div>
+    </div>
+  </div>
+
+  <main class="consulta-results">
+    <div class="container">
+      <div id="results-header" class="results-header" style="display:none">
+        <span class="results-count" id="results-count"></span>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-card">
+          <div class="stat-value" id="stat-mediana">—</div>
+          <div class="stat-label">Mediana salarial</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" style="color: var(--color-teal-400)" id="stat-minimo">—</div>
+          <div class="stat-label">Mínimo</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" style="color: var(--color-primary-700)" id="stat-maximo">—</div>
+          <div class="stat-label">Máximo</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" style="color: var(--color-text)" id="stat-bonus">—</div>
+          <div class="stat-label">Recebem bônus</div>
+        </div>
+      </div>
+
+      <div class="beneficios-section">
+        <h3 class="section-title">Benefícios mais comuns</h3>
+        <div class="beneficios-list" id="beneficios-list"></div>
+      </div>
+
+      <div id="empty-state" style="display:none" class="empty-state">
+        <p>Nenhum resultado encontrado para essa combinação de filtros.</p>
+        <button class="btn btn-ghost" onclick="limparFiltros()">Limpar filtros</button>
+      </div>
+    </div>
   </main>
+
+  <!-- CTA -->
+  <section class="consulta-cta">
+    <div class="container">
+      <div class="cta-card">
+        <h2>Contribua com a pesquisa</h2>
+        <p>Seu cadastro é anônimo e ajuda milhares de profissionais a negociar melhor.</p>
+        <a href="/cadastro/" class="btn btn-primary btn-lg">Cadastrar meu salário</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="consulta-faq">
+    <div class="container">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            Por que não consigo visualizar resultados mesmo sem aplicar filtros?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Nossa base de dados ainda está em crescimento. Para proteger a privacidade dos usuários, só exibimos resultados quando há um número mínimo de cadastros. Quanto mais pessoas contribuem, mais completa fica a pesquisa.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Por que meus filtros não retornaram resultados?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Pode ser que ainda não tenhamos dados suficientes para essa combinação específica de filtros. Tente ampliar os filtros removendo alguns critérios, ou cadastre seu salário para enriquecer a base.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Os dados são atualizados com que frequência?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Os dados são atualizados em tempo real conforme novos cadastros são feitos. Removemos automaticamente entradas com mais de 36 meses para garantir que as informações sejam sempre relevantes para o mercado atual.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Por que não encontrei meu cargo?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Se seu cargo não aparece no autocomplete, é porque ainda não temos cadastros para ele. Seja o primeiro a contribuir — seu cadastro é anônimo e ajuda outros profissionais da sua área.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Os salários incluem benefícios?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Não. Os valores exibidos referem-se ao salário bruto mensal. Informações sobre benefícios são exibidas separadamente como percentual de quem os recebe.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Como posso contribuir para melhorar os dados?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Cadastre seu salário! Leva menos de 3 minutos, é completamente anônimo e seu email nunca é associado aos seus dados salariais. Quanto mais pessoas contribuem, mais precisos ficam os resultados para todos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" is:inline></script>
+  <script src="/js/supabase.js" is:inline></script>
+  <script src="/js/utils.js" is:inline></script>
+  <script src="/js/autocomplete.js" is:inline></script>
+  <script src="/js/ibge.js" is:inline></script>
+  <script src="/js/consulta.js" is:inline></script>
+  <script is:inline>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement
+        const isOpen = item.classList.contains('open')
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'))
+        if (!isOpen) item.classList.add('open')
+      })
+    })
+  })
+  </script>
 </Layout>

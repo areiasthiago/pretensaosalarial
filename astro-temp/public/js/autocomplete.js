@@ -16,7 +16,7 @@ function criarAutocomplete(inputId, suggestionsId, items, onSelect) {
 
     const rect = input.getBoundingClientRect()
     const parentRect = input.parentElement.getBoundingClientRect()
-    list.style.top = (rect.bottom - parentRect.top + 8) + 'px'
+    list.style.top = (rect.bottom - parentRect.top + 2) + 'px'
 
     filtrados.forEach((item, index) => {
       const div = document.createElement('div')
@@ -104,7 +104,7 @@ async function setupCargoAutocomplete() {
 
     const rect = input.getBoundingClientRect()
     const parentRect = input.parentElement.getBoundingClientRect()
-    list.style.top = (rect.bottom - parentRect.top + 8) + 'px'
+    list.style.top = (rect.bottom - parentRect.top + 2) + 'px'
 
     unicos.forEach((cargo, index) => {
       const div = document.createElement('div')
