@@ -71,7 +71,13 @@
 .how-step {
   display: flex;
   flex-direction: column;
-  gap: var(--space-4);
+  gap: var(--space-3);
+}
+
+.how-step-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
 }
 
 .how-step-number {
@@ -90,10 +96,12 @@
 
 .how-step h4 {
   color: var(--color-text);
+  margin: 0;
 }
 
 .how-step p {
   color: var(--color-muted);
+  padding-left: calc(40px + var(--space-3));
 }
 
 /* =====================
@@ -225,8 +233,12 @@
   .hero .container {
     grid-template-columns: 1fr;
   }
-
   .hero-illustration {
     display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .how-step p {
+    padding-left: 0;
   }
 }
