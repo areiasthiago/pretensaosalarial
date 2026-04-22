@@ -211,11 +211,10 @@
    Navbar
 ===================== */
 .navbar {
-  height: var(--nav-height);
   background: var(--color-white);
   border-bottom: 1px solid var(--color-border);
   display: flex;
-  align-items: center;
+  flex-direction: column;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -225,6 +224,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: var(--nav-height);
 }
 
 .navbar-brand {
@@ -249,6 +249,81 @@
 
 .navbar-links a:hover {
   color: var(--color-text);
+}
+
+/* =====================
+   Hamburger
+===================== */
+.navbar-hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: var(--space-2);
+}
+
+.navbar-hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--color-text);
+  border-radius: 2px;
+  transition: all .2s ease;
+}
+
+.navbar-hamburger.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.navbar-hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-hamburger.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.navbar-mobile {
+  display: none;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-4) var(--space-6);
+  background: var(--color-white);
+  border-top: 1px solid var(--color-border);
+  width: 100%;
+}
+
+.navbar-mobile.open {
+  display: flex;
+}
+
+.navbar-mobile a {
+  font-size: var(--text-base);
+  font-weight: var(--weight-medium);
+  color: var(--color-text);
+  padding: var(--space-2) 0;
+}
+
+.navbar-mobile .btn {
+  background: none;
+  border: none;
+  color: var(--color-primary-500) !important;
+  font-weight: var(--weight-medium);
+  font-size: var(--text-base);
+  padding: var(--space-2) 0;
+  height: auto;
+  align-self: flex-start;
+  margin-top: 0;
+}
+
+@media (max-width: 640px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-hamburger {
+    display: flex;
+  }
 }
 
 /* =====================

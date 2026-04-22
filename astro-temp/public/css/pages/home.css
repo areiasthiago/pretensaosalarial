@@ -5,8 +5,14 @@
   padding-block: var(--space-16);
 }
 
+.hero .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: var(--space-12);
+}
+
 .hero-content {
-  max-width: 640px;
   display: flex;
   flex-direction: column;
   gap: var(--space-6);
@@ -30,6 +36,18 @@
   display: flex;
   gap: var(--space-3);
   flex-wrap: wrap;
+}
+
+.hero-illustration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-illustration svg {
+  width: 100%;
+  max-width: 400px;
+  cursor: default;
 }
 
 /* =====================
@@ -189,7 +207,6 @@
     padding: var(--space-8);
   }
 }
-
 @media (max-width: 640px) {
   .hero {
     padding-block: var(--space-12);
@@ -202,5 +219,14 @@
   .hero-actions .btn {
     width: 100%;
     justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .hero .container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-illustration {
+    display: none;
   }
 }

@@ -28,8 +28,25 @@ const { title, description } = Astro.props
         <a href="/sobre/">Sobre</a>
         <a href="/cadastro/" class="btn btn-primary btn-sm">Cadastrar meu salário</a>
       </div>
+      <button class="navbar-hamburger" id="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="navbar-mobile" id="navbar-mobile">
+      <a href="/consulta/">Consultar salários</a>
+      <a href="/sobre/">Sobre</a>
+      <a href="/cadastro/" class="btn btn-primary">Cadastrar meu salário</a>
     </div>
   </nav>
+
+  <script is:inline>
+  document.getElementById('hamburger').addEventListener('click', () => {
+    document.getElementById('navbar-mobile').classList.toggle('open')
+    document.getElementById('hamburger').classList.toggle('open')
+  })
+  </script>
 
   <slot />
 
