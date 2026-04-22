@@ -1,0 +1,180 @@
+/* =====================
+   Layout principal
+===================== */
+.cadastro-main {
+  padding-block: var(--space-12);
+}
+
+.page-header {
+  margin-bottom: var(--space-8);
+}
+
+.page-header h1 {
+  margin-bottom: var(--space-2);
+}
+
+.page-header p {
+  color: var(--color-muted);
+  font-size: var(--text-md);
+}
+
+/* =====================
+   Painéis de etapa
+===================== */
+.form-panel {
+  display: none;
+}
+
+.form-panel.active {
+  display: block;
+}
+
+/* =====================
+   Card com gap entre campos
+===================== */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  overflow: visible;
+}
+
+/* =====================
+   Grid de 2 colunas no cadastro
+===================== */
+@media (min-width: 640px) {
+  .cadastro-main .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-6);
+  }
+  .cadastro-main .input-group.full {
+    grid-column: 1 / -1;
+  }
+  .cadastro-main .input-group.break {
+    grid-column: 1;
+  }
+  .checklist {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* =====================
+   Grid de 2 colunas explícito
+===================== */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+  grid-column: 1 / -1;
+}
+
+/* =====================
+   Nota de privacidade
+===================== */
+.privacy-note {
+  background: var(--color-primary-50);
+  border: 1px solid var(--color-primary-200);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--color-primary-700);
+  line-height: 1.6;
+  margin-bottom: var(--space-4);
+  grid-column: 1 / -1;
+}
+
+.privacy-note a {
+  color: var(--color-primary-500);
+  text-decoration: underline;
+}
+
+/* =====================
+   Bônus (2 opções)
+===================== */
+.bonus-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2);
+  margin-top: var(--space-2);
+}
+
+/* =====================
+   Ações do formulário
+===================== */
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--space-6);
+}
+
+/* =====================
+   Tela de sucesso
+===================== */
+.sucesso-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-6);
+  padding: var(--space-12);
+  background: var(--color-surface);
+  border-radius: var(--radius-xl);
+}
+
+.sucesso-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-full);
+  background: var(--color-teal-400);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-xl);
+  font-weight: var(--weight-bold);
+}
+
+.sucesso-card h2 {
+  color: var(--color-text);
+}
+
+.sucesso-card p {
+  color: var(--color-muted);
+  max-width: 400px;
+}
+
+/* =====================
+   Input group
+===================== */
+.input-group {
+  position: relative;
+}
+
+/* =====================
+   Responsivo
+===================== */
+@media (max-width: 640px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .bonus-options {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .checklist {
+    grid-template-columns: 1fr;
+  }
+
+  .form-actions {
+    flex-direction: column-reverse;
+    gap: var(--space-3);
+  }
+
+  .form-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
