@@ -53,7 +53,6 @@ function validarEtapa1() {
   if (!cargo) { mostrarErro('cargo', 'Informe seu cargo'); valido = false }
   if (!area) { mostrarErro('area', 'Informe sua área'); valido = false }
   if (!posicao) { mostrarErro('posicao', 'Selecione sua posição'); valido = false }
-  if (!nivel) { mostrarErro('nivel', 'Selecione seu nível'); valido = false }
   if (!regime) { mostrarErro('regime', 'Selecione o regime'); valido = false }
   if (!modelo) { mostrarErro('modelo', 'Selecione o modelo'); valido = false }
 
