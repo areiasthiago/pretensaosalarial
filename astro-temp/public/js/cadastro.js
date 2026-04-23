@@ -147,6 +147,7 @@ function selectBonus(value) {
 
 function toggleBeneficio(el) {
   el.classList.toggle('checked')
+  el.blur()
 }
 
 function getBeneficios() {

@@ -1,7 +1,10 @@
 ---
 import Layout from '../../layouts/Layout.astro'
 import '../../styles/pages/consulta.css'
+import AdSlot from '../../components/AdSlot.astro'
+import InsightCards from '../../components/InsightCards.astro'
 ---
+
 <Layout
   title="Consultar salários"
   description="Consulte faixas salariais por cargo, área, senioridade e região. Dados reais de profissionais brasileiros."
@@ -226,6 +229,9 @@ import '../../styles/pages/consulta.css'
     </div>
   </div>
 
+  <!-- PUBLICIDADE -->
+  <AdSlot id="ad-top" />
+
   <main class="consulta-results">
     <div class="container">
       <div id="results-header" class="results-header" style="display:none">
@@ -263,6 +269,19 @@ import '../../styles/pages/consulta.css'
     </div>
   </main>
 
+  <!-- CARDS -->
+  <InsightCards
+    title="Como explorar a consulta de salários?"
+    cards={[
+      { emoji: '🔍', titulo: 'Busque pelo seu cargo', texto: 'Quanto mais específico for o cargo, mais relevantes ficam os resultados. Tente variações se não encontrar de primeira.' },
+      { emoji: '🗺️', titulo: 'Recorte regional', texto: 'Salários variam muito por estado e cidade. Filtre pela sua região para comparações mais justas.' },
+      { emoji: '💼', titulo: 'CLT vs PJ', texto: 'Salários em regimes diferentes não são comparáveis diretamente. Use o filtro de regime para ver o seu contexto.' },
+      { emoji: '👥', titulo: 'Diversidade importa', texto: 'Os filtros de gênero, raça e orientação revelam desigualdades reais no mercado. Dados que precisam ser vistos.' },
+      { emoji: '🔄', titulo: 'Dados em tempo real', texto: 'Os resultados são atualizados conforme novos cadastros chegam — quanto mais pessoas contribuem, melhor.' },
+      { emoji: '🛡️', titulo: 'Privacidade primeiro', texto: 'Só exibimos resultados com no mínimo 5 respostas, protegendo a identidade de quem contribuiu.' }
+    ]}
+  />
+
   <!-- CTA -->
   <section class="consulta-cta">
     <div class="container">
@@ -273,6 +292,9 @@ import '../../styles/pages/consulta.css'
       </div>
     </div>
   </section>
+
+  <!-- PUBLICIDADE -->
+  <AdSlot id="ad-bottom" />
 
   <!-- FAQ -->
   <section class="consulta-faq">

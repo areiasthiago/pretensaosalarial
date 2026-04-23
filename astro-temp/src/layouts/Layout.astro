@@ -1,9 +1,11 @@
 ---
 import '@fontsource-variable/dm-sans'
 import '../styles/main.css'
+import AdSlot from '../components/AdSlot.astro'
 import pkg from '../../package.json'
 const { title, description } = Astro.props
 ---
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -37,6 +39,7 @@ const { title, description } = Astro.props
       <a href="/sobre/">Sobre</a>
       <a href="/consulta/">Consultar salários</a>
       <a href="/cadastro/" class="btn btn-primary">Cadastrar meu salário</a>
+      <AdSlot id="ad-hamburger" variant="hamburger" />
     </div>
   </nav>
 

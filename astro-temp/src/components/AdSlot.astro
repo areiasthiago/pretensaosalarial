@@ -1,0 +1,6 @@
+---
+const { id, variant = 'inline' } = Astro.props
+---
+<div class={`ad-slot ad-slot-${variant} active`} id={id}>
+  <span class="ad-slot-label">Publicidade</span>
+</div>

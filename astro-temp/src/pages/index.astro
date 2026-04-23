@@ -1,6 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import '../styles/pages/home.css'
+import AdSlot from '../components/AdSlot.astro'
+import InsightCards from '../components/InsightCards.astro'
 ---
 <Layout 
   title="Pesquisa colaborativa de salários no Brasil"
@@ -49,6 +51,9 @@ import '../styles/pages/home.css'
     </div>
   </section>
 
+  <!-- PUBLICIDADE -->
+  <AdSlot id="ad-top" />
+
   <!-- COMO FUNCIONA -->
   <section class="how-it-works">
     <div class="container">
@@ -89,6 +94,22 @@ import '../styles/pages/home.css'
       </div>
     </div>
   </section>
+
+  <!-- CARDS -->
+  <InsightCards
+    title="Por que compartilhar seu salário?"
+    cards={[
+      { emoji: '💡', titulo: 'Conheça seu valor', texto: 'Profissionais que pesquisam o mercado antes de negociar chegam à conversa com evidências — não achismos.' },
+      { emoji: '🔒', titulo: '100% anônimo', texto: 'Seu email é armazenado como um código criptografado e nunca é associado aos seus dados salariais.' },
+      { emoji: '⏱️', titulo: 'Menos de 3 minutos', texto: 'Formulário rápido, direto ao ponto. Sem burocracia, sem perguntas desnecessárias.' },
+      { emoji: '🤝', titulo: 'Ajude a categoria', texto: 'Cada cadastro fortalece a base de dados e dá mais poder de negociação para todos os profissionais brasileiros.' },
+      { emoji: '📅', titulo: 'Dados sempre frescos', texto: 'Exibimos apenas dados dos últimos 36 meses, garantindo que as informações reflitam o mercado atual.' },
+      { emoji: '🎯', titulo: 'Gratuito e sem cadastro', texto: 'Sem planos, sem assinatura, sem conta obrigatória. Consulte e contribua à vontade.' }
+    ]}
+  />
+
+  <!-- PUBLICIDADE -->
+  <AdSlot id="ad-bottom" />
 
   <!-- FAQ -->
   <section class="faq-section">

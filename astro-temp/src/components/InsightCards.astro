@@ -1,0 +1,55 @@
+---
+const { cards, title = 'Por que isso importa?' } = Astro.props
+---
+
+<section class="insight-cards-section">
+  <div class="container">
+    <h2 class="insight-cards-title">{title}</h2>
+    <div class="insight-cards-wrapper">
+      <div class="insight-cards-scroll">
+        {cards.map(card => (
+          <div class="insight-card">
+            <span class="insight-card-emoji">{card.emoji}</span>
+            <h4>{card.titulo}</h4>
+            <p>{card.texto}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+<script is:inline>
+document.addEventListener('DOMContentLoaded', () => {
+  const scrolls = document.querySelectorAll('.insight-cards-scroll')
+  scrolls.forEach(el => {
+    // Scroll via wheel
+    el.addEventListener('wheel', (e) => {
+      e.preventDefault()
+      el.scrollLeft += e.deltaY
+    }, { passive: false })
+
+    // Scroll via drag
+    let isDown = false
+    let startX
+    let scrollLeft
+
+    el.addEventListener('mousedown', (e) => {
+      isDown = true
+      el.style.cursor = 'grabbing'
+      startX = e.pageX - el.offsetLeft
+      scrollLeft = el.scrollLeft
+    })
+
+    el.addEventListener('mouseleave', () => { isDown = false; el.style.cursor = 'grab' })
+    el.addEventListener('mouseup', () => { isDown = false; el.style.cursor = 'grab' })
+
+    el.addEventListener('mousemove', (e) => {
+      if (!isDown) return
+      e.preventDefault()
+      const x = e.pageX - el.offsetLeft
+      el.scrollLeft = scrollLeft - (x - startX) * 2
+    })
+  })
+})
+</script>
