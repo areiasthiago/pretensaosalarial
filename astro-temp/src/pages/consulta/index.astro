@@ -3,6 +3,8 @@ import Layout from '../../layouts/Layout.astro'
 import '../../styles/pages/consulta.css'
 import AdSlot from '../../components/AdSlot.astro'
 import InsightCards from '../../components/InsightCards.astro'
+import CtaCard from '../../components/CtaCard.astro'
+import FaqSection from '../../components/FaqSection.astro'
 ---
 
 <Layout
@@ -24,6 +26,7 @@ import InsightCards from '../../components/InsightCards.astro'
     </div>
   </div>
 
+  <!-- FILTROS -->
   <div class="filters-bar">
     <div class="container">
       <div class="filters-row">
@@ -232,6 +235,7 @@ import InsightCards from '../../components/InsightCards.astro'
   <!-- PUBLICIDADE -->
   <AdSlot id="ad-top" />
 
+  <!-- RESULTADOS -->
   <main class="consulta-results">
     <div class="container">
       <div id="results-header" class="results-header" style="display:none">
@@ -269,7 +273,10 @@ import InsightCards from '../../components/InsightCards.astro'
     </div>
   </main>
 
-  <!-- CARDS -->
+  <!-- PUBLICIDADE -->
+  <AdSlot id="ad-middle" />
+
+  <!-- INSIGHT CARDS -->
   <InsightCards
     title="Como explorar a consulta de salários?"
     cards={[
@@ -283,81 +290,26 @@ import InsightCards from '../../components/InsightCards.astro'
   />
 
   <!-- CTA -->
-  <section class="consulta-cta">
-    <div class="container">
-      <div class="cta-card">
-        <h2>Contribua com a pesquisa</h2>
-        <p>Seu cadastro é anônimo e ajuda milhares de profissionais a negociar melhor.</p>
-        <a href="/cadastro/" class="btn btn-primary btn-lg">Cadastrar meu salário</a>
-      </div>
-    </div>
-  </section>
+    <CtaCard
+      title="Contribua com a pesquisa"
+      text="Leva menos de 3 minutos. Seus dados são anônimos e ajudam milhares de profissionais."
+    />
 
   <!-- PUBLICIDADE -->
   <AdSlot id="ad-bottom" />
 
   <!-- FAQ -->
-  <section class="consulta-faq">
-    <div class="container">
-      <h2>Perguntas frequentes</h2>
-      <div class="faq-list">
-        <div class="faq-item">
-          <button class="faq-question">
-            Por que não consigo visualizar resultados mesmo sem aplicar filtros?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Nossa base de dados ainda está em crescimento. Para proteger a privacidade dos usuários, só exibimos resultados quando há um número mínimo de cadastros. Quanto mais pessoas contribuem, mais completa fica a pesquisa.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            Por que meus filtros não retornaram resultados?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Pode ser que ainda não tenhamos dados suficientes para essa combinação específica de filtros. Tente ampliar os filtros removendo alguns critérios, ou cadastre seu salário para enriquecer a base.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            Os dados são atualizados com que frequência?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Os dados são atualizados em tempo real conforme novos cadastros são feitos. Removemos automaticamente entradas com mais de 36 meses para garantir que as informações sejam sempre relevantes para o mercado atual.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            Por que não encontrei meu cargo?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Se seu cargo não aparece no autocomplete, é porque ainda não temos cadastros para ele. Seja o primeiro a contribuir — seu cadastro é anônimo e ajuda outros profissionais da sua área.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            Os salários incluem benefícios?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Não. Os valores exibidos referem-se ao salário bruto mensal. Informações sobre benefícios são exibidas separadamente como percentual de quem os recebe.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            Como posso contribuir para melhorar os dados?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Cadastre seu salário! Leva menos de 3 minutos, é completamente anônimo e seu email nunca é associado aos seus dados salariais. Quanto mais pessoas contribuem, mais precisos ficam os resultados para todos.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <FaqSection
+    items={[
+      { pergunta: 'Por que não consigo visualizar resultados mesmo sem aplicar filtros?', resposta: 'Nossa base de dados ainda está em crescimento. Para proteger a privacidade dos usuários, só exibimos resultados quando há um número mínimo de cadastros. Quanto mais pessoas contribuem, mais completa fica a pesquisa.' },
+      { pergunta: 'Por que meus filtros não retornaram resultados?', resposta: 'Pode ser que ainda não tenhamos dados suficientes para essa combinação específica de filtros. Tente ampliar os filtros removendo alguns critérios, ou cadastre seu salário para enriquecer a base.' },
+      { pergunta: 'Por que vocês usam mediana e não média?', resposta: 'A média é facilmente distorcida por valores extremos — um salário muito alto ou muito baixo puxa toda a conta para cima ou para baixo. A mediana representa o valor central real: metade dos profissionais ganha acima, metade ganha abaixo. Para entender o mercado, ela é muito mais honesta.' },
+      { pergunta: 'Os dados são atualizados com que frequência?', resposta: 'Os dados são atualizados em tempo real conforme novos cadastros são feitos. Removemos automaticamente entradas com mais de 36 meses para garantir que as informações sejam sempre relevantes para o mercado atual.' },
+      { pergunta: 'Por que não encontrei meu cargo?', resposta: 'Se seu cargo não aparece no autocomplete, é porque ainda não temos cadastros para ele. Seja o primeiro a contribuir — seu cadastro é anônimo e ajuda outros profissionais da sua área.' },
+      { pergunta: 'Os salários incluem benefícios?', resposta: 'Não. Os valores exibidos referem-se ao salário bruto mensal. Informações sobre benefícios são exibidas separadamente como percentual de quem os recebe.' },
+      { pergunta: 'Como posso contribuir para melhorar os dados?', resposta: 'Cadastre seu salário! Leva menos de 3 minutos, é completamente anônimo e seu email nunca é associado aos seus dados salariais. Quanto mais pessoas contribuem, mais precisos ficam os resultados para todos.' }
+    ]}
+  />
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" is:inline></script>
   <script src="/js/supabase.js" is:inline></script>
@@ -365,16 +317,5 @@ import InsightCards from '../../components/InsightCards.astro'
   <script src="/js/autocomplete.js" is:inline></script>
   <script src="/js/ibge.js" is:inline></script>
   <script src="/js/consulta.js" is:inline></script>
-  <script is:inline>
-  document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.faq-question').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const item = btn.parentElement
-        const isOpen = item.classList.contains('open')
-        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'))
-        if (!isOpen) item.classList.add('open')
-      })
-    })
-  })
-  </script>
+
 </Layout>

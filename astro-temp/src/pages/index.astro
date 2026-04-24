@@ -2,100 +2,68 @@
 import Layout from '../layouts/Layout.astro'
 import '../styles/pages/home.css'
 import AdSlot from '../components/AdSlot.astro'
+import PageBanner from '../components/PageBanner.astro'
 import InsightCards from '../components/InsightCards.astro'
+import NumberCards from '../components/NumberCards.astro'
+import CtaCard from '../components/CtaCard.astro'
+import FaqSection from '../components/FaqSection.astro'
 ---
 <Layout 
-  title="Pesquisa colaborativa de salários no Brasil"
-  description="Pesquisa colaborativa e gratuita de salários no Brasil. Consulte faixas salariais por cargo, área, senioridade e região."
+  title="Descubra quanto vale o seu trabalho"
+  description="Salários reais de profissionais brasileiros. Consulte faixas salariais por cargo, área, senioridade e região para negociar com confiança — gratuito e anônimo."
 >
   <!-- HERO -->
-  <section class="hero">
-    <div class="container">
-      <div class="hero-content">
-        <span class="tag tag-primary">100% gratuito e anônimo</span>
-        <h1>Descubra quanto<br>vale o seu trabalho</h1>
-        <p>Dados reais compartilhados por profissionais como você. Consulte faixas salariais por cargo, área, senioridade e região.</p>
-        <div class="hero-actions">
-          <a href="/cadastro/" class="btn btn-primary btn-lg">Cadastrar meu salário</a>
-          <a href="/consulta/" class="btn btn-secondary btn-lg">Consultar salários</a>
-        </div>
-      </div>
-      <div class="hero-illustration">
-        <svg viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <!-- Documento atrás -->
-          <rect x="80" y="30" width="260" height="220" rx="12" fill="none" stroke="#DDD6FE" stroke-width="1.5"/>
-          <!-- Documento principal -->
-          <rect x="60" y="20" width="260" height="220" rx="12" fill="#EDE9FE" stroke="#C4B5FD" stroke-width="1.5"/>
-          <!-- Header -->
-          <rect x="60" y="20" width="260" height="52" rx="12" fill="#7C3AED"/>
-          <rect x="60" y="60" width="260" height="12" fill="#7C3AED"/>
-          <!-- Texto no header -->
-          <text x="190" y="50" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="white">Qual sua pretensão salarial?</text>
-          <!-- Campo 1 -->
-          <rect x="88" y="88" width="204" height="24" rx="6" fill="white" stroke="#C4B5FD" stroke-width="1"/>
-          <rect x="96" y="96" width="80" height="8" rx="4" fill="#DDD6FE"/>
-          <!-- Campo 2 -->
-          <rect x="88" y="124" width="96" height="24" rx="6" fill="white" stroke="#C4B5FD" stroke-width="1"/>
-          <rect x="96" y="132" width="50" height="8" rx="4" fill="#DDD6FE"/>
-          <!-- Campo 3 -->
-          <rect x="196" y="124" width="96" height="24" rx="6" fill="white" stroke="#C4B5FD" stroke-width="1"/>
-          <rect x="204" y="132" width="60" height="8" rx="4" fill="#DDD6FE"/>
-          <!-- Campo 4 -->
-          <rect x="88" y="160" width="204" height="24" rx="6" fill="white" stroke="#C4B5FD" stroke-width="1"/>
-          <rect x="96" y="168" width="90" height="8" rx="4" fill="#DDD6FE"/>
-          <!-- Botão submit -->
-          <rect x="88" y="200" width="204" height="28" rx="14" fill="#14B8A6"/>
-          <text x="190" y="219" text-anchor="middle" font-family="system-ui" font-size="14" fill="white">E agora? 😰</text>
-        </svg>
-      </div>
-    </div>
-  </section>
+  <PageBanner
+    tag="100% gratuito e anônimo"
+    title="Saiba a resposta exata para sua pretensão salarial"
+    subtitle="Dados reais compartilhados por profissionais como você. Consulte faixas salariais por cargo, área, senioridade e região."
+    ctas={[
+      { label: 'Cadastrar meu salário', href: '/cadastro/', variant: 'primary' },
+      { label: 'Consultar salários', href: '/consulta/', variant: 'secondary' }
+    ]}
+  >
+    <svg slot="illustration" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="80" y="30" width="260" height="220" rx="12" fill="none" stroke="#DDD6FE" stroke-width="1.5"/>
+      <rect x="60" y="20" width="260" height="220" rx="12" fill="#EDE9FE" stroke="#C4B5FD" stroke-width="1.5"/>
+      <rect x="60" y="20" width="260" height="52" rx="12" fill="#7C3AED"/>
+      <rect x="60" y="60" width="260" height="12" fill="#7C3AED"/>
+      <text x="190" y="50" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="white">Qual sua pretensão salarial?</text>
+      <rect x="88" y="88" width="204" height="24" rx="6" fill="white" stroke="#C4B5FD" stroke-width="1"/>
+      <rect x="96" y="96" width="80" height="8" rx="4" fill="#DDD6FE"/>
+      <rect x="88" y="124" width="96" height="24" rx="6" fill="white" stroke="#C4B5FD" stroke-width="1"/>
+      <rect x="96" y="132" width="50" height="8" rx="4" fill="#DDD6FE"/>
+      <rect x="196" y="124" width="96" height="24" rx="6" fill="white" stroke="#C4B5FD" stroke-width="1"/>
+      <rect x="204" y="132" width="60" height="8" rx="4" fill="#DDD6FE"/>
+      <rect x="88" y="160" width="204" height="24" rx="6" fill="white" stroke="#C4B5FD" stroke-width="1"/>
+      <rect x="96" y="168" width="90" height="8" rx="4" fill="#DDD6FE"/>
+      <rect x="88" y="200" width="204" height="28" rx="14" fill="#14B8A6"/>
+      <text x="190" y="219" text-anchor="middle" font-family="system-ui" font-size="14" fill="white">E agora? 😰</text>
+    </svg>
+  </PageBanner>
 
   <!-- PUBLICIDADE -->
   <AdSlot id="ad-top" />
 
-  <!-- COMO FUNCIONA -->
-  <section class="how-it-works">
-    <div class="container">
-      <h2>Como funciona</h2>
-      <div class="steps-grid">
-        <div class="how-step">
-          <div class="how-step-header">
-            <div class="how-step-number">1</div>
-            <h3>Compartilhe seu salário</h3>
-          </div>
-          <p>Preencha um formulário rápido e anônimo. Seu email nunca é associado aos seus dados salariais.</p>
-        </div>
-        <div class="how-step">
-          <div class="how-step-header">
-            <div class="how-step-number">2</div>
-            <h3>Dados reais se acumulam</h3>
-          </div>
-          <p>Cada contribuição torna a pesquisa mais precisa para todos os profissionais brasileiros.</p>
-        </div>
-        <div class="how-step">
-          <div class="how-step-header">
-            <div class="how-step-number">3</div>
-            <h3>Consulte e negocie melhor</h3>
-          </div>
-          <p>Use os dados para embasar sua pretensão salarial ou pleitear um aumento com confiança.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- NUMBER CARDS -->
+  <NumberCards
+    title="Como funciona"
+    cards={[
+      { titulo: 'Compartilhe seu salário', texto: 'Preencha um formulário rápido e anônimo. Seu email nunca é associado aos seus dados salariais.' },
+      { titulo: 'Dados reais se acumulam', texto: 'Cada contribuição torna a pesquisa mais precisa para todos os profissionais brasileiros.' },
+      { titulo: 'Consulte e negocie melhor', texto: 'Use os dados para embasar sua pretensão salarial ou pleitear um aumento com confiança.' }
+    ]}
+  />
 
-  <!-- CTA FINAL -->
-  <section class="cta-section">
-    <div class="container">
-      <div class="cta-card">
-        <h2>Contribua com a pesquisa</h2>
-        <p>Leva menos de 3 minutos. Seus dados são anônimos e ajudam milhares de profissionais.</p>
-        <a href="/cadastro/" class="btn btn-primary btn-lg">Cadastrar meu salário</a>
-      </div>
-    </div>
-  </section>
+  <!-- CTA -->
+  <CtaCard
+    title="Contribua com a pesquisa"
+    text="Leva menos de 3 minutos. Seus dados são anônimos e ajudam milhares de profissionais."
+  />
 
-  <!-- CARDS -->
+  <!-- PUBLICIDADE -->
+  <AdSlot id="ad-middle" />
+
+  <!-- INSIGHTS CARDS -->
   <InsightCards
     title="Por que compartilhar seu salário?"
     cards={[
@@ -112,79 +80,15 @@ import InsightCards from '../components/InsightCards.astro'
   <AdSlot id="ad-bottom" />
 
   <!-- FAQ -->
-  <section class="faq-section">
-    <div class="container">
-      <h2>Perguntas frequentes</h2>
-      <div class="faq-list">
-        <div class="faq-item">
-          <button class="faq-question">
-            Meus dados são realmente anônimos?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Sim. Seu email é armazenado separadamente dos seus dados salariais e nunca são associados entre si. Qualquer pessoa que acesse o banco de dados vê apenas cargos, salários e informações profissionais — nunca a identidade de quem cadastrou.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            Por que vocês pedem meu email?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Apenas para evitar cadastros duplicados. Armazenamos somente um código criptografado do seu email — não o email em si — e ele nunca é associado ao salário que você cadastrou.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            Com que frequência posso atualizar meu salário?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Uma vez a cada 24 horas. Se seu salário mudou, basta aguardar esse período e cadastrar novamente. Mantemos apenas os dados dos últimos 36 meses para garantir que as informações sejam sempre relevantes.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            Os dados são confiáveis?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Fazemos o possível para garantir a qualidade — aplicamos filtros anti-spam, removemos entradas antigas e exibimos resultados apenas quando há um número mínimo de respostas para aquele cargo. Quanto mais pessoas contribuem, mais precisos ficam os dados.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            Por que devo informar dados de diversidade?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Para identificar desigualdades salariais entre gêneros, raças e outros grupos. Esses dados são completamente opcionais e nunca associados à sua identidade — mas quando compartilhados, ajudam a construir um retrato mais justo e completo do mercado de trabalho brasileiro.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            O site é gratuito? Como vocês se sustentam?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Sim, completamente gratuito para usuários. O site é mantido por anúncios não intrusivos. Não vendemos seus dados — nunca.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <script is:inline>
-  document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.faq-question').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const item = btn.parentElement
-        const isOpen = item.classList.contains('open')
-        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'))
-        if (!isOpen) item.classList.add('open')
-      })
-    })
-  })
-  </script>
+  <FaqSection
+    items={[
+      { pergunta: 'Meus dados são realmente anônimos?', resposta: 'Sim. Seu email é armazenado separadamente dos seus dados salariais e nunca são associados entre si.' },
+      { pergunta: 'Por que vocês pedem meu email?', resposta: 'Apenas para evitar cadastros duplicados. Armazenamos somente um código criptografado do seu email.' },
+      { pergunta: 'Com que frequência posso atualizar meu salário?', resposta: 'Uma vez a cada 24 horas. Mantemos apenas os dados dos últimos 36 meses.' },
+      { pergunta: 'Os dados são confiáveis?', resposta: 'Aplicamos filtros anti-spam, removemos entradas antigas e exibimos resultados apenas quando há um número mínimo de respostas.' },
+      { pergunta: 'Por que devo informar dados de diversidade?', resposta: 'Para identificar desigualdades salariais entre gêneros, raças e outros grupos. Esses dados são completamente opcionais.' },
+      { pergunta: 'O site é gratuito? Como vocês se sustentam?', resposta: 'Sim, completamente gratuito. O site é mantido por anúncios não intrusivos. Não vendemos seus dados — nunca.' }
+    ]}
+  />
 
 </Layout>

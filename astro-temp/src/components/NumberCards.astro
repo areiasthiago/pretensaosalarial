@@ -1,0 +1,19 @@
+---
+const { title = 'Como funciona', cards } = Astro.props
+---
+<section class="number-cards-section">
+  <div class="container">
+    <h2>{title}</h2>
+    <div class="number-cards-grid">
+      {cards.map((card, i) => (
+        <div class="number-card">
+          <div class="number-card-header">
+            <div class="how-step-number">{i + 1}</div>
+            <h4>{card.titulo}</h4>
+          </div>
+          <p>{card.texto}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

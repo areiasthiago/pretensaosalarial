@@ -1,0 +1,12 @@
+---
+const { title, text, label = 'Cadastrar meu salário', href = '/cadastro/' } = Astro.props
+---
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-card">
+      <h2>{title}</h2>
+      <p>{text}</p>
+      <a href={href} class="btn btn-primary btn-lg">{label}</a>
+    </div>
+  </div>
+</section>

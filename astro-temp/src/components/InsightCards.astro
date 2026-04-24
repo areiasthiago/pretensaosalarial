@@ -23,6 +23,21 @@ const { cards, title = 'Por que isso importa?' } = Astro.props
 document.addEventListener('DOMContentLoaded', () => {
   const scrolls = document.querySelectorAll('.insight-cards-scroll')
   scrolls.forEach(el => {
+    const wrapper = el.closest('.insight-cards-wrapper')
+
+    // Gradiente esquerdo ao scrollar
+    el.addEventListener('scroll', () => {
+      if (wrapper) wrapper.classList.toggle('scrolled', el.scrollLeft > 0)
+    })
+
+    // Gradiente direito ao scrollar
+    el.addEventListener('scroll', () => {
+      if (wrapper) {
+        wrapper.classList.toggle('scrolled', el.scrollLeft > 0)
+        wrapper.classList.toggle('scrolled-end', el.scrollLeft + el.clientWidth >= el.scrollWidth - 4)
+      }
+    })
+
     // Scroll via wheel
     el.addEventListener('wheel', (e) => {
       e.preventDefault()

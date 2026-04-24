@@ -1,0 +1,28 @@
+---
+const { title, subtitle, tag, ctas = [] } = Astro.props
+const hasIllustration = Astro.slots.has('illustration')
+---
+
+<section class="page-banner">
+  <div class="container">
+    <div class={`page-banner-content ${hasIllustration ? 'page-banner-with-illustration' : ''}`}>
+      <div class="page-banner-text">
+        {tag && <span class="tag tag-primary">{tag}</span>}
+        <h1>{title}</h1>
+        {subtitle && <p>{subtitle}</p>}
+        {ctas.length > 0 && (
+          <div class="page-banner-actions">
+            {ctas.map(cta => (
+              <a href={cta.href} class={`btn btn-${cta.variant || 'primary'} btn-lg`}>{cta.label}</a>
+            ))}
+          </div>
+        )}
+      </div>
+      {hasIllustration && (
+        <div class="page-banner-illustration">
+          <slot name="illustration" />
+        </div>
+      )}
+    </div>
+  </div>
+</section>
