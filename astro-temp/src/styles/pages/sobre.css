@@ -1,0 +1,29 @@
+/* ============================================================
+   sobre.css — estilos da página /sobre e do componente TextSection
+   ============================================================ */
+
+/* ---------- Alternância de fundo ----------
+   .section-alt  → surface (cinza-violeta claro)
+   .section-default → bg branco, sobrescreve o surface que
+   insight-cards-section e number-cards-section têm por padrão
+   ----------------------------------------------------------- */
+.section-alt {
+  background: var(--color-surface);
+}
+
+/* InsightCards e NumberCards têm background: surface hardcoded.
+   Quando estiverem dentro de .section-default, voltam ao branco. */
+.section-default .insight-cards-section,
+.section-default .number-cards-section {
+  background: var(--color-bg, #F8F7FF);
+}
+
+/* O gradiente lateral do InsightCards referencia --color-bg,
+   então quando o fundo muda ele se adapta automaticamente. */
+
+/* ---------- Responsivo ---------- */
+@media (max-width: 768px) {
+  .text-section__title {
+    font-size: var(--text-xl);
+  }
+}

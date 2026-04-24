@@ -1,12 +1,143 @@
 ---
-import Layout from '../../layouts/Layout.astro'
+import Layout from '../../layouts/Layout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+import TextSection from '../../components/TextSection.astro';
+import CtaCard from '../../components/CtaCard.astro';
+
+import '../../styles/pages/privacidade.css';
 ---
+
 <Layout
-  title="Termos de uso"
-  description="Termos de uso do Pretensão Salarial."
+  title="Termos de Uso — Pretensão Salarial"
+  description="Leia os termos de uso do Pretensão Salarial. Saiba seus direitos e responsabilidades ao contribuir com a pesquisa ou consultar os dados."
 >
-  <main class="container" style="padding-block: 4rem">
-    <h1>Termos de uso</h1>
-    <p>Em breve.</p>
-  </main>
+
+  <!-- 1. Banner -->
+  <PageBanner
+    tag="Termos de uso"
+    title="Regras claras para uma pesquisa justa"
+    subtitle="Ao usar o Pretensão Salarial, você concorda com estes termos. Escrevemos de forma direta — sem juridiquês desnecessário."
+    ctas={[
+      { label: 'Sobre o projeto', href: '/sobre/', variant: 'primary' },
+      { label: 'Política de privacidade', href: '/privacidade/', variant: 'secondary' },
+    ]}
+  />
+
+  <!-- 2. Resumo -->
+  <TextSection
+    tag="Resumo"
+    title="O essencial em 30 segundos"
+    paragraphs={[
+      'O Pretensão Salarial é uma plataforma gratuita de pesquisa salarial colaborativa. Você pode consultar dados e contribuir com o seu salário, desde que as informações sejam verdadeiras e referentes à sua própria situação profissional.',
+      'Não use o site para inserir dados falsos, realizar ataques automatizados ou extrair dados em massa. O descumprimento pode resultar no bloqueio do acesso.',
+      'O conteúdo desta plataforma é fornecido como referência informativa — não constitui aconselhamento profissional de nenhuma natureza.',
+    ]}
+  />
+
+  <!-- TEXTO LONGO -->
+  <section class="policy-section">
+    <div class="container">
+
+      <!-- Índice -->
+      <nav class="policy-index">
+        <p class="policy-index__label">Nesta página</p>
+        <ul>
+          <li><a href="#aceitacao">1. Aceitação dos termos</a></li>
+          <li><a href="#servico">2. Sobre o serviço</a></li>
+          <li><a href="#contribuicao">3. Contribuição de dados</a></li>
+          <li><a href="#uso-dados">4. Uso dos dados consultados</a></li>
+          <li><a href="#responsabilidade">5. Limitação de responsabilidade</a></li>
+          <li><a href="#conduta">6. Conduta proibida</a></li>
+          <li><a href="#propriedade">7. Propriedade intelectual</a></li>
+          <li><a href="#alteracoes">8. Alterações nos termos</a></li>
+        </ul>
+      </nav>
+
+      <h2 id="aceitacao">1. Aceitação dos termos</h2>
+      <div class="policy-block">
+        <p>Ao acessar ou usar o Pretensão Salarial — seja para consultar dados ou contribuir com informações — você declara ter lido, compreendido e concordado com estes Termos de Uso.</p>
+        <p>O uso é permitido exclusivamente por pessoas físicas maiores de 18 anos. O site não se destina ao uso por empresas, recrutadores ou qualquer organização que pretenda utilizar os dados para fins comerciais ou de recrutamento.</p>
+      </div>
+
+      <h2 id="servico">2. Sobre o serviço</h2>
+      <div class="policy-block">
+        <p>O Pretensão Salarial é uma plataforma independente de pesquisa salarial colaborativa. Oferecemos duas funcionalidades principais:</p>
+        <ul>
+          <li><strong>Consulta</strong> — acesso gratuito a dados agregados e anonimizados sobre salários de profissionais brasileiros, filtráveis por cargo, área, senioridade, região e outros critérios.</li>
+          <li><strong>Cadastro</strong> — possibilidade de contribuir voluntariamente com informações sobre sua própria situação profissional e remuneração.</li>
+        </ul>
+        <p>O serviço é gratuito e não exige criação de conta. Podemos alterar, suspender ou encerrar funcionalidades a qualquer momento, sem aviso prévio.</p>
+      </div>
+
+      <h2 id="contribuicao">3. Contribuição de dados</h2>
+      <div class="policy-block">
+        <p>Ao cadastrar seu salário, você declara que:</p>
+        <ul>
+          <li>As informações fornecidas são verdadeiras e referem-se à sua própria situação profissional</li>
+          <li>Você tem 18 anos ou mais</li>
+          <li>Não está representando uma empresa, recrutadora ou qualquer terceiro</li>
+          <li>Está ciente de que os dados, após anonimizados, serão utilizados para compor a base de pesquisa pública</li>
+        </ul>
+        <p>A inserção deliberada de dados falsos ou distorcidos prejudica a qualidade da pesquisa e viola estes termos. Nos reservamos o direito de remover registros suspeitos sem aviso prévio.</p>
+        <p>Ao contribuir, você cede ao Pretensão Salarial o direito de utilizar os dados fornecidos, de forma anonimizada, para os fins descritos nestes termos e na Política de Privacidade.</p>
+      </div>
+
+      <h2 id="uso-dados">4. Uso dos dados consultados</h2>
+      <div class="policy-block">
+        <p>Os dados disponíveis na plataforma são fornecidos para uso pessoal e informativo. É permitido:</p>
+        <ul>
+          <li>Consultar e referenciar os dados para fins pessoais, como negociações salariais ou planejamento de carreira</li>
+          <li>Compartilhar resultados específicos com atribuição à fonte (pretensaosalarial.com.br)</li>
+        </ul>
+        <p>É expressamente proibido:</p>
+        <ul>
+          <li>Realizar scraping, extração automatizada ou coleta em massa dos dados</li>
+          <li>Utilizar os dados para fins comerciais, incluindo recrutamento, benchmarking corporativo ou revenda</li>
+          <li>Reproduzir o conteúdo da plataforma em outros sites ou produtos sem autorização expressa</li>
+        </ul>
+      </div>
+
+      <h2 id="responsabilidade">5. Limitação de responsabilidade</h2>
+      <div class="policy-block">
+        <p>Os dados exibidos são coletados de forma voluntária e não verificada. O Pretensão Salarial não garante a exatidão, completude ou atualidade das informações disponíveis.</p>
+        <p>Os dados são fornecidos <strong>como referência informativa</strong> e não constituem aconselhamento profissional, financeiro, jurídico ou de carreira. Decisões baseadas nas informações da plataforma são de inteira responsabilidade do usuário.</p>
+        <p>Não nos responsabilizamos por quaisquer danos diretos ou indiretos decorrentes do uso ou da impossibilidade de uso do serviço.</p>
+      </div>
+
+      <h2 id="conduta">6. Conduta proibida</h2>
+      <div class="policy-block">
+        <p>É proibido utilizar o Pretensão Salarial para:</p>
+        <ul>
+          <li>Inserir dados falsos, fictícios ou que não representem sua própria situação profissional</li>
+          <li>Realizar ataques automatizados, incluindo bots, scripts de inserção em massa ou tentativas de bypass das proteções de segurança</li>
+          <li>Tentar acessar, modificar ou excluir dados de outros usuários</li>
+          <li>Sobrecarregar os servidores com requisições excessivas</li>
+          <li>Usar o serviço de forma que viole leis brasileiras aplicáveis</li>
+        </ul>
+        <p>O descumprimento pode resultar no bloqueio do acesso por IP ou outras medidas técnicas.</p>
+      </div>
+
+      <h2 id="propriedade">7. Propriedade intelectual</h2>
+      <div class="policy-block">
+        <p>O código-fonte, nome, logotipo e identidade visual do Pretensão Salarial são de propriedade do projeto. Todos os direitos reservados — nenhum uso, cópia, modificação ou redistribuição é permitido sem autorização expressa.</p>
+        <p>Os dados agregados gerados pela plataforma são de uso livre para fins não comerciais, com atribuição à fonte (pretensaosalarial.com.br).</p>
+      </div>
+
+      <h2 id="alteracoes">8. Alterações nos termos</h2>
+      <div class="policy-block">
+        <p>Podemos atualizar estes termos a qualquer momento. Mudanças significativas serão comunicadas de forma destacada na página inicial. O uso continuado do serviço após as alterações implica aceitação dos novos termos.</p>
+        <p class="policy-date">Última atualização: abril de 2026</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <CtaCard
+    title="Pronto para contribuir?"
+    text="Leva menos de 3 minutos. Seus dados são anonimizados e ajudam milhares de profissionais brasileiros."
+    label="Cadastrar meu salário"
+    href="/cadastro/"
+  />
+
 </Layout>

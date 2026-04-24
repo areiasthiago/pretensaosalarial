@@ -1,0 +1,29 @@
+---
+/**
+ * TextSection.astro
+ * Seção de texto genérica com título, parágrafos e tag opcional.
+ *
+ * Props:
+ *   tag?        — texto da etiqueta acima do título (ex: "Nossa missão")
+ *   title       — título principal da seção
+ *   paragraphs[] — array de strings, cada uma vira um <p> (suporta HTML inline)
+ */
+
+interface Props {
+  tag?: string;
+  title: string;
+  paragraphs: string[];
+}
+
+const { tag, title, paragraphs } = Astro.props;
+---
+
+<section class="text-section">
+  <div class="container">
+    {tag && <span class="text-section__tag">{tag}</span>}
+    <h2 class="text-section__title">{title}</h2>
+    <div class="text-section__body">
+      {paragraphs.map((p) => <p set:html={p} />)}
+    </div>
+  </div>
+</section>

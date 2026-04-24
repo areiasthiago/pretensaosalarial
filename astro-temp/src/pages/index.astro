@@ -48,7 +48,7 @@ import FaqSection from '../components/FaqSection.astro'
   <NumberCards
     title="Como funciona"
     cards={[
-      { titulo: 'Compartilhe seu salário', texto: 'Preencha um formulário rápido e anônimo. Seu email nunca é associado aos seus dados salariais.' },
+      { titulo: 'Compartilhe seu salário', texto: 'Preencha um formulário rápido. Seu email é usado apenas para identificar seu cadastro e nunca é armazenado diretamente.' },
       { titulo: 'Dados reais se acumulam', texto: 'Cada contribuição torna a pesquisa mais precisa para todos os profissionais brasileiros.' },
       { titulo: 'Consulte e negocie melhor', texto: 'Use os dados para embasar sua pretensão salarial ou pleitear um aumento com confiança.' }
     ]}
@@ -68,7 +68,7 @@ import FaqSection from '../components/FaqSection.astro'
     title="Por que compartilhar seu salário?"
     cards={[
       { emoji: '💡', titulo: 'Conheça seu valor', texto: 'Profissionais que pesquisam o mercado antes de negociar chegam à conversa com evidências — não achismos.' },
-      { emoji: '🔒', titulo: '100% anônimo', texto: 'Seu email é armazenado como um código criptografado e nunca é associado aos seus dados salariais.' },
+      { emoji: '🔒', titulo: '100% anônimo', texto: 'Seu email é convertido em um código criptográfico irreversível, usado apenas para permitir que você faça atualizações.' },
       { emoji: '⏱️', titulo: 'Menos de 3 minutos', texto: 'Formulário rápido, direto ao ponto. Sem burocracia, sem perguntas desnecessárias.' },
       { emoji: '🤝', titulo: 'Ajude a categoria', texto: 'Cada cadastro fortalece a base de dados e dá mais poder de negociação para todos os profissionais brasileiros.' },
       { emoji: '📅', titulo: 'Dados sempre frescos', texto: 'Exibimos apenas dados dos últimos 36 meses, garantindo que as informações reflitam o mercado atual.' },
@@ -82,9 +82,9 @@ import FaqSection from '../components/FaqSection.astro'
   <!-- FAQ -->
   <FaqSection
     items={[
-      { pergunta: 'Meus dados são realmente anônimos?', resposta: 'Sim. Seu email é armazenado separadamente dos seus dados salariais e nunca são associados entre si.' },
-      { pergunta: 'Por que vocês pedem meu email?', resposta: 'Apenas para evitar cadastros duplicados. Armazenamos somente um código criptografado do seu email.' },
-      { pergunta: 'Com que frequência posso atualizar meu salário?', resposta: 'Uma vez a cada 24 horas. Mantemos apenas os dados dos últimos 36 meses.' },
+      { pergunta: 'Meus dados são realmente anônimos?', resposta: 'Sim. Seu email é convertido em um hash criptográfico e vinculado ao seu cadastro apenas para permitir atualizações futuras. Não é possível recuperar o email original a partir do hash.' },
+      { pergunta: 'Por que vocês pedem meu email?', resposta: 'Para permitir que você atualize seus dados no futuro. Armazenamos apenas um hash criptográfico — o email original nunca é salvo.' },
+      { pergunta: 'Com que frequência posso atualizar meu salário?', resposta: 'Quando quiser — basta preencher o formulário novamente com o mesmo email. O cadastro anterior será substituído automaticamente.' },
       { pergunta: 'Os dados são confiáveis?', resposta: 'Aplicamos filtros anti-spam, removemos entradas antigas e exibimos resultados apenas quando há um número mínimo de respostas.' },
       { pergunta: 'Por que devo informar dados de diversidade?', resposta: 'Para identificar desigualdades salariais entre gêneros, raças e outros grupos. Esses dados são completamente opcionais.' },
       { pergunta: 'O site é gratuito? Como vocês se sustentam?', resposta: 'Sim, completamente gratuito. O site é mantido por anúncios não intrusivos. Não vendemos seus dados — nunca.' }

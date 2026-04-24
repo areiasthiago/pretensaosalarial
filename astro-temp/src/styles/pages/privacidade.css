@@ -1,0 +1,158 @@
+/* ============================================================
+   privacidade.css — estilos da página /privacidade
+   Depende de sobre.css para .section-alt, .section-default
+   e .text-section. Importe ambos no frontmatter da página,
+   ou mova as regras compartilhadas para main.css futuramente.
+   ============================================================ */
+
+/* ---------- TextSection ---------- */
+.text-section {
+  background-color: var(--color-surface);
+}
+
+/* ---------- Seções de política ---------- */
+.policy-section {
+  padding-block: var(--space-12);
+  background-color: var(--color-white);
+}
+
+.policy-section h2 {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-6);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.policy-block {
+  margin-bottom: var(--space-8);
+}
+
+.policy-block:last-child {
+  margin-bottom: 0;
+}
+
+.policy-block h3 {
+  font-size: var(--text-md);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-3);
+}
+
+.policy-block p {
+  font-size: var(--text-base);
+  color: var(--color-muted);
+  line-height: 1.75;
+  margin-bottom: var(--space-3);
+}
+
+.policy-block p:last-child {
+  margin-bottom: 0;
+}
+
+.policy-block strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.policy-block a {
+  color: var(--color-primary-500);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.policy-block a:hover {
+  color: var(--color-primary-700);
+}
+
+.policy-block ul,
+.policy-block ol {
+  padding-left: var(--space-6);
+  margin-block: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.policy-block li {
+  font-size: var(--text-base);
+  color: var(--color-muted);
+  line-height: 1.65;
+}
+
+.policy-block li strong {
+  color: var(--color-text);
+}
+
+.policy-block ul {
+  list-style: disc;
+}
+
+.policy-block ol {
+  list-style: decimal;
+}
+
+.policy-date {
+  font-size: var(--text-sm) !important;
+  color: var(--color-muted) !important;
+  font-style: italic;
+}
+
+.large-content {
+  background-color: var(--color-white);
+}
+
+/* ---------- Índice de navegação ---------- */
+.policy-index {
+  margin-bottom: var(--space-12);
+  padding: var(--space-6);
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+
+.policy-index__label {
+  font-size: var(--text-sm) !important;
+  font-weight: 600 !important;
+  color: var(--color-text) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: var(--space-3) !important;
+}
+
+.policy-index ul {
+  list-style: none;
+  padding-left: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.policy-index li {
+  font-size: var(--text-base) !important;
+}
+
+.policy-index a {
+  color: var(--color-primary-500);
+  text-decoration: none;
+  transition: color .15s ease;
+}
+
+.policy-index a:hover {
+  color: var(--color-primary-700);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ---------- Responsivo ---------- */
+@media (max-width: 768px) {
+  .policy-section h2 {
+    font-size: var(--text-lg);
+  }
+
+  .policy-block h3 {
+    font-size: var(--text-base);
+  }
+}

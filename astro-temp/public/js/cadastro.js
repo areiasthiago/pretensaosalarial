@@ -1,6 +1,8 @@
 let bonusValue = null
 let currentStep = 1
 
+const EDGE_FUNCTION_URL = 'https://mzbczjzmeuadyysexubj.supabase.co/functions/v1/cadastro'
+
 function aplicarMascaraMoeda(input) {
   input.addEventListener('input', () => {
     let valor = input.value.replace(/\D/g, '')
@@ -216,17 +218,7 @@ async function enviarCadastro() {
   const pcd = document.getElementById('pcd').value || null
 
   try {
-    if (email) {
-      const emailHash = await hashEmail(email)
-      const { error: emailError } = await db.from('email_submissions').insert({ email_hash: emailHash })
-      if (emailError && emailError.code === '23505') {
-        mostrarErro('email', 'Este email já foi usado para cadastrar um salário.')
-        goToStep(1)
-        btn.textContent = 'Enviar cadastro ✓'
-        btn.disabled = false
-        return
-      }
-    }
+    const emailHash = await hashEmail(email)
 
     const { data: areasList } = await db.from('areas').select('id, nome')
     let area_id = null
@@ -248,7 +240,9 @@ async function enviarCadastro() {
       }
     }
 
-    const { error } = await db.from('salaries').insert({
+    const payload = {
+      recaptchaToken,
+      email_hash: emailHash,
       cargo,
       area_id,
       area_raw: area,
@@ -268,9 +262,19 @@ async function enviarCadastro() {
       orientacao_sexual: orientacao,
       raca_etnia: raca,
       pcd
+    }
+
+    const res = await fetch(EDGE_FUNCTION_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${window._supabaseAnonKey}`
+      },
+      body: JSON.stringify(payload)
     })
 
-    if (error) throw error
+    const data = await res.json()
+    if (!res.ok) throw new Error(data.error || 'Erro desconhecido')
 
     document.getElementById('panel-4').classList.remove('active')
     document.getElementById('panel-sucesso').classList.add('active')

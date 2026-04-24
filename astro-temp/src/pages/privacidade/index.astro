@@ -1,12 +1,156 @@
 ---
-import Layout from '../../layouts/Layout.astro'
+import Layout from '../../layouts/Layout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+import TextSection from '../../components/TextSection.astro';
+import CtaCard from '../../components/CtaCard.astro';
+
+import '../../styles/pages/privacidade.css';
 ---
+
 <Layout
-  title="Política de privacidade"
-  description="Política de privacidade do Pretensão Salarial."
+  title="Política de Privacidade — Pretensão Salarial"
+  description="Saiba quais dados o Pretensão Salarial coleta, como são usados e como protegemos sua privacidade, em conformidade com a LGPD."
 >
-  <main class="container" style="padding-block: 4rem">
-    <h1>Política de privacidade</h1>
-    <p>Em breve.</p>
-  </main>
+
+  <!-- 1. Banner — branco -->
+  <PageBanner
+    tag="Privacidade"
+    title="Sua privacidade é parte do produto"
+    subtitle="O anonimato não é um detalhe técnico — é o que torna essa pesquisa possível. Aqui explicamos exatamente o que coletamos e por quê."
+    ctas={[
+      { label: 'Sobre o projeto', href: '/sobre/', variant: 'primary' },
+      { label: 'Termos de uso', href: '/termos/', variant: 'secondary' },
+    ]}
+  />
+
+  <!-- 2. Resumo -->
+  <TextSection
+    tag="Resumo"
+    title="O que você precisa saber em 30 segundos"
+    paragraphs={[
+      'Não coletamos nome, CPF ou qualquer dado que identifique você diretamente. O e-mail é solicitado para identificar seu cadastro e é convertido em um hash criptográfico (SHA-256) antes de ser armazenado — o dado original nunca toca nossos servidores.',
+      'O hash do e-mail é vinculado ao seu registro salarial exclusivamente para permitir atualizações futuras. Não há como recuperar o e-mail original a partir do hash, nem conectar seus dados a uma identidade específica.',
+      'Não vendemos dados. Não compartilhamos dados com recrutadores, empresas ou plataformas de RH.',
+    ]}
+  />
+
+  <!-- TEXTO LONGO -->
+  <section class="policy-section">
+    <div class="container">
+
+      <!-- Índice -->
+      <nav class="policy-index">
+        <p class="policy-index__label">Nesta página</p>
+        <ul>
+          <li><a href="#dados-coletados">1. Quais dados coletamos</a></li>
+          <li><a href="#uso-dos-dados">2. Como usamos os dados</a></li>
+          <li><a href="#publicidade">3. Publicidade e cookies de terceiros</a></li>
+          <li><a href="#lgpd">4. Seus direitos pela LGPD</a></li>
+          <li><a href="#retencao">5. Retenção e segurança dos dados</a></li>
+          <li><a href="#atualizacoes">6. Atualizações desta política</a></li>
+        </ul>
+      </nav>
+
+      <!-- 3. Quais dados coletamos -->
+      <h2 id="dados-coletados">Quais dados coletamos</h2>
+      <div class="policy-block">
+        <h3>Dados do formulário de cadastro</h3>
+        <p>Ao contribuir com a pesquisa, coletamos exclusivamente informações profissionais:</p>
+        <ul>
+          <li>Cargo, área de atuação e setor</li>
+          <li>Nível de senioridade e posição hierárquica</li>
+          <li>Salário (valor bruto mensal)</li>
+          <li>Regime de contratação (CLT, PJ, Freelancer)</li>
+          <li>Modelo de trabalho (Presencial, Híbrido, Home office)</li>
+          <li>Estado e cidade</li>
+          <li>Porte e setor da empresa</li>
+          <li>Dados de diversidade — gênero, orientação sexual, raça/etnia, PCD (todos <strong>opcionais</strong>)</li>
+        </ul>
+        <p>Nenhum desses campos permite identificar você individualmente.</p>
+      </div>
+      <div class="policy-block">
+        <h3>E-mail</h3>
+        <p>Pedimos o e-mail para identificar seu cadastro e permitir atualizações futuras. O processo funciona assim:</p>
+        <ol>
+          <li>Você informa o e-mail</li>
+          <li>Aplicamos o algoritmo SHA-256, gerando um código irreversível</li>
+          <li>Armazenamos <strong>apenas o hash</strong> — o e-mail original é descartado imediatamente</li>
+          <li>O hash é vinculado ao seu registro salarial para possibilitar substituições futuras</li>
+        </ol>
+        <p>Não é possível recuperar o e-mail original a partir do hash armazenado. Ao cadastrar novamente com o mesmo e-mail, o registro anterior é substituído — nunca duplicado.</p>
+      </div>
+      <div class="policy-block">
+        <h3>Dados técnicos de proteção</h3>
+        <p>Para prevenir entradas fraudulentas e spam, utilizamos:</p>
+        <ul>
+          <li><strong>reCAPTCHA v3</strong> (Google) — analisa o comportamento da sessão para distinguir humanos de bots, com validação server-side. Sujeito à <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a>.</li>
+          <li><strong>Rate limit via localStorage</strong> — armazenado localmente no seu navegador para limitar cadastros por dispositivo a cada 24 horas. Não enviado ao servidor.</li>
+          <li><strong>Rate limit por IP</strong> — limitamos o número de cadastros por endereço IP por hora diretamente no banco de dados.</li>
+          <li><strong>Campo honeypot</strong> — campo invisível para detectar preenchimento automatizado. Não armazenado.</li>
+        </ul>
+      </div>
+
+      <!-- 4. Como usamos -->
+      <h2 id="uso-dos-dados">Como usamos os dados</h2>
+      <div class="policy-block">
+        <p>Os dados coletados têm uma única finalidade: <strong>compor a base de pesquisa salarial</strong> exibida na página de consulta.</p>
+        <ul>
+          <li>Calculamos medianas, percentis e faixas salariais por combinação de filtros</li>
+          <li>Exibimos resultados apenas quando há no mínimo 5 respostas para a combinação selecionada</li>
+          <li>Consideramos apenas registros dos últimos 36 meses (janela deslizante)</li>
+          <li>Registros marcados como teste são excluídos das consultas</li>
+        </ul>
+        <p>Não usamos os dados para fins de marketing, segmentação, enriquecimento de perfis ou qualquer outra finalidade além da pesquisa.</p>
+      </div>
+
+      <!-- 5. Publicidade e cookies -->
+      <h2 id="publicidade">Publicidade e cookies de terceiros</h2>
+      <div class="policy-block">
+        <p>O Pretensão Salarial pode exibir anúncios veiculados pelo <strong>Google AdSense</strong>. Quando essa funcionalidade estiver ativa, o Google poderá utilizar cookies para exibir anúncios personalizados com base em visitas anteriores a este e a outros sites.</p>
+        <p>Você pode desativar a personalização de anúncios pelo Google acessando as <a href="https://adssettings.google.com" target="_blank" rel="noopener">Configurações de anúncios do Google</a>.</p>
+        <p>Além dos anúncios, este site não utiliza cookies próprios para rastreamento ou análise de comportamento.</p>
+      </div>
+
+      <!-- 6. Seus direitos (LGPD) -->
+      <h2 id="lgpd">Seus direitos pela LGPD</h2>
+      <div class="policy-block">
+        <p>Em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018), você tem os seguintes direitos em relação aos seus dados:</p>
+        <ul>
+          <li><strong>Confirmação e acesso</strong> — saber se tratamos dados seus e quais são eles</li>
+          <li><strong>Correção</strong> — solicitar a correção de dados incompletos ou inexatos</li>
+          <li><strong>Eliminação</strong> — pedir a exclusão dos dados fornecidos</li>
+          <li><strong>Portabilidade</strong> — receber os dados em formato estruturado</li>
+          <li><strong>Informação</strong> — ser informado sobre com quem compartilhamos dados (atualmente: ninguém)</li>
+          <li><strong>Revogação do consentimento</strong> — retirar o consentimento a qualquer momento</li>
+        </ul>
+        <p>O hash do e-mail é o único identificador técnico armazenado. Mediante solicitação, podemos localizá-lo e excluir o registro correspondente — o que também apaga todos os dados salariais vinculados a ele.</p>
+        <p>Para exercer seus direitos, abra uma issue no <a href="https://github.com/areiasthiago/pretensaosalarial" target="_blank" rel="noopener">repositório público no GitHub</a>.</p>
+      </div>
+
+      <!-- 7. Retenção e segurança -->
+      <h2 id="retencao">Retenção e segurança dos dados</h2>
+      <div class="policy-block">
+        <p>Os dados são armazenados no <strong>Supabase</strong> (PostgreSQL), com Row Level Security (RLS) ativo. Usuários anônimos têm apenas permissão de leitura — toda escrita passa obrigatoriamente por uma Edge Function que valida o reCAPTCHA server-side antes de qualquer operação no banco.</p>
+        <p>A janela de retenção é de <strong>36 meses</strong>: registros mais antigos são automaticamente excluídos das consultas. Podemos realizar limpezas periódicas na base para remover dados antigos definitivamente.</p>
+        <p>Não realizamos backups com dados pessoais identificáveis, pois não os coletamos.</p>
+      </div>
+
+      <!-- 8. Atualizações -->
+      <h2 id="atualizacoes">Atualizações desta política</h2>
+      <div class="policy-block">
+        <p>Esta política pode ser atualizada periodicamente para refletir mudanças no produto ou na legislação. A data da última atualização é indicada abaixo. Mudanças significativas serão comunicadas de forma destacada na página inicial.</p>
+        <p class="policy-date">Última atualização: abril de 2026</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 9. CTA -->
+  <CtaCard
+    title="Contribua com segurança"
+    text="Agora que você sabe exatamente como seus dados são tratados, que tal contribuir com a pesquisa?"
+    label="Cadastrar meu salário"
+    href="/cadastro/"
+  />
+
 </Layout>

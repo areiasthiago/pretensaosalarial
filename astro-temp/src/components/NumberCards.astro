@@ -8,7 +8,7 @@ const { title = 'Como funciona', cards } = Astro.props
       {cards.map((card, i) => (
         <div class="number-card">
           <div class="number-card-header">
-            <div class="how-step-number">{i + 1}</div>
+            <div class="number-card-number">{i + 1}</div>
             <h4>{card.titulo}</h4>
           </div>
           <p>{card.texto}</p>
