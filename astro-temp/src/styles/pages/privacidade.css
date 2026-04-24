@@ -5,11 +5,6 @@
    ou mova as regras compartilhadas para main.css futuramente.
    ============================================================ */
 
-/* ---------- TextSection ---------- */
-.text-section {
-  background-color: var(--color-surface);
-}
-
 /* ---------- Seções de política ---------- */
 .policy-section {
   padding-block: var(--space-12);
