@@ -3,4 +3,13 @@ const { id, variant = 'inline' } = Astro.props
 ---
 <div class={`ad-slot ad-slot-${variant} active`} id={id}>
   <span class="ad-slot-label">Publicidade</span>
+  <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-8916110376682921"
+    data-ad-slot="6848210144"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+  <script is:inline>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 </div>
