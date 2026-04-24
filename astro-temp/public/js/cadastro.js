@@ -179,6 +179,18 @@ async function getRecaptchaToken() {
 }
 
 async function enviarCadastro() {
+  const aceite = document.getElementById('aceite-termos')
+  if (!aceite.checked) {
+    const label = aceite.parentElement
+    let hint = label.parentElement.querySelector('.error-message')
+    if (!hint) {
+      hint = document.createElement('span')
+      hint.className = 'error-message'
+      label.parentElement.appendChild(hint)
+    }
+    hint.textContent = 'Você precisa aceitar os termos para continuar.'
+    return
+  }
   const honeypot = document.getElementById('website').value
   if (honeypot) { console.warn('Bot detectado'); return }
   if (!checkRateLimit()) return

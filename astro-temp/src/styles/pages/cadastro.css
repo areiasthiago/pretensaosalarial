@@ -153,6 +153,40 @@
 }
 
 /* =====================
+   Termos de aceite
+===================== */
+
+.termos-aceite {
+    padding-inline: var(--space-4);
+    margin-block: var(--space-4);
+}
+
+.termos-aceite__label {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.termos-aceite__label input[type="checkbox"] {
+  margin-top: 2px;
+  accent-color: var(--color-primary-500);
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.termos-aceite__label a {
+  color: var(--color-primary-500);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* =====================
    Responsivo
 ===================== */
 @media (max-width: 640px) {
