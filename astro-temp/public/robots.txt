@@ -2,5 +2,6 @@
 
 User-agent: *
 Allow: /
+Disallow: /blog/
 
 Sitemap: https://pretensaosalarial.com.br/sitemap-index.xml

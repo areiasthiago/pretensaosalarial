@@ -1,0 +1,106 @@
+---
+---
+
+<form class="blog-busca-form" action="/blog/busca/" method="get" role="search">
+  <div class="blog-busca-wrapper">
+    <svg class="blog-busca-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="11" cy="11" r="8"/>
+      <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+    </svg>
+    <input
+      class="blog-busca-input"
+      type="text"
+      name="q"
+      placeholder="Buscar posts..."
+      autocomplete="off"
+      aria-label="Buscar posts no blog"
+    />
+    <button class="blog-busca-btn blog-busca-btn--oculto" type="submit" aria-label="Buscar">
+      Buscar
+    </button>
+  </div>
+</form>
+
+<style>
+  .blog-busca-form {
+    width: 100%;
+    max-width: 400px;
+    margin-top: var(--space-4);
+  }
+
+  .blog-busca-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .blog-busca-icon {
+    position: absolute;
+    left: var(--space-3);
+    color: var(--color-muted);
+    pointer-events: none;
+    flex-shrink: 0;
+  }
+
+  .blog-busca-input {
+    width: 100%;
+    padding: var(--space-2) 80px var(--space-2) var(--space-8);
+    border: 1.5px solid var(--color-border);
+    border-radius: var(--radius-full);
+    font-size: var(--text-sm);
+    font-family: inherit;
+    color: var(--color-text);
+    background: var(--color-white);
+    outline: none;
+    transition: border-color .15s ease;
+    appearance: none;
+  }
+
+  .blog-busca-input:focus {
+    border-color: var(--color-primary-500);
+  }
+
+  .blog-busca-input::placeholder {
+    color: var(--color-muted);
+  }
+
+  .blog-busca-btn {
+    position: absolute;
+    right: var(--space-1);
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--color-primary-500);
+    color: var(--color-white);
+    border: none;
+    border-radius: var(--radius-full);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    font-family: inherit;
+    padding: var(--space-1) var(--space-3);
+    cursor: pointer;
+    transition: background .15s ease;
+    white-space: nowrap;
+  }
+
+  .blog-busca-btn:hover {
+    background: var(--color-primary-700);
+  }
+
+  .blog-busca-btn--oculto {
+    display: none;
+  }
+</style>
+
+<script>
+  document.querySelectorAll('.blog-busca-input').forEach(input => {
+    const btn = input.closest('.blog-busca-wrapper')?.querySelector('.blog-busca-btn')
+    if (!btn) return
+    input.addEventListener('input', () => {
+      if ((input as HTMLInputElement).value.length >= 3) {
+        btn.classList.remove('blog-busca-btn--oculto')
+      } else {
+        btn.classList.add('blog-busca-btn--oculto')
+      }
+    })
+  })
+</script>

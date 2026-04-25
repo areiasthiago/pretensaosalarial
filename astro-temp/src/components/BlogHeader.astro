@@ -1,0 +1,78 @@
+---
+import BlogBusca from './BlogBusca.astro'
+
+interface Props {
+  titulo: string
+  subtitulo?: string
+  backHref?: string
+  backLabel?: string
+  badge?: { label: string; bg: string; text: string }
+}
+
+const { titulo, subtitulo, backHref, backLabel, badge } = Astro.props
+---
+
+<div class="blog-header">
+  <div class="container">
+    <div class="blog-header-layout">
+      <div class="blog-header-left">
+        {backHref && (
+          <a href={backHref} class="post-back" style="display:inline-block; margin-bottom: var(--space-3);">
+            {backLabel ?? '← Blog'}
+          </a>
+        )}
+        <div class="blog-header-titulo-row">
+          <h1>{titulo}</h1>
+          {badge && (
+            <span class="blog-card-categoria" style={`background: ${badge.bg}; color: ${badge.text};`}>
+              {badge.label}
+            </span>
+          )}
+        </div>
+        {subtitulo && <p>{subtitulo}</p>}
+      </div>
+      <div class="blog-header-right">
+        <BlogBusca />
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .blog-header-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-8);
+  }
+
+  .blog-header-left {
+    flex: 1;
+    max-width: 560px;
+  }
+
+  .blog-header-titulo-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-2);
+  }
+
+  .blog-header-right {
+    flex-shrink: 0;
+    width: 280px;
+  }
+
+  @media (max-width: 768px) {
+    .blog-header-layout {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--space-4);
+    }
+
+    .blog-header-right {
+      width: 100%;
+    }
+  }
+</style>

@@ -14,8 +14,12 @@ interface Props {
   title: string
   description: string
   path?: string
-  schemaType?: 'home' | 'about' | 'search' | 'legal' | 'form'
+  schemaType?: 'home' | 'about' | 'search' | 'legal' | 'form' | 'blog' | 'blogpost'
   faq?: FaqItem[]
+  author?: string
+  datePublished?: string
+  category?: string
+  noindex?: boolean
 }
 
 const {
@@ -23,7 +27,11 @@ const {
   description,
   path = '/',
   schemaType = 'home',
-  faq
+  faq,
+  author,
+  datePublished,
+  category,
+  noindex,
 } = Astro.props
 ---
 
@@ -33,6 +41,7 @@ const {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content={description}>
+  {noindex && <meta name="robots" content="noindex, nofollow" />}
   <title>{title} — Pretensão Salarial</title>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <SchemaOrg
@@ -41,6 +50,9 @@ const {
     path={path}
     type={schemaType}
     faq={faq}
+    author={author}
+    datePublished={datePublished}
+    category={category}
   />
   <slot name="head" />
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -63,6 +75,7 @@ const {
       </a>
       <div class="navbar-links">
         <a href="/sobre/">Sobre</a>
+        <!--<a href="/blog/">Blog</a> -->
         <a href="/consulta/">Consultar salários</a>
         <a href="/cadastro/" class="btn btn-primary btn-sm">Cadastrar meu salário</a>
       </div>
@@ -74,6 +87,7 @@ const {
     </div>
     <div class="navbar-mobile" id="navbar-mobile">
       <a href="/sobre/">Sobre</a>
+      <a href="/blog/">Blog</a>
       <a href="/consulta/">Consultar salários</a>
       <a href="/cadastro/" class="btn btn-primary">Cadastrar meu salário</a>
       <AdSlot id="ad-hamburger" variant="hamburger" />
@@ -93,7 +107,7 @@ const {
 
   <footer class="footer">
     <div class="container">
-      <p>© 2026 Pretensão Salarial · <a href="/privacidade/">Privacidade</a> · <a href="/termos/">Termos de uso</a> · <a href="/sobre/">Sobre</a></p>
+      <p>© 2026 Pretensão Salarial · <a href="/privacidade/">Privacidade</a> · <a href="/termos/">Termos de uso</a> · <a href="/contato/">Contato</a></p>
     </div>
   </footer>
 

@@ -1,0 +1,63 @@
+---
+import { categorias, slugCategoria } from '../data/categorias'
+
+interface Props {
+  categoriaAtiva?: string
+}
+
+const { categoriaAtiva } = Astro.props
+---
+
+<div class="blog-filtros">
+  <div class="container">
+    <div class="blog-filtros-scroll">
+      <a href="/blog/" class={`blog-chip${!categoriaAtiva ? ' active' : ''}`}>Todos</a>
+      {categorias.slice(0, 6).map(cat => (
+        <a
+          href={`/blog/categoria/${slugCategoria(cat.label)}/`}
+          class={`blog-chip${cat.label === categoriaAtiva ? ' active' : ''}`}
+        >
+          {cat.label}
+        </a>
+      ))}
+      {categorias.length > 6 && (
+        <div class="blog-filtros-mais">
+          <button
+            class={`blog-chip blog-chip-mais${categorias.slice(6).some(c => c.label === categoriaAtiva) ? ' active' : ''}`}
+            aria-expanded="false"
+          >
+            Mais ▾
+          </button>
+          <div class="blog-filtros-dropdown">
+            {categorias.slice(3).map(cat => (
+              <a
+                href={`/blog/categoria/${slugCategoria(cat.label)}/`}
+                class={`blog-filtros-dropdown-item${cat.label === categoriaAtiva ? ' active' : ''}`}
+              >
+                {cat.label}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  </div>
+</div>
+
+<script>
+  const btn = document.querySelector('.blog-chip-mais') as HTMLButtonElement | null
+  const dropdown = document.querySelector('.blog-filtros-dropdown') as HTMLElement | null
+  if (btn && dropdown) {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation()
+      const open = dropdown.classList.toggle('open')
+      btn.setAttribute('aria-expanded', String(open))
+      btn.textContent = open ? 'Menos ▴' : 'Mais ▾'
+    })
+    document.addEventListener('click', () => {
+      dropdown.classList.remove('open')
+      btn.setAttribute('aria-expanded', 'false')
+      btn.textContent = 'Mais ▾'
+    })
+  }
+</script>

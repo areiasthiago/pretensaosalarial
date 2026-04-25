@@ -1,0 +1,82 @@
+---
+import Layout from '../../../layouts/Layout.astro'
+import { getCollection } from 'astro:content'
+import { autores } from '../../../data/autores'
+import type { Autor } from '../../../data/autores'
+import { corCategoria } from '../../../data/categorias'
+import '../../../styles/main.css'
+import '../../../styles/pages/blog.css'
+
+export async function getStaticPaths() {
+  return autores.map(autor => ({
+    params: { autor: autor.slug },
+    props: { autor },
+  }))
+}
+
+const { autor } = Astro.props as { autor: Autor }
+
+const posts = (await getCollection('blog'))
+  .filter(p => p.data.author === autor.nome)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString('pt-BR', { day: 'numeric', month: 'short', year: 'numeric' })
+}
+---
+
+<Layout
+  title={autor.nome}
+  description={`Artigos escritos por ${autor.nome} no Pretensão Salarial.`}
+  path={`/blog/autor/${autor.slug}/`}
+  schemaType="about"
+  noindex
+>
+  <div class="blog-header">
+    <div class="container">
+      <div class="autor-perfil">
+        {autor.avatar
+          ? <img src={autor.avatar} alt={autor.nome} class="autor-avatar autor-avatar-foto" />
+          : <div class="autor-avatar">{autor.iniciais}</div>
+        }
+        <div>
+          <h1 class="autor-nome">{autor.nome}</h1>
+          <p class="autor-bio">{autor.bio}</p>
+          <p class="autor-stats">{posts.length} {posts.length === 1 ? 'artigo publicado' : 'posts publicados'}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="blog-lista">
+    <div class="container">
+      <div class="blog-grid">
+        {posts.map(post => {
+          const cor = corCategoria(post.data.category)
+          return (
+            <a href={`/blog/${post.id}/`} class="blog-card">
+              <span class="blog-card-categoria" style={`background: ${cor.bg}; color: ${cor.text};`}>
+                {post.data.category}
+              </span>
+              <h2 class="blog-card-titulo">{post.data.title}</h2>
+              <p class="blog-card-descricao">{post.data.description}</p>
+              <div class="blog-card-meta">
+                {post.data.author} · {formatDate(post.data.date)}
+              </div>
+            </a>
+          )
+        })}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .autor-avatar-foto {
+    width: 64px;
+    height: 64px;
+    border-radius: var(--radius-full);
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+</style>

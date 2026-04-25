@@ -1,0 +1,252 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import { getCollection, render } from 'astro:content'
+import { slugAutor, iniciaisAutor, avatarAutor } from '../../data/autores'
+import { slugCategoria, corCategoria } from '../../data/categorias'
+import BlogBusca from '../../components/BlogBusca.astro'
+import '../../styles/main.css'
+import '../../styles/pages/blog.css'
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog')
+  return posts.map(post => ({ params: { slug: post.id }, props: { post } }))
+}
+
+const { post } = Astro.props
+const { Content, headings } = await render(post)
+
+const allPosts = (await getCollection('blog')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+)
+
+const relacionados = allPosts
+  .filter(p => p.id !== post.id && p.data.category === post.data.category)
+  .slice(0, 3)
+
+const autorSlug = slugAutor(post.data.author)
+const autorIniciais = iniciaisAutor(post.data.author)
+const autorAvatar = avatarAutor(post.data.author)
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' })
+}
+
+const cor = corCategoria(post.data.category)
+const h2s = headings.filter(h => h.depth === 2)
+---
+
+<Layout
+  title={post.data.title}
+  description={post.data.description}
+  path={`/blog/${post.id}/`}
+  schemaType="blogpost"
+  author={post.data.author}
+  datePublished={post.data.date.toISOString()}
+  category={post.data.category}
+  noindex
+>
+  <article class="post-wrapper" data-pagefind-body>
+
+    <div data-pagefind-ignore aria-hidden="true" style="display:none">
+      <span data-pagefind-meta="title">{post.data.title}</span>
+      <span data-pagefind-meta="description">{post.data.description}</span>
+      <span data-pagefind-meta="category">{post.data.category}</span>
+      <span data-pagefind-meta="author">{post.data.author}</span>
+      <span data-pagefind-meta="url">{`/blog/${post.id}/`}</span>
+    </div>
+
+    <div class="container">
+
+      <header class="post-header" data-pagefind-ignore>
+        <div class="post-header-layout">
+          <div class="post-header-left">
+            <div class="post-header-meta">
+              <a
+                href={`/blog/categoria/${slugCategoria(post.data.category)}/`}
+                class="blog-card-categoria"
+                style={`background: ${cor.bg}; color: ${cor.text};`}
+              >
+                {post.data.category}
+              </a>
+              <a href="/blog/" class="post-back">← Blog</a>
+            </div>
+            <h1 class="post-titulo">{post.data.title}</h1>
+          </div>
+          <div class="post-header-right">
+            <BlogBusca />
+          </div>
+        </div>
+      </header>
+
+      <div class="post-layout">
+
+        <div class="post-main">
+          <div class="post-resumo" data-pagefind-ignore>
+            <span class="post-resumo-label">Resumo</span>
+            {post.data.description}
+          </div>
+
+          <!-- Autor após o resumo -->
+          <div class="post-autor" data-pagefind-ignore>
+            <a href={`/blog/autor/${autorSlug}/`} class="post-autor-avatar-link">
+              {autorAvatar
+                ? <img src={autorAvatar} alt={post.data.author} class="post-autor-avatar-foto" />
+                : <span class="post-autor-avatar">{autorIniciais}</span>
+              }
+            </a>
+            <div>
+              <a href={`/blog/autor/${autorSlug}/`} class="post-autor-nome">{post.data.author}</a>
+              <span class="post-autor-data">{formatDate(post.data.date)}</span>
+            </div>
+          </div>
+
+          <div class="post-content">
+            <div class="prose">
+              <Content />
+            </div>
+
+            {relacionados.length > 0 && (
+              <div class="post-relacionados" data-pagefind-ignore>
+                <h3>Leia também</h3>
+                {relacionados.map(p => (
+                  <a href={`/blog/${p.id}/`} class="post-relacionado-link">
+                    → {p.data.title}
+                  </a>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+
+        <aside class="post-sidebar" data-pagefind-ignore>
+          {h2s.length > 0 && (
+            <div class="sidebar-block sidebar-toc-block">
+              <div class="sidebar-block-label">Neste post</div>
+              <nav class="toc-nav">
+                {h2s.map((h, i) => (
+                  <a
+                    href={`#${h.slug}`}
+                    class={`toc-link${i === 0 ? ' active' : ''}`}
+                    data-heading={h.slug}
+                  >
+                    {h.text}
+                  </a>
+                ))}
+              </nav>
+            </div>
+          )}
+
+          <div class="sidebar-cta">
+            <div class="sidebar-cta-title">Contribua com a pesquisa</div>
+            <p class="sidebar-cta-text">Seu salário ajuda outros profissionais a negociar melhor. Leva menos de 3 minutos.</p>
+            <a href="/cadastro/" class="sidebar-cta-btn">Cadastrar meu salário</a>
+          </div>
+        </aside>
+      </div>
+
+    </div>
+  </article>
+</Layout>
+
+<template id="cta-consulta-tpl">
+  <div class="post-cta-consulta" data-pagefind-ignore>
+    <span class="post-cta-consulta-text">Quanto seu cargo realmente paga? <a href="/consulta/" class="post-cta-consulta-link">Consulte os dados →</a></span>
+  </div>
+</template>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const prose = document.querySelector('.prose')
+    const tpl = document.getElementById('cta-consulta-tpl') as HTMLTemplateElement
+    if (prose && tpl) {
+      const ps = prose.querySelectorAll('p')
+      if (ps.length >= 3) {
+        ps[2].after(tpl.content.cloneNode(true))
+      }
+    }
+
+    const links = document.querySelectorAll<HTMLAnchorElement>('.toc-link')
+    if (!links.length) return
+
+    const targets = Array.from(links)
+      .map(l => document.getElementById(l.dataset.heading ?? ''))
+      .filter(Boolean) as HTMLElement[]
+
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          links.forEach(l => l.classList.remove('active'))
+          const a = document.querySelector<HTMLAnchorElement>(
+            `.toc-link[data-heading="${entry.target.id}"]`
+          )
+          if (a) a.classList.add('active')
+        }
+      })
+    }, { rootMargin: '-20% 0px -70% 0px' })
+
+    targets.forEach(t => obs.observe(t))
+  })
+</script>
+
+<style>
+  .post-header-layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--space-8);
+    margin-bottom: var(--space-6);
+  }
+
+  .post-header-left {
+    flex: 1;
+    max-width: 560px;
+  }
+
+  .post-header-right {
+    flex-shrink: 0;
+    width: 280px;
+    padding-top: var(--space-8);
+  }
+
+  .post-autor-avatar-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .post-autor-avatar-foto {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-full);
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 768px) {
+    .post-header-layout {
+      flex-direction: column;
+      gap: var(--space-4);
+    }
+
+    .post-header-right {
+      width: 100%;
+      padding-top: 0;
+    }
+  }
+</style>
+
+<style is:global>
+  .prose h1 { display: none; }
+  .prose { line-height: 1.75; }
+  .prose h2 { font-size: var(--text-xl); font-weight: 700; margin-top: 2.5rem; margin-bottom: 1rem; color: var(--color-text); scroll-margin-top: 5rem; }
+  .prose h3 { font-size: var(--text-md); font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem; color: var(--color-text); }
+  .prose p { font-size: var(--text-base); color: var(--color-muted); margin-bottom: 1rem; }
+  .prose ul, .prose ol { padding-left: var(--space-6); margin-bottom: 1rem; display: flex; flex-direction: column; gap: var(--space-2); }
+  .prose li { font-size: var(--text-base); color: var(--color-muted); }
+  .prose ul { list-style: disc; }
+  .prose ol { list-style: decimal; }
+  .prose strong { color: var(--color-text); font-weight: 600; }
+  .prose a { color: var(--color-primary-500); text-decoration: underline; text-underline-offset: 2px; }
+  .prose blockquote { border-left: 3px solid var(--color-primary-500); padding: 0.75rem 1rem; background: var(--color-surface); border-radius: 0 var(--radius-md) var(--radius-md) 0; margin-block: 1.5rem; }
+  .prose blockquote p { color: var(--color-text); margin-bottom: 0; font-style: italic; }
+</style>

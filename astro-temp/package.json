@@ -1,6 +1,6 @@
 {
   "name": "pretensaosalarial",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "Pesquisa colaborativa de salários no Brasil",
   "homepage": "https://pretensaosalarial.com.br",
   "repository": {
@@ -18,5 +18,9 @@
     "@astrojs/sitemap": "^3.7.2",
     "@fontsource-variable/dm-sans": "^5.2.8",
     "astro": "^6.1.8"
+  },
+  "devDependencies": {
+    "@pagefind/default-ui": "^1.5.2",
+    "astro-pagefind": "^1.8.6"
   }
 }
