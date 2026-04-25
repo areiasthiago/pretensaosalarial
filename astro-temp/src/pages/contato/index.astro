@@ -1,0 +1,124 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import PageBanner from '../../components/PageBanner.astro'
+import '../../styles/main.css'
+import '../../styles/pages/contato.css'
+
+const EDGE_FUNCTION_URL = 'https://mzbczjzmeuadyysexubj.supabase.co/functions/v1/contato'
+---
+
+<Layout
+  title="Contato"
+  description="Entre em contato com o Pretensão Salarial. Tire dúvidas, reporte problemas ou envie sugestões."
+  path="/contato/"
+  schemaType="legal"
+>
+
+  <PageBanner
+    tag="Contato"
+    title="Fale com a gente"
+    subtitle="Dúvidas, sugestões ou problemas? Use o formulário abaixo ou abra uma issue no GitHub."
+    ctas={[
+      { label: 'Entenda melhor projeto', href: '/sobre/', variant: 'secondary' }
+    ]}
+  />
+
+  <section class="contato-section">
+    <div class="container">
+      <div class="contato-intro">
+        <p>Para dúvidas sobre o projeto, privacidade ou termos de uso, as respostas provavelmente já estão nas nossas páginas de <a href="/sobre/">Sobre</a>, <a href="/privacidade/">Privacidade</a> e <a href="/termos/">Termos de uso</a>.</p>
+        <p>Use este formulário para <strong>sugestões de melhoria</strong> ou <strong>propostas comerciais</strong>.</p>
+      </div>
+      <div id="form-wrapper">
+        <div class="card">
+          <div class="input-group">
+            <label class="input-label" for="nome">Nome</label>
+            <input class="input" type="text" id="nome" placeholder="Seu nome" autocomplete="name">
+          </div>
+          <div class="input-group">
+            <label class="input-label" for="email">Email</label>
+            <input class="input" type="email" id="email" placeholder="seu@email.com" autocomplete="email">
+          </div>
+          <div class="input-group">
+            <label class="input-label" for="mensagem">Mensagem</label>
+            <textarea class="textarea" id="mensagem" placeholder="Escreva sua mensagem..." rows="6"></textarea>
+          </div>
+        </div>
+
+        <div class="contato-actions">
+          <button class="btn btn-primary" id="btn-enviar">Enviar mensagem</button>
+        </div>
+      </div>
+
+      <div id="sucesso" class="contato-sucesso" style="display:none">
+        <div class="sucesso-icon">✓</div>
+        <h2>Mensagem enviada!</h2>
+        <p>Obrigado pelo contato. Responderemos em breve.</p>
+        <a href="/" class="btn btn-ghost">Voltar para o início</a>
+      </div>
+
+    </div>
+  </section>
+
+</Layout>
+
+<script is:inline define:vars={{ EDGE_FUNCTION_URL }}>
+function mostrarErro(inputId, mensagem) {
+  const input = document.getElementById(inputId)
+  if (!input) return
+  input.classList.add('input-error')
+  let hint = input.parentElement.querySelector('.error-message')
+  if (!hint) {
+    hint = document.createElement('span')
+    hint.className = 'error-message'
+    input.parentElement.appendChild(hint)
+  }
+  hint.textContent = mensagem
+}
+
+function limparErros() {
+  document.querySelectorAll('.input-error').forEach(el => el.classList.remove('input-error'))
+  document.querySelectorAll('.error-message').forEach(el => el.remove())
+}
+
+async function enviarContato() {
+  limparErros()
+
+  const nome = document.getElementById('nome').value.trim()
+  const email = document.getElementById('email').value.trim()
+  const mensagem = document.getElementById('mensagem').value.trim()
+
+  let valido = true
+  if (!nome) { mostrarErro('nome', 'Informe seu nome'); valido = false }
+  if (!email) { mostrarErro('email', 'Informe seu email'); valido = false }
+  else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { mostrarErro('email', 'Email inválido'); valido = false }
+  if (!mensagem) { mostrarErro('mensagem', 'Escreva sua mensagem'); valido = false }
+  if (!valido) return
+
+  const btn = document.getElementById('btn-enviar')
+  btn.textContent = 'Enviando...'
+  btn.disabled = true
+
+  try {
+    const res = await fetch(EDGE_FUNCTION_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ nome, email, mensagem })
+    })
+
+    const data = await res.json()
+    if (!res.ok) throw new Error(data.error || 'Erro desconhecido')
+
+    document.getElementById('form-wrapper').style.display = 'none'
+    document.getElementById('sucesso').style.display = 'flex'
+
+  } catch (err) {
+    console.error(err)
+    mostrarErro('btn-enviar', 'Erro ao enviar. Tente novamente.')
+    btn.textContent = 'Enviar mensagem'
+    btn.disabled = false
+  }
+}
+document.getElementById('btn-enviar').addEventListener('click', enviarContato)
+
+</script>
