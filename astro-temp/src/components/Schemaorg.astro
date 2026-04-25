@@ -1,0 +1,170 @@
+---
+/**
+ * SchemaOrg.astro
+ * Gera JSON-LD automaticamente baseado nas props da página.
+ *
+ * Props:
+ *   title        — título da página
+ *   description  — descrição da página
+ *   path         — caminho da URL (ex: "/", "/sobre/", "/consulta/")
+ *   type         — tipo da página: "home" | "about" | "search" | "legal" | "form"
+ *   faq?         — array de { pergunta, resposta } para FAQPage schema
+ */
+
+interface FaqItem {
+  pergunta: string
+  resposta: string
+}
+
+interface Props {
+  title: string
+  description: string
+  path: string
+  type: 'home' | 'about' | 'search' | 'legal' | 'form'
+  faq?: FaqItem[]
+}
+
+const { title, description, path, type, faq } = Astro.props
+
+const BASE_URL = 'https://pretensaosalarial.com.br'
+const SITE_NAME = 'Pretensão Salarial'
+const LOGO_URL = `${BASE_URL}/favicon.svg`
+const url = `${BASE_URL}${path}`
+
+// ── WebSite (todas as páginas) ──────────────────────────────────────────────
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE_NAME,
+  url: BASE_URL,
+  description: 'Pesquisa colaborativa e anônima sobre salários no Brasil, que tem como objetivo ajudar profissionais de diversas áreas a definir sua pretensão salarial baseada em dados.',
+  inLanguage: 'pt-BR'
+}
+
+// ── WebPage (todas as páginas) ──────────────────────────────────────────────
+const webpageTypeMap: Record<string, string> = {
+  home: 'WebPage',
+  about: 'AboutPage',
+  search: 'WebPage',
+  legal: 'WebPage',
+  form: 'WebPage',
+}
+
+const webpageSchema = {
+  '@context': 'https://schema.org',
+  '@type': webpageTypeMap[type] ?? 'WebPage',
+  name: `${title} — ${SITE_NAME}`,
+  description,
+  url,
+  inLanguage: 'pt-BR',
+  isPartOf: { '@id': BASE_URL },
+  publisher: {
+    '@type': 'Organization',
+    name: SITE_NAME,
+    url: BASE_URL,
+    logo: {
+      '@type': 'ImageObject',
+      url: LOGO_URL
+    }
+  }
+}
+
+// ── Organization (home e about) ─────────────────────────────────────────────
+const organizationSchema = (type === 'home' || type === 'about') ? {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: SITE_NAME,
+  url: BASE_URL,
+  logo: {
+    '@type': 'ImageObject',
+    url: LOGO_URL
+  },
+  description: 'Plataforma independente de pesquisa salarial colaborativa e anônima para profissionais brasileiros.',
+  foundingDate: '2025',
+  areaServed: {
+    '@type': 'Country',
+    name: 'Brasil'
+  }
+} : null
+
+// ── Dataset (consulta) ──────────────────────────────────────────────────────
+const datasetSchema = type === 'search' ? {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: 'Pesquisa Salarial Brasil — Pretensão Salarial',
+  description: 'Base de dados colaborativa com salários reais de profissionais brasileiros, filtráveis por cargo, área, senioridade, regime, modelo de trabalho e região.',
+  url: `${BASE_URL}/consulta/`,
+  inLanguage: 'pt-BR',
+  license: 'https://creativecommons.org/licenses/by-nc/4.0/',
+  isAccessibleForFree: true,
+  creator: {
+    '@type': 'Organization',
+    name: SITE_NAME,
+    url: BASE_URL
+  },
+  temporalCoverage: 'P36M',
+  spatialCoverage: {
+    '@type': 'Country',
+    name: 'Brasil'
+  },
+  variableMeasured: [
+    'Salário bruto mensal',
+    'Cargo',
+    'Área de atuação',
+    'Senioridade',
+    'Regime de contratação',
+    'Modelo de trabalho',
+    'Estado',
+    'Cidade',
+    'Porte da empresa',
+    'Setor'
+  ]
+} : null
+
+// ── FAQPage (quando faq[] for passado) ─────────────────────────────────────
+const faqSchema = faq && faq.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map(item => ({
+    '@type': 'Question',
+    name: item.pergunta,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.resposta
+    }
+  }))
+} : null
+
+// ── BreadcrumbList (páginas internas) ──────────────────────────────────────
+const breadcrumbSchema = path !== '/' ? {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Início',
+      item: BASE_URL
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: title,
+      item: url
+    }
+  ]
+} : null
+
+const schemas = [
+  websiteSchema,
+  webpageSchema,
+  organizationSchema,
+  datasetSchema,
+  faqSchema,
+  breadcrumbSchema,
+].filter(Boolean)
+---
+
+{schemas.map(schema => (
+  <script type="application/ld+json" set:html={JSON.stringify(schema, null, 0)} />
+))}

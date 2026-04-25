@@ -7,6 +7,7 @@ import NumberCards from '../../components/NumberCards.astro';
 import CtaCard from '../../components/CtaCard.astro';
 import FaqSection from '../../components/FaqSection.astro';
 import AdSlot from '../../components/AdSlot.astro';
+import { faqSobre } from '../../data/faqs';
 
 import '../../styles/pages/sobre.css';
 ---
@@ -14,6 +15,9 @@ import '../../styles/pages/sobre.css';
 <Layout
   title="Sobre o projeto — Pretensão Salarial"
   description="Entenda o que é o Pretensão Salarial, como funciona a pesquisa colaborativa de salários e por que a transparência salarial importa para todos."
+  path="/sobre/"
+  schemaType="about"
+  faq={faqSobre}
 >
 
   <!-- 1. Banner — branco -->
@@ -54,10 +58,8 @@ import '../../styles/pages/sobre.css';
     </svg>
   </PageBanner>
 
-  <!-- Publicidade após banner -->
   <AdSlot id="ad-sobre-top" />
 
-  <!-- 2. Nossa missão — branco -->
   <TextSection
     tag="Nossa missão"
     title="Acabar com o tabu do salário no Brasil"
@@ -68,7 +70,6 @@ import '../../styles/pages/sobre.css';
     ]}
   />
 
-  <!-- 3. Nossos princípios — surface (InsightCards nativo) -->
   <InsightCards
     title="Nossos princípios"
     cards={[
@@ -81,10 +82,8 @@ import '../../styles/pages/sobre.css';
     ]}
   />
 
-  <!-- Publicidade após Nossos princípios -->
   <AdSlot id="ad-sobre-middle" />
 
-  <!-- 4. Como funciona — surface (NumberCards nativo) -->
   <NumberCards
     title="Como funciona"
     cards={[
@@ -94,7 +93,6 @@ import '../../styles/pages/sobre.css';
     ]}
   />
 
-  <!-- 5. Por que transparência importa — surface (InsightCards nativo) -->
   <InsightCards
     title="Por que a transparência salarial importa"
     cards={[
@@ -107,7 +105,6 @@ import '../../styles/pages/sobre.css';
     ]}
   />
 
-  <!-- 6. Metodologia — branco -->
   <TextSection
     tag="Metodologia"
     title="Como os dados são coletados e calculados"
@@ -119,7 +116,6 @@ import '../../styles/pages/sobre.css';
     ]}
   />
 
-  <!-- 7. CtaCard -->
   <CtaCard
     title="Faça parte da pesquisa"
     text="Seu salário, anonimizado, ajuda milhares de profissionais a negociar melhor. Leva menos de 3 minutos."
@@ -127,18 +123,8 @@ import '../../styles/pages/sobre.css';
     href="/cadastro/"
   />
 
-  <!-- 8. FaqSection — surface (nativo) -->
   <div class="section-alt">
-    <FaqSection
-      title="Dúvidas sobre o projeto"
-      items={[
-        { pergunta: 'Quem mantém o Pretensão Salarial?', resposta: 'É um projeto independente, mantido de forma voluntária. Não temos vínculo com empresas de recrutamento, consultorias de RH ou qualquer organização com interesse comercial nos dados.' },
-        { pergunta: 'Como o projeto se sustenta financeiramente?', resposta: 'Atualmente por meio de publicidade não intrusiva (banners reservados no layout). Nunca vendemos dados e nunca aceitamos patrocínio de empresas com conflito de interesse com os dados.' },
-        { pergunta: 'Os dados são verificados?', resposta: 'Não verificamos vínculos empregatícios — isso seria incompatível com o anonimato. Usamos proteções técnicas para dificultar inserções em massa e monitoramos a base para identificar padrões atípicos.' },
-        { pergunta: 'Posso sugerir melhorias ou reportar problemas?', resposta: 'Sim! Você pode enviar uma mensagem em nossa página de <a href="/contato/">contato</a>' },
-        { pergunta: 'A consulta sempre será gratuita?', resposta: 'Atualmente a consulta é totalmente gratuita e não exige cadastro. Esse é nosso modelo hoje e pretendemos mantê-lo assim pelo maior tempo possível.' },
-      ]}
-    />
+    <FaqSection title="Dúvidas sobre o projeto" items={faqSobre} />
   </div>
 
 </Layout>

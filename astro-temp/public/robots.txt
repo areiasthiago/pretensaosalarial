@@ -1,2 +1,6 @@
+# Olá caro amigo. Já mataram o SEO hoje?
+
 User-agent: *
 Allow: /
+
+Sitemap: https://pretensaosalarial.com.br/sitemap-index.xml
