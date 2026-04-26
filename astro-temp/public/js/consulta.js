@@ -202,7 +202,7 @@ async function buscar() {
 
   const { data, error } = await query
 
-  if (error || !data || data.length < 5) {
+  if (error || !data || data.length < 10) {
     document.getElementById('stat-mediana').textContent = '—'
     document.getElementById('stat-minimo').textContent = '—'
     document.getElementById('stat-maximo').textContent = '—'
