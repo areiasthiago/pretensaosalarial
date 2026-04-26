@@ -208,7 +208,7 @@ async function enviarCadastro() {
   }
 
   const email = document.getElementById('email').value.trim()
-  const cargo = document.getElementById('cargo').value.trim()
+  const cargo = document.getElementById('cargo').value.trim().toUpperCase()
   const area = document.getElementById('area').value.trim()
   const nivel = document.getElementById('nivel').value
   const posicao = document.getElementById('posicao').value
