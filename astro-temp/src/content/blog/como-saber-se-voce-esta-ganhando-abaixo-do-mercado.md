@@ -3,16 +3,16 @@ title: "Como saber se você está ganhando abaixo do mercado"
 date: 2025-11-27
 author: "Thiago Areias"
 description: "Descubra como identificar se seu salário está abaixo do mercado considerando contexto, escopo e referências comparáveis."
+summary: "Para saber se seu salário está defasado, não basta se comparar com um caso isolado. A leitura precisa considerar escopo, senioridade, região, pacote e contexto."
 category: "Mercado de trabalho"
 ---
-
 # Como saber se você está ganhando abaixo do mercado
 
 Essa é uma pergunta que muitas pessoas fazem em algum momento da carreira: **será que estou ganhando abaixo do mercado?** O problema é que a resposta não pode ser baseada apenas em comparação solta com colegas, casos isolados ou impressões superficiais.
 
 Para avaliar isso bem, você precisa de contexto.
 
-Esse tema fica mais claro quando você cruza a leitura com [Média, mediana e faixa salarial: como interpretar sem se enganar](/blog/media-mediana-e-faixa-salarial-como-interpretar-sem-se-enganar/).
+Antes de tirar qualquer conclusão, vale entender [como interpretar média, mediana e faixa salarial sem se enganar](/blog/media-mediana-e-faixa-salarial-como-interpretar-sem-se-enganar/).
 
 ## O que significa “abaixo do mercado”
 
@@ -94,7 +94,7 @@ Evite:
 - reagir sem organizar contexto
 - tratar sensação como diagnóstico fechado
 
-Na prática, essa leitura fica ainda mais útil quando conectada a [Região importa: como ajustar sua pretensão salarial à sua cidade ou estado](/blog/regiao-importa-como-ajustar-sua-pretensao-salarial-a-sua-cidade-ou-estado/).
+Na prática, isso se conecta com [como ajustar sua pretensão salarial à sua cidade ou ao seu estado](/blog/como-ajustar-sua-pretensao-salarial-a-sua-cidade-ou-ao-seu-estado/).
 
 ## Conclusão
 

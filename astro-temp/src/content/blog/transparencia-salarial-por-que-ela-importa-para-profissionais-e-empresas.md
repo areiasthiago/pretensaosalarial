@@ -3,16 +3,16 @@ title: "Transparência salarial: por que ela importa para profissionais e empres
 date: 2026-04-23
 author: "Thiago Areias"
 description: "Entenda por que a transparência salarial importa para profissionais, empresas e para a maturidade do mercado de trabalho."
+summary: "Transparência salarial importa porque ajuda profissionais a entender melhor seu valor de mercado, negociar com mais critério e perceber possíveis defasagens."
 category: "Mercado de trabalho"
 ---
-
 # Transparência salarial: por que ela importa para profissionais e empresas
 
-Transparência salarial ainda é um tema que gera desconforto em muitos contextos, mas cada vez mais aparece como peça importante de um mercado de trabalho mais maduro. Quando os salários são tratados como tema totalmente opaco, profissionais tomam decisões piores e empresas também perdem qualidade na relação com talentos.
+Transparência salarial ainda é um tema que gera desconforto em muitos contextos, mas cada vez mais aparece como peça importante de um mercado de trabalho mais maduro. Quando salário vira um assunto pouco transparente, profissionais tomam decisões piores e empresas também perdem qualidade na relação com talentos.
 
 Transparência não resolve tudo. Mas melhora muito o jogo.
 
-Um bom complemento para essa discussão é [Desigualdade salarial: como entender os recortes do mercado de trabalho](/blog/desigualdade-salarial-como-entender-os-recortes-do-mercado-de-trabalho/).
+Esse tema fica ainda mais claro quando você entende [os recortes do mercado de trabalho e os impactos da desigualdade salarial](/blog/desigualdade-salarial-como-entender-os-recortes-do-mercado-de-trabalho/).
 
 ## O que significa transparência salarial
 
@@ -21,7 +21,7 @@ Transparência salarial não precisa significar exposição total e irrestrita d
 - critérios mais claros de remuneração
 - parâmetros de evolução
 - maior previsibilidade
-- menos opacidade na negociação
+- mais clareza na negociação
 
 ## Por que isso importa para profissionais
 
@@ -41,7 +41,7 @@ Para empresas, transparência pode contribuir para:
 - mais confiança interna
 - menos ruído em relação a critérios de remuneração
 
-## O problema da opacidade total
+## O problema da falta de transparência
 
 Quando salário é tratado como caixa-preta absoluta:
 - comparações viram boato
@@ -66,14 +66,14 @@ O valor da transparência está em dar referências melhores, não em fingir que
 
 Evite:
 - tratar transparência como exposição total obrigatória
-- achar que opacidade beneficia todo mundo
+- achar que a falta de transparência beneficia todo mundo
 - confundir faixa com rigidez absoluta
 - ignorar que critérios claros ajudam o mercado inteiro
 
-Esse raciocínio ganha ainda mais força quando você compara com [Como pedir aumento no emprego atual com mais segurança](/blog/como-pedir-aumento-no-emprego-atual-com-mais-seguranca/).
+Isso aparece com força quando chega a hora de [pedir aumento no emprego atual com mais segurança](/blog/como-pedir-aumento-no-emprego-atual-com-mais-seguranca/).
 
 ## Conclusão
 
 Transparência salarial importa porque reduz assimetria de informação e melhora a qualidade das decisões. Para profissionais, isso significa mais clareza e força de negociação. Para empresas, significa mais alinhamento e relações mais maduras.
 
-Depois disso, vale aprofundar **desigualdade salarial: como entender os recortes do mercado de trabalho**.
+

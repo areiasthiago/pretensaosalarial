@@ -3,16 +3,16 @@ title: "Como negociar salário sem parecer inflexível"
 date: 2026-01-06
 author: "Thiago Areias"
 description: "Aprenda a negociar salário com firmeza e flexibilidade, sem soar travado nem enfraquecer sua posição."
+summary: "Negociar bem não é endurecer a conversa nem aceitar tudo para parecer fácil. O equilíbrio está em defender seu valor com clareza, sem rigidez desnecessária."
 category: "Negociação salarial"
 ---
-
 # Como negociar salário sem parecer inflexível
 
 Negociar salário não significa entrar em uma conversa de confronto. Também não significa aceitar qualquer proposta para parecer fácil de lidar. O ponto de equilíbrio está em conseguir defender seu valor sem transmitir rigidez desnecessária.
 
 É isso que diferencia uma negociação madura de uma negociação mal conduzida.
 
-Antes de avançar, vale também entender [Quando aceitar a proposta e quando fazer contraproposta](/blog/quando-aceitar-a-proposta-e-quando-fazer-contraproposta/).
+Isso fica mais claro quando você entende [quando faz sentido aceitar a proposta e quando vale contrapropor](/blog/quando-aceitar-a-proposta-e-quando-fazer-contraproposta/).
 
 ## Por que tanta gente trava nessa conversa
 
@@ -105,7 +105,7 @@ Evite:
 - mudar sua faixa a cada nova frase
 - tratar a negociação como disputa de ego
 
-Esse ponto conversa diretamente com [Como definir sua pretensão salarial sem chutar](/blog/como-definir-sua-pretensao-salarial-sem-chutar/).
+Na prática, tudo isso começa antes da negociação em si, quando você aprende [como definir sua pretensão salarial sem apelar para um mero chute](/blog/como-definir-sua-pretensao-salarial-com-mais-criterio/).
 
 ## Conclusão
 

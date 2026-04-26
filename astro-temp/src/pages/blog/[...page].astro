@@ -56,7 +56,6 @@ function pageHref(n: number) {
   description="Artigos sobre salários, negociação, mercado de trabalho e carreira no Brasil."
   path="/blog/"
   schemaType="blog"
-  noindex
 >
   <BlogHeader
     titulo="Blog"
@@ -79,7 +78,7 @@ function pageHref(n: number) {
                 {post.data.category}
               </span>
               <h2 class="blog-card-titulo">{post.data.title}</h2>
-              <p class="blog-card-descricao">{post.data.description}</p>
+              <p class="blog-card-descricao">{post.data.summary}</p>
               <div class="blog-card-meta">
                 {post.data.author} · {formatDate(post.data.date)}
               </div>

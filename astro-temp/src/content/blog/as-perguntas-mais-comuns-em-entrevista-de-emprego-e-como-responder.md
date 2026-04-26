@@ -3,16 +3,16 @@ title: "As perguntas mais comuns em entrevista de emprego e como responder"
 date: 2025-10-07
 author: "Thiago Areias"
 description: "Conheça as perguntas mais comuns em entrevistas de emprego e veja como responder de forma clara, estratégica e convincente."
+summary: "As perguntas podem mudar um pouco de forma, mas quase sempre testam as mesmas coisas: clareza, maturidade, aderência e motivação. Se você entende isso, a entrevista fica bem menos ameaçadora."
 category: "Entrevista de emprego"
 ---
-
 # As perguntas mais comuns em entrevista de emprego e como responder
 
 Grande parte da ansiedade em uma entrevista vem do medo de ser pego de surpresa. A boa notícia é que muitas perguntas se repetem. Elas podem mudar um pouco de formato, mas costumam testar os mesmos pontos: trajetória, clareza, motivação, maturidade e aderência.
 
 Saber quais são as perguntas mais comuns não serve para decorar respostas artificiais. Serve para evitar improviso ruim.
 
-Esse tema fica mais claro quando você cruza a leitura com [Como responder “qual é a sua pretensão salarial?” na entrevista](/blog/como-responder-qual-e-a-sua-pretensao-salarial-na-entrevista/).
+Inclusive em momentos mais sensíveis, como quando o recrutador pergunta sua pretensão salarial e você precisa entender [o que ele quer ouvir](/blog/o-que-o-recrutador-quer-ouvir-quando-pergunta-sua-pretensao-salarial/).
 
 ## 1. Fale sobre você
 
@@ -127,7 +127,7 @@ Evite:
 - falar mal de antigos empregadores
 - improvisar a parte salarial
 
-Na prática, essa leitura fica ainda mais útil quando conectada a [O que responder quando pedem pretensão salarial na entrevista](/blog/o-que-responder-quando-pedem-pretensao-salarial-na-entrevista/).
+E, se essa pergunta vier de forma mais direta, vale saber [o que responder quando pedem sua pretensão salarial](/blog/o-que-responder-quando-pedem-pretensao-salarial-na-entrevista/).
 
 ## Conclusão
 

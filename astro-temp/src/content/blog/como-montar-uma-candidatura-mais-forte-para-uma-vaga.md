@@ -3,16 +3,16 @@ title: "Como montar uma candidatura mais forte para uma vaga"
 date: 2026-02-03
 author: "Thiago Areias"
 description: "Aprenda a montar uma candidatura mais forte com currículo, posicionamento e leitura de vaga mais alinhados."
+summary: "Candidatura forte não é só enviar currículo. É facilitar para a empresa entender por que você faz sentido para aquela vaga específica."
 category: "Busca e candidatura"
 ---
-
 # Como montar uma candidatura mais forte para uma vaga
 
 Uma candidatura forte não é apenas o envio de um currículo. Ela é o resultado de uma boa leitura da vaga, de um posicionamento coerente e de uma apresentação que facilite para a empresa enxergar seu valor.
 
 Em outras palavras: não basta se candidatar. É preciso fazer sentido.
 
-Esse tema fica mais claro quando você cruza a leitura com [Erros que fazem sua candidatura ser ignorada](/blog/erros-que-fazem-sua-candidatura-ser-ignorada/).
+Antes de avançar, vale olhar também para [os erros que fazem uma candidatura ser ignorada](/blog/erros-que-fazem-sua-candidatura-ser-ignorada/).
 
 ## O que enfraquece uma candidatura
 
@@ -89,7 +89,7 @@ Evite:
 - destacar experiências pouco conectadas ao escopo
 - enviar candidatura para vaga que você não consegue sustentar
 
-Na prática, essa leitura fica ainda mais útil quando conectada a [Como adaptar o currículo para cada vaga sem começar do zero](/blog/como-adaptar-o-curriculo-para-cada-vaga-sem-comecar-do-zero/).
+Na prática, isso se conecta com [como adaptar o currículo para cada vaga sem começar do zero](/blog/como-adaptar-o-curriculo-para-cada-vaga-sem-comecar-do-zero/).
 
 ## Conclusão
 

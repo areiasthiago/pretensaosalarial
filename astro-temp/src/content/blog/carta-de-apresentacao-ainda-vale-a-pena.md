@@ -3,16 +3,16 @@ title: "Carta de apresentação ainda vale a pena?"
 date: 2025-10-02
 author: "Thiago Areias"
 description: "Entenda quando a carta de apresentação ainda faz sentido e como usá-la sem desperdiçar esforço."
+summary: "Ela não é obrigatória em todo processo, mas em alguns contextos ainda ajuda bastante. A questão não é usar sempre, e sim saber quando ela realmente agrega."
 category: "Currículo"
 ---
-
 # Carta de apresentação ainda vale a pena?
 
 A carta de apresentação já foi vista como peça obrigatória em quase toda candidatura. Hoje, ela perdeu espaço em muitos processos, mas isso não significa que tenha se tornado inútil. Em alguns contextos, ela ainda pode ajudar bastante. Em outros, é só mais um esforço com pouco impacto real.
 
 O ponto não é usar sempre. É saber quando faz sentido.
 
-Um bom complemento para essa discussão é [Como melhorar seu LinkedIn para atrair recrutadores](/blog/como-melhorar-seu-linkedin-para-atrair-recrutadores/).
+Essa decisão fica melhor quando seu posicionamento já está claro, inclusive no [LinkedIn](/blog/como-melhorar-seu-linkedin-para-atrair-recrutadores/).
 
 ## Quando a carta pode ajudar
 
@@ -70,10 +70,10 @@ Evite:
 - usar tom artificial
 - tratar a carta como peça obrigatória em qualquer cenário
 
-Esse raciocínio ganha ainda mais força quando você compara com [As perguntas mais comuns em entrevista de emprego e como responder](/blog/as-perguntas-mais-comuns-em-entrevista-de-emprego-e-como-responder/).
+Quando a carta existe, ela também precisa conversar com [as perguntas mais comuns em entrevista de emprego e como responder](/blog/as-perguntas-mais-comuns-em-entrevista-de-emprego-e-como-responder/).
 
 ## Conclusão
 
 Carta de apresentação ainda vale a pena em alguns contextos, especialmente quando ajuda a conectar melhor sua trajetória à vaga. Fora disso, nem sempre ela é necessária. O melhor uso é estratégico, não automático.
 
-Depois disso, vale aprofundar **como melhorar seu LinkedIn para atrair recrutadores**.
+

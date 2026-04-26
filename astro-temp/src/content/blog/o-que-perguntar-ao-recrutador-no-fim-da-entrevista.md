@@ -3,16 +3,16 @@ title: "O que perguntar ao recrutador no fim da entrevista"
 date: 2026-04-14
 author: "Thiago Areias"
 description: "Saiba o que perguntar ao recrutador no fim da entrevista para demonstrar interesse, maturidade e entender melhor a vaga."
+summary: "Quando a entrevista termina, dizer que não tem nenhuma pergunta pode desperdiçar um ótimo momento. Esse espaço serve tanto para mostrar interesse quanto para avaliar melhor a vaga."
 category: "Entrevista de emprego"
 ---
-
 # O que perguntar ao recrutador no fim da entrevista
 
 Quando a entrevista está terminando, é comum ouvir: **“você tem alguma pergunta?”** Muita gente responde “não” por nervosismo, pressa ou por achar que isso não faz diferença. Faz, sim.
 
 Esse momento não serve só para parecer interessado. Ele serve também para você avaliar a oportunidade com mais qualidade.
 
-Um bom complemento para essa discussão é [Como ganhar confiança para entrevistas e negociar melhor](/blog/como-ganhar-confianca-para-entrevistas-e-negociar-melhor/).
+Essas perguntas costumam sair melhor quando você já desenvolveu [mais confiança para entrevistas e para negociar melhor](/blog/como-ganhar-confianca-para-entrevistas-e-negociar-melhor/).
 
 ## Por que vale fazer perguntas
 
@@ -109,7 +109,7 @@ Isso ajuda porque:
 - você evita ficar em branco
 - consegue adaptar ao contexto real da entrevista
 
-Esse raciocínio ganha ainda mais força quando você compara com [O que colocar no resumo profissional do currículo](/blog/o-que-colocar-no-resumo-profissional-do-curriculo/).
+E, como parte dessa leitura começa antes mesmo da conversa, vale revisar [o que colocar no resumo profissional do currículo](/blog/o-que-colocar-no-resumo-profissional-do-curriculo/).
 
 ## Conclusão
 

@@ -3,16 +3,16 @@ title: "Como negociar salário por e-mail ou WhatsApp"
 date: 2025-12-16
 author: "Thiago Areias"
 description: "Aprenda a negociar salário por escrito com clareza, respeito e boa estrutura em e-mail ou WhatsApp."
+summary: "Negociar por escrito exige mais precisão do que no ao vivo. A boa mensagem é clara, respeitosa e firme na medida certa, sem soar seca ou longa demais."
 category: "Negociação salarial"
 ---
-
 # Como negociar salário por e-mail ou WhatsApp
 
 Nem toda negociação salarial acontece ao vivo. Muitas vezes, a proposta chega por e-mail ou WhatsApp, e a resposta também precisa seguir por escrito. Isso muda a dinâmica da conversa: você ganha tempo para organizar a mensagem, mas perde parte do tom e da leitura do momento.
 
 Negociar bem por texto exige ainda mais clareza.
 
-Antes de avançar, vale também entender [O que fazer quando a empresa diz que não pode aumentar o salário](/blog/o-que-fazer-quando-a-empresa-diz-que-nao-pode-aumentar-o-salario/).
+Se a empresa disser que não há margem para subir o fixo, a conversa muda, e por isso vale entender [o que fazer quando a empresa diz que não pode aumentar o salário](/blog/o-que-fazer-quando-a-empresa-diz-que-nao-pode-aumentar-o-salario/).
 
 ## O que muda na negociação por escrito
 
@@ -95,7 +95,7 @@ Evite:
 
 > Obrigado pela proposta e pelo cuidado no processo. Gostei bastante da oportunidade e sigo interessado na posição. Considerando o escopo da vaga, minha experiência e a faixa que eu vinha trabalhando para esse tipo de contexto, eu imaginava uma remuneração um pouco acima. Existe possibilidade de ajustarmos esse ponto?
 
-Esse ponto conversa diretamente com [Salário CLT x PJ: como comparar de verdade](/blog/salario-clt-x-pj-como-comparar-de-verdade/).
+Essa leitura também fica mais segura quando você já sabe [como comparar salário CLT e PJ de verdade](/blog/salario-clt-x-pj-como-comparar-de-verdade/).
 
 ## Conclusão
 

@@ -1,18 +1,18 @@
 ---
-title: "Erros que fazem você pedir uma pretensão salarial abaixo do mercado"
+title: "Os erros que fazem muita gente pedir menos do que o mercado pode pagar"
 date: 2026-01-01
 author: "Thiago Areias"
-description: "Conheça os erros mais comuns que levam profissionais a pedir uma pretensão salarial abaixo do mercado e como evitá-los."
+description: "Conheça os erros que fazem muita gente pedir menos do que o mercado pode pagar e aprenda a evitá-los."
+summary: "Muita gente pede menos do que vale por medo, improviso ou falta de referência. O problema é que esse erro não pesa só na proposta inicial: ele pode te acompanhar por muito tempo."
 category: "Pretensão salarial"
 ---
-
-# Erros que fazem você pedir uma pretensão salarial abaixo do mercado
+# Os erros que fazem muita gente pedir menos do que o mercado pode pagar
 
 Pedir abaixo do mercado raramente acontece por falta de capacidade. Na maioria das vezes, acontece por falta de critério, insegurança ou leitura incompleta do contexto. E esse tipo de erro pode custar caro, porque o impacto não fica só na proposta inicial. Ele pode se arrastar por meses ou anos.
 
 Se você quer se proteger, o primeiro passo é reconhecer os erros mais comuns.
 
-Um bom complemento para essa discussão é [Como usar dados de mercado para defender sua pretensão salarial](/blog/como-usar-dados-de-mercado-para-defender-sua-pretensao-salarial/).
+Para não cair nisso, uma das saídas mais úteis é aprender [como usar dados de mercado para sustentar sua pretensão salarial](/blog/como-usar-dados-de-mercado-para-sustentar-sua-pretensao-salarial/).
 
 ## 1. Usar o salário atual como teto
 
@@ -125,7 +125,7 @@ Depois disso, treine uma resposta curta, clara e contextualizada.
 
 Essa estrutura já evita boa parte dos erros acima.
 
-Esse raciocínio ganha ainda mais força quando você compara com [Como saber se você está ganhando abaixo do mercado](/blog/como-saber-se-voce-esta-ganhando-abaixo-do-mercado/).
+Esse tipo de distorção também aparece quando você tenta [entender se está ganhando abaixo do mercado](/blog/como-saber-se-voce-esta-ganhando-abaixo-do-mercado/).
 
 ## Conclusão
 
@@ -133,4 +133,3 @@ Pedir abaixo do mercado quase nunca é fruto de uma única falha. Normalmente é
 
 Quando você entende os erros mais comuns, para de responder no escuro e começa a se posicionar com mais segurança.
 
-O próximo passo é aprender **como usar dados de mercado para defender sua pretensão salarial**.

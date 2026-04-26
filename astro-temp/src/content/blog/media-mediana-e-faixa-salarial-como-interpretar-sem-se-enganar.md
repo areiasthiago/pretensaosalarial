@@ -3,16 +3,16 @@ title: "Média, mediana e faixa salarial: como interpretar sem se enganar"
 date: 2026-01-29
 author: "Thiago Areias"
 description: "Entenda a diferença entre média, mediana e faixa salarial para interpretar salários com mais clareza."
+summary: "Um único número pode enganar bastante quando se fala de salário. Entender diferença entre média, mediana e faixa ajuda a ler o mercado com muito mais critério."
 category: "Mercado de trabalho"
 ---
-
 # Média, mediana e faixa salarial: como interpretar sem se enganar
 
 Quando alguém busca referência salarial, é comum se deparar com três ideias que parecem semelhantes, mas não são: média, mediana e faixa salarial. Entender a diferença entre elas é essencial para não tirar conclusões apressadas sobre o próprio valor de mercado.
 
 Sem essa leitura, um número aparentemente útil pode enganar.
 
-Um bom complemento para essa discussão é [O que mais pesa no salário além da experiência](/blog/o-que-mais-pesa-no-salario-alem-da-experiencia/).
+Essa leitura melhora bastante quando você entende [o que mais pesa no salário além da experiência](/blog/o-que-mais-pesa-no-salario-alem-da-experiencia/).
 
 ## O que é média salarial
 
@@ -74,7 +74,7 @@ Evite:
 - esquecer que a distribuição pode ser desigual
 - interpretar dado salarial sem ajustar contexto
 
-Esse raciocínio ganha ainda mais força quando você compara com [Como definir sua pretensão salarial sem chutar](/blog/como-definir-sua-pretensao-salarial-sem-chutar/).
+No fim das contas, essa conversa também passa por [como definir sua pretensão salarial sem apelar para um mero chute](/blog/como-definir-sua-pretensao-salarial-com-mais-criterio/).
 
 ## Conclusão
 

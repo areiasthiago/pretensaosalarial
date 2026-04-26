@@ -3,6 +3,7 @@ import '@fontsource-variable/dm-sans/index.css'
 import '../styles/main.css'
 import AdSlot from '../components/AdSlot.astro'
 import SchemaOrg from '../components/SchemaOrg.astro'
+import CookieBanner from '../components/CookieBanner.astro'
 import pkg from '../../package.json'
 
 interface FaqItem {
@@ -75,7 +76,7 @@ const {
       </a>
       <div class="navbar-links">
         <a href="/sobre/">Sobre</a>
-        <!--<a href="/blog/">Blog</a> -->
+        <a href="/blog/">Blog</a>
         <a href="/consulta/">Consultar salários</a>
         <a href="/cadastro/" class="btn btn-primary btn-sm">Cadastrar meu salário</a>
       </div>
@@ -110,6 +111,8 @@ const {
       <p>© 2026 Pretensão Salarial · <a href="/privacidade/">Privacidade</a> · <a href="/termos/">Termos de uso</a> · <a href="/contato/">Contato</a></p>
     </div>
   </footer>
+
+  <CookieBanner />
 
 </body>
 </html>

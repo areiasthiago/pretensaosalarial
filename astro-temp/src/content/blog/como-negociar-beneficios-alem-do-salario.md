@@ -3,16 +3,16 @@ title: "Como negociar benefícios além do salário"
 date: 2025-11-25
 author: "Thiago Areias"
 description: "Veja como negociar benefícios além do salário quando o valor fixo não muda ou quando o pacote ainda pode melhorar."
+summary: "Quando o fixo trava, outros elementos podem fazer diferença real. Benefícios, bônus, ajuda de custo e revisão futura podem mudar bastante o valor percebido da proposta."
 category: "Negociação salarial"
 ---
-
 # Como negociar benefícios além do salário
 
 Negociação salarial não se resume ao salário fixo. Em muitos casos, a empresa tem pouca margem para aumentar o valor mensal, mas ainda consegue ajustar outros elementos da proposta. Saber olhar para isso amplia sua capacidade de negociação e melhora sua leitura do valor real da oportunidade.
 
 Proposta é pacote, não apenas número.
 
-Um bom complemento para essa discussão é [Como usar dados de mercado para sustentar sua negociação](/blog/como-usar-dados-de-mercado-para-sustentar-sua-negociacao/).
+Essa conversa fica mais forte quando você já tem base para [usar dados de mercado para sustentar sua negociação](/blog/como-usar-dados-de-mercado-para-sustentar-sua-negociacao/).
 
 ## Por que benefícios entram na negociação
 
@@ -85,7 +85,7 @@ Evite:
 - tratar benefício indireto como compensação automática para qualquer diferença salarial
 - perder de vista seu piso real
 
-Esse raciocínio ganha ainda mais força quando você compara com [Como definir sua pretensão salarial sem chutar](/blog/como-definir-sua-pretensao-salarial-sem-chutar/).
+E, para saber se esse pacote compensa de verdade, ajuda começar por [definir sua pretensão salarial sem apelar para um mero chute](/blog/como-definir-sua-pretensao-salarial-com-mais-criterio/).
 
 ## Conclusão
 

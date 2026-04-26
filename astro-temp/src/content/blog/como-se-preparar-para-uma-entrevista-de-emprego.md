@@ -3,16 +3,16 @@ title: "Como se preparar para uma entrevista de emprego"
 date: 2026-01-20
 author: "Thiago Areias"
 description: "Veja como se preparar para uma entrevista de emprego com mais clareza, confiança e estratégia antes de falar com o recrutador."
+summary: "Se preparar para entrevista não é decorar resposta pronta. É chegar com clareza sobre a vaga, sobre sua trajetória e sobre o que você quer transmitir naquela conversa."
 category: "Entrevista de emprego"
 ---
-
 # Como se preparar para uma entrevista de emprego
 
 Ir para uma entrevista sem preparo é uma das formas mais simples de desperdiçar uma boa oportunidade. Mesmo profissionais experientes podem performar mal quando entram em uma conversa importante sem ter organizado minimamente o que vão dizer, o que precisam entender e como pretendem se posicionar.
 
 Se preparar para uma entrevista não é decorar respostas. É chegar com clareza.
 
-Antes de avançar, vale também entender [As perguntas mais comuns em entrevista de emprego e como responder](/blog/as-perguntas-mais-comuns-em-entrevista-de-emprego-e-como-responder/).
+Boa parte dessa preparação passa por entender [as perguntas mais comuns em entrevista de emprego e como responder](/blog/as-perguntas-mais-comuns-em-entrevista-de-emprego-e-como-responder/).
 
 ## Por que preparação faz tanta diferença
 
@@ -144,7 +144,7 @@ Evite:
 - responder tudo de forma genérica
 - entrar na conversa sem perguntas
 
-Esse ponto conversa diretamente com [Como definir sua pretensão salarial sem chutar](/blog/como-definir-sua-pretensao-salarial-sem-chutar/).
+E, como esse tema costuma aparecer no processo, também ajuda [definir sua pretensão salarial sem apelar para um mero chute](/blog/como-definir-sua-pretensao-salarial-com-mais-criterio/).
 
 ## Conclusão
 

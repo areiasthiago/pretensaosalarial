@@ -3,16 +3,16 @@ title: "Como usar dados de mercado para sustentar sua negociação"
 date: 2026-02-17
 author: "Thiago Areias"
 description: "Aprenda a usar dados de mercado e referências salariais para sustentar sua negociação com mais clareza."
+summary: "Negociar só com base em sensação enfraquece sua fala. Dados ajudam a tirar a conversa do improviso e dão mais firmeza para justificar sua leitura de valor."
 category: "Negociação salarial"
 ---
-
 # Como usar dados de mercado para sustentar sua negociação
 
 Negociar com base apenas em sensação costuma enfraquecer sua posição. Já negociar com base em dados ajuda a tirar a conversa do campo do improviso e levá-la para um terreno mais racional. Isso não garante aumento automático, mas melhora muito a qualidade da sua argumentação.
 
 Dados não servem para endurecer a conversa. Servem para fundamentá-la.
 
-Antes de avançar, vale também entender [Erros que enfraquecem sua negociação salarial](/blog/erros-que-enfraquecem-sua-negociacao-salarial/).
+Antes de colocar dados na mesa, vale reconhecer [os erros que enfraquecem uma negociação salarial](/blog/erros-que-enfraquecem-sua-negociacao-salarial/).
 
 ## Por que dados ajudam tanto
 
@@ -89,7 +89,7 @@ Dados costumam ganhar mais peso quando:
 - precisa sustentar melhor seu pedido
 - percebe desalinhamento entre escopo e valor
 
-Esse ponto conversa diretamente com [Como usar dados de mercado para defender sua pretensão salarial](/blog/como-usar-dados-de-mercado-para-defender-sua-pretensao-salarial/).
+Isso fica ainda mais convincente quando você já sabe [como usar dados de mercado para sustentar sua pretensão salarial](/blog/como-usar-dados-de-mercado-para-sustentar-sua-pretensao-salarial/).
 
 ## Conclusão
 

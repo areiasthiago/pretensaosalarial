@@ -3,16 +3,16 @@ title: "Como fazer uma contraproposta salarial do jeito certo"
 date: 2025-11-04
 author: "Thiago Areias"
 description: "Veja como fazer uma contraproposta salarial com clareza, justificativa e boa condução da conversa."
+summary: "Contraproposta não é confronto. Quando bem feita, ela mostra interesse real na vaga, clareza sobre sua faixa e maturidade para conduzir a conversa."
 category: "Negociação salarial"
 ---
-
 # Como fazer uma contraproposta salarial do jeito certo
 
 Fazer uma contraproposta salarial pode parecer desconfortável, mas isso não significa que seja inadequado. Em muitos processos, a contraproposta é uma etapa natural de alinhamento. O problema costuma estar menos no ato de negociar e mais na forma como a conversa é conduzida.
 
 Uma boa contraproposta não é um chute para cima. É uma resposta pensada.
 
-Um bom complemento para essa discussão é [Como negociar salário por e-mail ou WhatsApp](/blog/como-negociar-salario-por-e-mail-ou-whatsapp/).
+Como muita contraproposta acaba acontecendo por escrito, também vale entender [como negociar salário por e-mail ou WhatsApp](/blog/como-negociar-salario-por-e-mail-ou-whatsapp/).
 
 ## O que é uma contraproposta bem feita
 
@@ -101,7 +101,7 @@ Isso pode acontecer. Nessa hora, você precisa decidir:
 
 Negociar bem também inclui saber encerrar bem.
 
-Esse raciocínio ganha ainda mais força quando você compara com [Como benefícios mudam o valor real de uma proposta](/blog/como-beneficios-mudam-o-valor-real-de-uma-proposta/).
+Isso fica mais fácil quando você também enxerga [como os benefícios mudam o valor real de uma proposta](/blog/como-beneficios-mudam-o-valor-real-de-uma-proposta/).
 
 ## Conclusão
 

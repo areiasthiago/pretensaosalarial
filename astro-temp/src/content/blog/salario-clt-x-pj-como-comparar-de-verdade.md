@@ -3,16 +3,16 @@ title: "Salário CLT x PJ: como comparar de verdade"
 date: 2026-04-02
 author: "Thiago Areias"
 description: "Entenda como comparar salários CLT e PJ considerando estrutura, risco, benefícios e valor real da proposta."
+summary: "Comparar CLT e PJ só pelo valor mensal é receita para tirar conclusão errada. O que importa é olhar estrutura, benefícios, risco, previsibilidade e custo real."
 category: "Mercado de trabalho"
 ---
-
 # Salário CLT x PJ: como comparar de verdade
 
 Comparar uma proposta CLT com uma proposta PJ olhando apenas para o valor mensal é um dos atalhos mais perigosos na leitura salarial. Isso acontece porque os dois modelos distribuem custos, riscos e benefícios de formas muito diferentes.
 
 Se a comparação não for bem feita, a conclusão pode sair errada.
 
-Antes de avançar, vale também entender [Como saber se você está ganhando abaixo do mercado](/blog/como-saber-se-voce-esta-ganhando-abaixo-do-mercado/).
+Esse raciocínio ganha contexto quando você observa [como avaliar se você está ganhando abaixo do mercado](/blog/como-saber-se-voce-esta-ganhando-abaixo-do-mercado/).
 
 ## Por que CLT e PJ não são equivalentes
 
@@ -87,7 +87,7 @@ Evite:
 - tratar benefício como detalhe irrelevante
 - assumir que todo PJ paga melhor “de verdade”
 
-Esse ponto conversa diretamente com [Como pedir aumento no emprego atual com mais segurança](/blog/como-pedir-aumento-no-emprego-atual-com-mais-seguranca/).
+Isso ajuda bastante quando chega a hora de entender [como pedir aumento no emprego atual com mais segurança](/blog/como-pedir-aumento-no-emprego-atual-com-mais-seguranca/).
 
 ## Conclusão
 

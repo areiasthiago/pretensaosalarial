@@ -3,16 +3,16 @@ title: "Desigualdade salarial: como entender os recortes do mercado de trabalho"
 date: 2026-01-08
 author: "Thiago Areias"
 description: "Veja como entender desigualdade salarial a partir de recortes e diferenças estruturais do mercado de trabalho."
+summary: "Nem toda diferença salarial se explica só por escopo ou senioridade. Olhar recortes com cuidado ajuda a enxergar padrões mais amplos e entender melhor o mercado."
 category: "Mercado de trabalho"
 ---
-
 # Desigualdade salarial: como entender os recortes do mercado de trabalho
 
 Quando falamos sobre salário, nem sempre estamos olhando apenas para diferenças explicadas por escopo, senioridade ou setor. Em muitos casos, também existem desigualdades estruturais que atravessam o mercado de trabalho e afetam a distribuição de remuneração entre grupos.
 
 Entender recortes salariais ajuda a enxergar melhor esse cenário.
 
-Antes de avançar, vale também entender [Transparência salarial: por que ela importa para profissionais e empresas](/blog/transparencia-salarial-por-que-ela-importa-para-profissionais-e-empresas/).
+Esse debate fica mais rico quando você também entende [por que a transparência salarial importa para profissionais e empresas](/blog/transparencia-salarial-por-que-ela-importa-para-profissionais-e-empresas/).
 
 ## Por que olhar recortes importa
 
@@ -68,7 +68,7 @@ Evite:
 - usar dado parcial para simplificar demais um tema complexo
 - achar que desigualdade salarial se explica sempre apenas por mérito ou esforço individual
 
-Esse ponto conversa diretamente com [Região importa: como ajustar sua pretensão salarial à sua cidade ou estado](/blog/regiao-importa-como-ajustar-sua-pretensao-salarial-a-sua-cidade-ou-estado/).
+No fim das contas, essa conversa também passa por [como ajustar sua pretensão salarial à sua cidade ou ao seu estado](/blog/como-ajustar-sua-pretensao-salarial-a-sua-cidade-ou-ao-seu-estado/).
 
 ## Conclusão
 

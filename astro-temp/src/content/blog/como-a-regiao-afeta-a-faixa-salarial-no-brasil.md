@@ -3,16 +3,16 @@ title: "Como a região afeta a faixa salarial no Brasil"
 date: 2025-10-16
 author: "Thiago Areias"
 description: "Veja como cidade, estado, capitais e trabalho remoto influenciam as faixas salariais no Brasil."
+summary: "A mesma profissão não se comporta igual em todo o país. Capital, interior, região e modelo remoto alteram bastante o que costuma fazer sentido em termos salariais."
 category: "Mercado de trabalho"
 ---
-
 # Como a região afeta a faixa salarial no Brasil
 
 A ideia de que existe uma faixa salarial única para cada profissão no país inteiro não corresponde à realidade. No Brasil, região ainda pesa bastante na remuneração, mesmo em um cenário de maior digitalização e avanço do trabalho remoto.
 
 Por isso, entender salário sem olhar geografia costuma gerar distorção.
 
-Um bom complemento para essa discussão é [Salário CLT x PJ: como comparar de verdade](/blog/salario-clt-x-pj-como-comparar-de-verdade/).
+Aqui também faz diferença entender [como comparar salário CLT e PJ de verdade](/blog/salario-clt-x-pj-como-comparar-de-verdade/).
 
 ## Por que região influencia tanto
 
@@ -89,7 +89,7 @@ Uma leitura melhor costuma cruzar:
 - modelo de trabalho
 - pacote total
 
-Esse raciocínio ganha ainda mais força quando você compara com [Como usar dados de mercado para sustentar sua negociação](/blog/como-usar-dados-de-mercado-para-sustentar-sua-negociacao/).
+Esse ponto fica mais claro quando você olha para [como usar dados de mercado para sustentar sua negociação](/blog/como-usar-dados-de-mercado-para-sustentar-sua-negociacao/).
 
 ## Conclusão
 

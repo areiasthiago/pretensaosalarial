@@ -3,16 +3,16 @@ title: "Erros que enfraquecem sua negociação salarial"
 date: 2026-03-10
 author: "Thiago Areias"
 description: "Conheça os erros mais comuns que enfraquecem a negociação salarial e veja como evitá-los."
+summary: "Muita negociação perde força antes mesmo do número final. Falta de faixa, tom ruim, leitura fraca de contexto e medo de se posicionar costumam pesar bastante."
 category: "Negociação salarial"
 ---
-
 # Erros que enfraquecem sua negociação salarial
 
 Nem toda negociação salarial dá errado por causa do número. Muitas vezes, ela perde força por erros de postura, timing, argumentação ou leitura de contexto. O problema é que alguns desses erros são sutis e passam despercebidos, mas afetam bastante o resultado.
 
 Negociar bem depende tanto do conteúdo quanto da condução.
 
-Esse tema fica mais claro quando você cruza a leitura com [Como pedir aumento no emprego atual com mais segurança](/blog/como-pedir-aumento-no-emprego-atual-com-mais-seguranca/).
+Esses erros também aparecem quando a pessoa tenta [pedir aumento no emprego atual com mais segurança](/blog/como-pedir-aumento-no-emprego-atual-com-mais-seguranca/).
 
 ## 1. Entrar na conversa sem faixa definida
 
@@ -81,7 +81,7 @@ Evite:
 - tratar a conversa como conflito pessoal
 - insistir sem ganho real
 
-Na prática, essa leitura fica ainda mais útil quando conectada a [Como benefícios mudam o valor real de uma proposta](/blog/como-beneficios-mudam-o-valor-real-de-uma-proposta/).
+E vários deles ficam mais visíveis quando você entende [como os benefícios mudam o valor real de uma proposta](/blog/como-beneficios-mudam-o-valor-real-de-uma-proposta/).
 
 ## Conclusão
 

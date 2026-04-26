@@ -1,18 +1,18 @@
 ---
-title: "Como usar dados de mercado para defender sua pretensão salarial"
+title: "Como usar dados de mercado para sustentar sua pretensão salarial"
 date: 2025-12-11
 author: "Thiago Areias"
-description: "Veja como usar dados de mercado, referências salariais e contexto da vaga para defender sua pretensão salarial com segurança."
+description: "Veja como usar dados de mercado para sustentar sua pretensão salarial com mais clareza e segurança."
+summary: "Dados de mercado não servem para endurecer a conversa, e sim para tirar sua resposta do achismo. Quando sua faixa tem contexto, fica muito mais fácil sustentá-la com segurança."
 category: "Pretensão salarial"
 ---
-
-# Como usar dados de mercado para defender sua pretensão salarial
+# Como usar dados de mercado para sustentar sua pretensão salarial
 
 Ter uma pretensão salarial em mente já ajuda bastante. Mas o que realmente fortalece sua posição é conseguir sustentar essa faixa com argumento. E é aí que entram os dados de mercado.
 
 Eles não servem para transformar conversa em disputa. Servem para tirar sua resposta do campo do achismo.
 
-Antes de avançar, vale também entender [Erros que fazem você pedir uma pretensão salarial abaixo do mercado](/blog/erros-que-fazem-voce-pedir-uma-pretensao-salarial-abaixo-do-mercado/).
+Isso fica ainda mais claro quando você reconhece [os erros que fazem muita gente pedir menos do que o mercado pode pagar](/blog/erros-que-fazem-pedir-menos-do-que-o-mercado-pode-pagar/).
 
 ## Por que dados fortalecem sua posição
 
@@ -130,7 +130,7 @@ Mesmo com boa referência, a decisão final continua passando por:
 
 Ou seja, dado não substitui julgamento. Ele melhora o julgamento.
 
-Esse ponto conversa diretamente com [Como responder “qual é a sua pretensão salarial?” na entrevista](/blog/como-responder-qual-e-a-sua-pretensao-salarial-na-entrevista/).
+E esses dados pesam ainda mais quando você precisa [responder quando pedem pretensão salarial na entrevista](/blog/o-que-responder-quando-pedem-pretensao-salarial-na-entrevista/).
 
 ## Conclusão
 

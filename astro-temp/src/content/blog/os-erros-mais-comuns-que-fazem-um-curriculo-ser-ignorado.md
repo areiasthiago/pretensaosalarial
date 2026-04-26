@@ -3,16 +3,16 @@ title: "Os erros mais comuns que fazem um currículo ser ignorado"
 date: 2026-04-09
 author: "Thiago Areias"
 description: "Conheça os erros mais frequentes que enfraquecem um currículo e fazem candidaturas serem descartadas mais cedo."
+summary: "Muito currículo é ignorado não por falta de repertório, mas por excesso de generalidade, texto ruim ou pouca aderência à vaga. E vários desses erros são fáceis de corrigir."
 category: "Currículo"
 ---
-
 # Os erros mais comuns que fazem um currículo ser ignorado
 
 Nem sempre um currículo é ignorado porque a pessoa não tem repertório. Muitas vezes, ele passa batido por problemas de apresentação, excesso de generalidade ou falta de aderência à vaga. O desafio é que vários desses erros parecem pequenos, mas fazem muita diferença na triagem.
 
 Entender esses padrões ajuda você a fortalecer o documento antes que ele seja descartado.
 
-Esse tema fica mais claro quando você cruza a leitura com [Como adaptar o currículo para cada vaga sem começar do zero](/blog/como-adaptar-o-curriculo-para-cada-vaga-sem-comecar-do-zero/).
+Boa parte desses problemas diminui quando você aprende [como adaptar o currículo para cada vaga sem começar do zero](/blog/como-adaptar-o-curriculo-para-cada-vaga-sem-comecar-do-zero/).
 
 ## 1. Currículo genérico demais
 
@@ -86,10 +86,10 @@ Evite:
 - layout que dificulta leitura
 - falta de adaptação mínima
 
-Na prática, essa leitura fica ainda mais útil quando conectada a [Como montar uma candidatura mais forte para uma vaga](/blog/como-montar-uma-candidatura-mais-forte-para-uma-vaga/).
+Quando isso acontece, a candidatura como um todo também fica mais forte, inclusive na hora de [montar uma candidatura mais forte para uma vaga](/blog/como-montar-uma-candidatura-mais-forte-para-uma-vaga/).
 
 ## Conclusão
 
 Os erros mais comuns que fazem um currículo ser ignorado quase sempre têm solução. Quando você melhora foco, legibilidade, aderência e clareza, o documento passa a trabalhar melhor a seu favor.
 
-Depois disso, vale aprofundar **como adaptar o currículo para cada vaga sem começar do zero**.
+

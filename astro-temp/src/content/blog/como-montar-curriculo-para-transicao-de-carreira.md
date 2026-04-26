@@ -3,16 +3,16 @@ title: "Como montar currículo para transição de carreira"
 date: 2025-12-25
 author: "Thiago Areias"
 description: "Entenda como montar um currículo para transição de carreira sem apagar sua bagagem anterior."
+summary: "Em transição de carreira, o desafio não é apagar o passado. É mostrar como sua bagagem anterior conversa com a nova direção que você quer construir."
 category: "Currículo"
 ---
-
 # Como montar currículo para transição de carreira
 
 Fazer transição de carreira costuma gerar uma dúvida difícil: como apresentar a trajetória sem parecer desalinhado para a nova área? O receio é comum. De um lado, a pessoa não quer parecer iniciante em tudo. De outro, teme que a bagagem anterior pareça irrelevante.
 
 A chave está em reorganizar a narrativa, não em negar o passado.
 
-Antes de avançar, vale também entender [Currículo para vaga remota: o que destacar](/blog/curriculo-para-vaga-remota-o-que-destacar/).
+Dependendo do contexto, essa reorganização também passa por entender [o que destacar no currículo para uma vaga remota](/blog/curriculo-para-vaga-remota-o-que-destacar/).
 
 ## O que muda em um currículo de transição
 
@@ -82,10 +82,10 @@ Evite:
 - não explicar minimamente a mudança
 - esconder demais a lógica da transição
 
-Esse ponto conversa diretamente com [Como montar uma candidatura mais forte para uma vaga](/blog/como-montar-uma-candidatura-mais-forte-para-uma-vaga/).
+Quando essa história faz sentido no papel, também fica mais fácil [montar uma candidatura mais forte para uma vaga](/blog/como-montar-uma-candidatura-mais-forte-para-uma-vaga/).
 
 ## Conclusão
 
 Montar currículo para transição de carreira é uma questão de posicionamento. Quando você mostra direção clara, bagagem transferível e esforço real de aproximação com a nova área, o documento fica muito mais forte e mais honesto ao mesmo tempo.
 
-Depois disso, vale aprofundar **currículo para vaga remota: o que destacar**.
+

@@ -43,7 +43,6 @@ const h2s = headings.filter(h => h.depth === 2)
   author={post.data.author}
   datePublished={post.data.date.toISOString()}
   category={post.data.category}
-  noindex
 >
   <article class="post-wrapper" data-pagefind-body>
 
@@ -83,7 +82,7 @@ const h2s = headings.filter(h => h.depth === 2)
         <div class="post-main">
           <div class="post-resumo" data-pagefind-ignore>
             <span class="post-resumo-label">Resumo</span>
-            {post.data.description}
+            {post.data.summary}
           </div>
 
           <!-- Autor após o resumo -->

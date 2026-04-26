@@ -1,18 +1,18 @@
 ---
-title: "Como calcular sua pretensão salarial considerando benefícios"
+title: "Como calcular sua pretensão salarial considerando os benefícios"
 date: 2025-10-09
 author: "Thiago Areias"
 description: "Aprenda a considerar benefícios, pacote total e modelo de trabalho ao calcular sua pretensão salarial de forma mais inteligente."
+summary: "Salário fixo sozinho quase nunca conta a história toda. Se você ignora benefícios, bônus e modelo de trabalho, corre o risco de avaliar mal a proposta e sua própria faixa."
 category: "Pretensão salarial"
 ---
-
-# Como calcular sua pretensão salarial considerando benefícios
+# Como calcular sua pretensão salarial considerando os benefícios
 
 Um erro muito comum em processos seletivos é comparar propostas olhando apenas para o salário bruto. Isso parece prático, mas pode levar a decisões ruins. Em muitos casos, o valor mensal não conta a história toda.
 
 Calcular pretensão salarial considerando benefícios é o que separa uma comparação superficial de uma avaliação real da proposta.
 
-Esse tema fica mais claro quando você cruza a leitura com [Pretensão salarial CLT x PJ: como comparar corretamente](/blog/pretensao-salarial-clt-x-pj-como-comparar-corretamente/).
+Isso fica ainda mais evidente quando você compara [pretensão salarial CLT e PJ do jeito certo](/blog/pretensao-salarial-clt-x-pj-como-comparar-corretamente/).
 
 ## Por que benefícios entram na conta
 
@@ -152,7 +152,7 @@ Evite:
 - comparar CLT e PJ como se fossem equivalentes
 - reduzir tudo a salário mensal
 
-Na prática, essa leitura fica ainda mais útil quando conectada a [Como responder “qual é a sua pretensão salarial?” na entrevista](/blog/como-responder-qual-e-a-sua-pretensao-salarial-na-entrevista/).
+E essa conta pesa ainda mais quando você precisa responder [qual é a sua pretensão salarial na entrevista](/blog/o-que-responder-quando-pedem-pretensao-salarial-na-entrevista/).
 
 ## Conclusão
 

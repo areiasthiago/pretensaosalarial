@@ -3,16 +3,16 @@ title: "Como melhorar seu LinkedIn para atrair recrutadores"
 date: 2025-12-04
 author: "Thiago Areias"
 description: "Aprenda como melhorar seu LinkedIn para atrair recrutadores e tornar seu posicionamento profissional mais claro."
+summary: "Seu LinkedIn não precisa virar vitrine de conteúdo para funcionar bem. Mas ele precisa comunicar com clareza em que você atua, o que sabe fazer e que tipo de oportunidade faz sentido para você."
 category: "Currículo"
 ---
-
 # Como melhorar seu LinkedIn para atrair recrutadores
 
 O LinkedIn não substitui o currículo, mas se tornou uma peça importante do posicionamento profissional. Em muitos casos, ele é o primeiro ponto de contato entre recrutador e candidato. Por isso, um perfil mal organizado pode enfraquecer sua percepção de valor mesmo antes da candidatura formal.
 
 Melhorar o LinkedIn não é virar criador de conteúdo. É tornar sua apresentação mais clara.
 
-Antes de avançar, vale também entender [Carta de apresentação ainda vale a pena?](/blog/carta-de-apresentacao-ainda-vale-a-pena/).
+Parte desse posicionamento também ajuda você a entender [se a carta de apresentação ainda vale a pena](/blog/carta-de-apresentacao-ainda-vale-a-pena/).
 
 ## O que um LinkedIn forte costuma comunicar
 
@@ -74,10 +74,10 @@ Evite:
 - incoerência entre currículo e LinkedIn
 - tentativa de parecer outra pessoa
 
-Esse ponto conversa diretamente com [Como ganhar confiança para entrevistas e negociar melhor](/blog/como-ganhar-confianca-para-entrevistas-e-negociar-melhor/).
+Quando seu posicionamento fica mais claro, você tende a ganhar mais segurança até em [entrevistas e negociações](/blog/como-ganhar-confianca-para-entrevistas-e-negociar-melhor/).
 
 ## Conclusão
 
 Melhorar seu LinkedIn para atrair recrutadores é, acima de tudo, melhorar sua clareza profissional. Quando o perfil comunica melhor quem você é, o que faz e que valor entrega, ele passa a funcionar como aliado real da sua busca por oportunidades.
 
-Com isso, o silo de **Currículo** se conecta diretamente aos silos de **Busca e candidatura** e **Entrevista de emprego**.
+

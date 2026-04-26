@@ -3,16 +3,16 @@ title: "O que o recrutador quer avaliar em uma entrevista de emprego"
 date: 2026-03-24
 author: "Thiago Areias"
 description: "Entenda o que recrutadores realmente avaliam em uma entrevista de emprego e como isso afeta sua performance no processo."
+summary: "Currículo importa, mas entrevista vai além disso. O recrutador quer entender como você pensa, se comunica, lê contexto e se posiciona diante do que a vaga pede."
 category: "Entrevista de emprego"
 ---
-
 # O que o recrutador quer avaliar em uma entrevista de emprego
 
 Muita gente entra em uma entrevista pensando que será avaliada apenas pela experiência do currículo. Isso é importante, claro, mas está longe de ser o único fator. Em uma conversa de recrutamento, o avaliador tenta entender não só o que você fez, mas como você pensa, se comunica e se posiciona.
 
 Saber o que está sendo observado ajuda muito a responder melhor.
 
-Antes de avançar, vale também entender [Erros que mais prejudicam um candidato na entrevista](/blog/erros-que-mais-prejudicam-um-candidato-na-entrevista/).
+Essa leitura fica ainda mais concreta quando você olha para [os erros que mais prejudicam um candidato na entrevista](/blog/erros-que-mais-prejudicam-um-candidato-na-entrevista/).
 
 ## 1. Aderência à vaga
 
@@ -118,7 +118,7 @@ Evite:
 - atacar empresas anteriores
 - demonstrar expectativa desalinhada sem contexto
 
-Esse ponto conversa diretamente com [O que colocar no resumo profissional do currículo](/blog/o-que-colocar-no-resumo-profissional-do-curriculo/).
+E, como o currículo costuma moldar essa expectativa antes da conversa, vale entender [o que colocar no resumo profissional do currículo](/blog/o-que-colocar-no-resumo-profissional-do-curriculo/).
 
 ## Conclusão
 

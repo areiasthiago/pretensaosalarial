@@ -6,6 +6,7 @@ import PageBanner from '../components/PageBanner.astro'
 import InsightCards from '../components/InsightCards.astro'
 import NumberCards from '../components/NumberCards.astro'
 import CtaCard from '../components/CtaCard.astro'
+import BlogPreview from '../components/BlogPreview.astro'
 import FaqSection from '../components/FaqSection.astro'
 import { faqHome } from '../data/faqs'
 ---
@@ -82,6 +83,9 @@ import { faqHome } from '../data/faqs'
 
   <!-- PUBLICIDADE -->
   <AdSlot id="ad-bottom" />
+
+  <!-- BLOG -->
+  <BlogPreview />
 
   <!-- FAQ -->
   <FaqSection items={faqHome} />

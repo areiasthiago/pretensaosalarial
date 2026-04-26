@@ -1,20 +1,18 @@
 ---
-title: "Pretensão salarial: falar um número exato ou uma faixa?"
+title: "Pretensão salarial: vale mais falar um número exato ou uma faixa?"
 date: 2026-03-26
 author: "Thiago Areias"
-description: "Descubra quando vale mais a pena informar um número exato ou uma faixa de pretensão salarial em processos seletivos."
+description: "Entenda quando faz mais sentido falar um número exato ou uma faixa de pretensão salarial em processos seletivos."
+summary: "Na maioria das vezes, trabalhar com uma faixa dá mais margem e mais contexto. Mas há momentos em que um número fechado faz sentido, e o post te ajuda a entender essa diferença."
 category: "Pretensão salarial"
 ---
-
-# Pretensão salarial: falar um número exato ou uma faixa?
+# Pretensão salarial: vale mais falar um número exato ou uma faixa?
 
 Uma das maiores dúvidas sobre pretensão salarial é esta: vale mais a pena falar um número fechado ou trabalhar com uma faixa?
 
 A resposta curta é: **na maior parte dos casos, faixa funciona melhor**. Mas não sempre. Há situações em que ser mais exato faz sentido.
 
-O importante é entender o efeito de cada escolha.
-
-Um bom complemento para essa discussão é [O que responder quando pedem pretensão salarial na entrevista](/blog/o-que-responder-quando-pedem-pretensao-salarial-na-entrevista/).
+O importante é entender o efeito de cada escolha e, principalmente, estar preparado para responder [quando perguntam qual é a sua pretensão salarial](/blog/o-que-responder-quando-pedem-pretensao-salarial-na-entrevista/).
 
 ## O que acontece quando você fala um número exato
 
@@ -139,7 +137,7 @@ Evite:
 
 Sua resposta precisa ser flexível, mas consistente.
 
-Esse raciocínio ganha ainda mais força quando você compara com [Como salários variam por cargo, área e senioridade](/blog/como-salarios-variam-por-cargo-area-e-senioridade/).
+Essa escolha fica mais clara quando você entende [como os salários variam por cargo, área e senioridade](/blog/como-salarios-variam-por-cargo-area-e-senioridade/).
 
 ## Conclusão
 
@@ -147,4 +145,3 @@ Entre número exato e faixa, a faixa costuma ser a melhor escolha porque equilib
 
 Quando a negociação estiver mais madura, você pode ficar mais preciso. Mas no início do processo, trabalhar com uma faixa coerente costuma proteger melhor sua posição.
 
-O próximo passo é saber **o que responder quando essa pergunta aparece ao vivo na entrevista**.

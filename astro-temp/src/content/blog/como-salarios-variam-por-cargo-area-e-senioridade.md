@@ -3,16 +3,16 @@ title: "Como salários variam por cargo, área e senioridade"
 date: 2025-12-18
 author: "Thiago Areias"
 description: "Entenda como cargo, área de atuação e senioridade influenciam as faixas salariais no mercado de trabalho."
+summary: "Salário não depende só do nome do cargo. Área, escopo e senioridade mudam bastante a faixa, e entender isso evita comparações ruins e expectativas distorcidas."
 category: "Mercado de trabalho"
 ---
-
 # Como salários variam por cargo, área e senioridade
 
 Quando alguém pergunta quanto “um profissional dessa área ganha”, a resposta quase nunca cabe em um número único. Isso acontece porque salário não depende só da profissão. Ele varia conforme o cargo, a área de atuação, a senioridade, o tipo de empresa, a região e o contexto da função.
 
 Por isso, olhar para faixas salariais exige mais nuance do que parece.
 
-Antes de avançar, vale também entender [Por que a mesma profissão pode pagar tão diferente entre empresas](/blog/por-que-a-mesma-profissao-pode-pagar-tao-diferente-entre-empresas/).
+Essa diferença fica ainda mais clara quando você entende [por que a mesma profissão pode pagar tão diferente entre empresas](/blog/por-que-a-mesma-profissao-pode-pagar-tao-diferente-entre-empresas/).
 
 ## Por que não existe um salário único por profissão
 
@@ -113,7 +113,7 @@ Evite:
 - achar que o título, sozinho, define a faixa
 - usar um caso isolado como regra
 
-Esse ponto conversa diretamente com [Como definir sua pretensão salarial sem chutar](/blog/como-definir-sua-pretensao-salarial-sem-chutar/).
+No fim, tudo isso pesa quando você precisa [definir sua pretensão salarial sem apelar para um mero chute](/blog/como-definir-sua-pretensao-salarial-com-mais-criterio/).
 
 ## Conclusão
 

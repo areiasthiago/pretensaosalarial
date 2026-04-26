@@ -1,18 +1,18 @@
 ---
-title: "Região importa: como ajustar sua pretensão salarial à sua cidade ou estado"
+title: "Como ajustar sua pretensão salarial à sua cidade ou ao seu estado"
 date: 2026-04-16
 author: "Thiago Areias"
-description: "Entenda como cidade, estado, trabalho remoto e contexto geográfico influenciam sua pretensão salarial."
+description: "Entenda como cidade, estado e contexto regional podem influenciar sua pretensão salarial."
+summary: "A mesma função pode pagar bem diferente dependendo da praça. Antes de definir sua faixa, vale entender como região, custo de vida e política salarial mudam essa conta."
 category: "Pretensão salarial"
 ---
-
-# Região importa: como ajustar sua pretensão salarial à sua cidade ou estado
+# Como ajustar sua pretensão salarial à sua cidade ou ao seu estado
 
 Muita gente fala de pretensão salarial como se existisse uma única faixa nacional para cada cargo. Na prática, isso raramente funciona assim. Região ainda influencia bastante remuneração, mesmo em um mercado mais digital e com avanço do trabalho remoto.
 
 A pergunta certa não é só "quanto esse cargo paga". É também: **quanto esse cargo paga neste contexto geográfico?**
 
-Esse tema fica mais claro quando você cruza a leitura com [Erros que fazem você pedir uma pretensão salarial abaixo do mercado](/blog/erros-que-fazem-voce-pedir-uma-pretensao-salarial-abaixo-do-mercado/).
+E essa conta fica ainda mais sensível quando você percebe [os erros que fazem muita gente pedir menos do que o mercado pode pagar](/blog/erros-que-fazem-pedir-menos-do-que-o-mercado-pode-pagar/).
 
 ## Por que região ainda pesa
 
@@ -119,7 +119,7 @@ Evite:
 - aceitar argumento regional para qualquer redução
 - descolar sua pretensão do escopo real da vaga
 
-Na prática, essa leitura fica ainda mais útil quando conectada a [Como salários variam por cargo, área e senioridade](/blog/como-salarios-variam-por-cargo-area-e-senioridade/).
+No fim, tudo isso fica mais claro quando você entende [como os salários variam por cargo, área e senioridade](/blog/como-salarios-variam-por-cargo-area-e-senioridade/).
 
 ## Conclusão
 
@@ -127,4 +127,3 @@ Região importa porque mercado de trabalho não é totalmente homogêneo. Cidade
 
 Sua pretensão fica mais forte quando considera geografia junto com senioridade, escopo, regime de contratação e benefícios. É o cruzamento dessas variáveis que torna a resposta coerente.
 
-Depois disso, vale olhar para os **erros que fazem muita gente pedir abaixo do mercado**.

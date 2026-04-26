@@ -1,18 +1,16 @@
 ---
-title: "Como sua senioridade muda a sua pretensão salarial"
+title: "Como a senioridade muda sua pretensão salarial"
 date: 2025-11-20
 author: "Thiago Areias"
 description: "Saiba como senioridade, autonomia e complexidade de entrega influenciam sua pretensão salarial e sua negociação."
+summary: "Tempo de carreira ajuda, mas senioridade não é só tempo. O que realmente pesa é autonomia, complexidade, impacto e o nível de responsabilidade que você sustenta hoje."
 category: "Pretensão salarial"
 ---
-
-# Como sua senioridade muda a sua pretensão salarial
+# Como a senioridade muda sua pretensão salarial
 
 Uma das formas mais comuns de errar na pretensão salarial é tratar senioridade como detalhe. Não é. Senioridade muda profundamente a faixa esperada para uma vaga porque ela altera o tipo de entrega, o grau de autonomia e o impacto esperado da pessoa na função.
 
-Na prática, não basta saber seu cargo. Você precisa entender seu nível dentro dele.
-
-Antes de avançar, vale também entender [Região importa: como ajustar sua pretensão salarial à sua cidade ou estado](/blog/regiao-importa-como-ajustar-sua-pretensao-salarial-a-sua-cidade-ou-estado/).
+Na prática, não basta saber seu cargo. Você precisa entender seu nível dentro dele e também considerar [como ajustar sua pretensão salarial à sua cidade ou ao seu estado](/blog/como-ajustar-sua-pretensao-salarial-a-sua-cidade-ou-ao-seu-estado/).
 
 ## O que senioridade realmente mede
 
@@ -115,7 +113,7 @@ Evite:
 - tratar promoção de título como promoção automática de valor
 - usar o cargo anterior como única âncora
 
-Esse ponto conversa diretamente com [Como usar dados de mercado para sustentar sua negociação](/blog/como-usar-dados-de-mercado-para-sustentar-sua-negociacao/).
+Quando essa leitura fica mais concreta, também fica mais fácil [sustentar sua pretensão salarial com dados de mercado](/blog/como-usar-dados-de-mercado-para-sustentar-sua-pretensao-salarial/).
 
 ## Conclusão
 
@@ -123,4 +121,3 @@ Senioridade muda sua pretensão salarial porque muda o nível de entrega, autono
 
 Quanto mais claro você estiver sobre seu nível real, melhor será sua capacidade de construir uma faixa coerente e defendê-la.
 
-O próximo passo é entender **como a região também altera sua pretensão salarial**.

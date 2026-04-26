@@ -3,16 +3,16 @@ title: "Como encerrar uma negociação sem se queimar com a empresa"
 date: 2025-10-14
 author: "Thiago Areias"
 description: "Veja como encerrar uma negociação salarial com respeito e clareza, mesmo quando não há acordo entre as partes."
+summary: "Nem toda negociação termina em acordo, e tudo bem. O importante é saber fechar a conversa com clareza, respeito e sem deixar ruído desnecessário pelo caminho."
 category: "Negociação salarial"
 ---
-
 # Como encerrar uma negociação sem se queimar com a empresa
 
 Nem toda negociação termina em acordo. Às vezes a empresa não consegue avançar na proposta. Em outros casos, você percebe que a oportunidade não faz mais sentido dentro das condições finais. Quando isso acontece, a forma de encerrar a conversa importa bastante.
 
 Fechar uma porta com maturidade é muito melhor do que fechar com ruído.
 
-Antes de avançar, vale também entender [Como pedir aumento no emprego atual com mais segurança](/blog/como-pedir-aumento-no-emprego-atual-com-mais-seguranca/).
+Isso fica ainda mais sensível quando a negociação acontece no emprego atual, e não em um processo novo. Nesses casos, vale entender [como pedir aumento no emprego atual com mais segurança](/blog/como-pedir-aumento-no-emprego-atual-com-mais-seguranca/).
 
 ## Por que esse momento é importante
 
@@ -73,7 +73,7 @@ Algumas atitudes ajudam:
 - evitar tom ressentido
 - reconhecer os pontos positivos do processo, se existirem
 
-Esse ponto conversa diretamente com [Como saber se você está ganhando abaixo do mercado](/blog/como-saber-se-voce-esta-ganhando-abaixo-do-mercado/).
+No fim, essa decisão costuma ficar mais clara quando você também consegue [avaliar se está ganhando abaixo do mercado](/blog/como-saber-se-voce-esta-ganhando-abaixo-do-mercado/).
 
 ## Conclusão
 

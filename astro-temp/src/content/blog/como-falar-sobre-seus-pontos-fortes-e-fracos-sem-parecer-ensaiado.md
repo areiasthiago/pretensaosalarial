@@ -3,16 +3,16 @@ title: "Como falar sobre seus pontos fortes e fracos sem parecer ensaiado"
 date: 2025-10-28
 author: "Thiago Areias"
 description: "Aprenda a falar sobre pontos fortes e fracos na entrevista com naturalidade, autoconhecimento e exemplos concretos."
+summary: "Essa pergunta pega muita gente porque respostas prontas soam artificiais. O caminho melhor é combinar autoconhecimento real, exemplo concreto e um tom que pareça seu."
 category: "Entrevista de emprego"
 ---
-
 # Como falar sobre seus pontos fortes e fracos sem parecer ensaiado
 
 Poucas perguntas de entrevista geram tanto desconforto quanto esta: **quais são seus pontos fortes e fracos?** Ela parece simples, mas costuma expor insegurança, falta de preparo ou respostas decoradas demais.
 
 O segredo não é inventar uma fórmula perfeita. É responder com autoconhecimento e coerência.
 
-Um bom complemento para essa discussão é [Como responder por que você quer trabalhar nesta empresa](/blog/como-responder-por-que-voce-quer-trabalhar-nesta-empresa/).
+Esse cuidado também aparece quando você precisa [responder por que quer trabalhar naquela empresa](/blog/como-responder-por-que-voce-quer-trabalhar-nesta-empresa/).
 
 ## Por que essa pergunta é feita
 
@@ -116,7 +116,7 @@ Evite:
 - dizer que não consegue pensar em nenhum ponto fraco
 - parecer robótico
 
-Esse raciocínio ganha ainda mais força quando você compara com [Como definir sua pretensão salarial sem chutar](/blog/como-definir-sua-pretensao-salarial-sem-chutar/).
+No fim, esse mesmo equilíbrio ajuda quando chega a hora de [definir sua pretensão salarial sem apelar para um mero chute](/blog/como-definir-sua-pretensao-salarial-com-mais-criterio/).
 
 ## Conclusão
 

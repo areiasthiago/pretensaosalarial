@@ -1,0 +1,99 @@
+---
+---
+<div id="cookie-banner" class="cookie-banner" role="region" aria-label="Aviso de cookies">
+  <p class="cookie-text">
+    Usamos cookies pra melhorar sua experiência.
+    Leia a <a href="/privacidade/">Política de Privacidade</a>.
+  </p>
+  <button id="cookie-accept" class="cookie-btn">Entendi</button>
+</div>
+
+<script is:inline>
+  (function() {
+    var banner = document.getElementById('cookie-banner')
+    if (!localStorage.getItem('cookies_aceitos')) {
+      banner.classList.add('visible')
+    }
+    document.getElementById('cookie-accept').addEventListener('click', function() {
+      localStorage.setItem('cookies_aceitos', '1')
+      banner.classList.remove('visible')
+    })
+  })()
+</script>
+
+<style>
+  .cookie-banner {
+    display: none;
+    position: fixed;
+    bottom: var(--space-6);
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+    gap: var(--space-6);
+    background: #fff;
+    border: 1.5px solid #E5E2F7;
+    padding: var(--space-4) var(--space-4) var(--space-4) var(--space-6);
+    border-radius: var(--radius-full);
+    box-shadow: 0 4px 24px rgba(124, 58, 237, 0.10);
+    z-index: 9999;
+    max-width: calc(100vw - var(--space-8));
+  }
+
+  .cookie-banner.visible {
+    display: flex;
+  }
+
+  .cookie-text {
+    font-size: var(--text-sm);
+    margin: 0;
+    color: var(--color-text);
+    white-space: normal;
+  }
+
+  .cookie-text a {
+    color: var(--color-primary-500);
+    text-decoration: underline;
+  }
+
+  .cookie-btn {
+    background: #7C3AED;
+    color: #fff;
+    border: none;
+    border-radius: var(--radius-full);
+    padding: var(--space-2) var(--space-6);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+    line-height: 1.5;
+    transition: background 0.15s;
+    flex-shrink: 0;
+  }
+
+  .cookie-btn:hover {
+    background: #6D28D9;
+  }
+
+  @media (max-width: 480px) {
+    .cookie-banner {
+      bottom: var(--space-3);
+      left: var(--space-3);
+      right: var(--space-3);
+      transform: none;
+      padding: var(--space-3) var(--space-3) var(--space-3) var(--space-4);
+      gap: var(--space-3);
+      border-radius: var(--radius-lg);
+      max-width: none;
+    }
+
+    .cookie-text {
+      font-size: var(--text-xs);
+    }
+
+    .cookie-btn {
+      padding: var(--space-2) var(--space-3);
+      font-size: var(--text-xs);
+    }
+  }
+</style>

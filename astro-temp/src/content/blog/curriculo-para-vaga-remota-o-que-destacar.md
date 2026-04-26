@@ -3,16 +3,16 @@ title: "Currículo para vaga remota: o que destacar"
 date: 2026-02-05
 author: "Thiago Areias"
 description: "Veja o que destacar em um currículo para vaga remota e como mostrar aderência a esse modelo de trabalho."
+summary: "Vaga remota pede sinais mais claros de autonomia, organização e comunicação. Se isso não aparece no currículo, sua aderência ao modelo pode ficar invisível."
 category: "Currículo"
 ---
-
 # Currículo para vaga remota: o que destacar
 
 Vaga remota não é só vaga “sem deslocamento”. Em muitos casos, ela exige sinais específicos de autonomia, organização e comunicação. Por isso, quando o objetivo é disputar posições remotas, vale ajustar o currículo para tornar esses pontos mais visíveis.
 
 Nem sempre a diferença está em mudar a experiência. Muitas vezes, está em mudar o foco da leitura.
 
-Esse tema fica mais claro quando você cruza a leitura com [Carta de apresentação ainda vale a pena?](/blog/carta-de-apresentacao-ainda-vale-a-pena/).
+Em alguns processos, esse cuidado aparece até no momento de decidir [se a carta de apresentação ainda vale a pena](/blog/carta-de-apresentacao-ainda-vale-a-pena/).
 
 ## O que empresas costumam observar em vagas remotas
 
@@ -74,10 +74,10 @@ Evite:
 - ignorar comunicação e rotina
 - supor que a vaga remota exige exatamente os mesmos sinais de uma vaga presencial
 
-Na prática, essa leitura fica ainda mais útil quando conectada a [Como se preparar para uma entrevista de emprego](/blog/como-se-preparar-para-uma-entrevista-de-emprego/).
+Quando esses sinais ficam claros no currículo, também fica mais fácil [se preparar para uma entrevista de emprego](/blog/como-se-preparar-para-uma-entrevista-de-emprego/).
 
 ## Conclusão
 
 Currículo para vaga remota fica mais forte quando evidencia autonomia, organização e comunicação. Quando esses pontos aparecem com clareza, a empresa entende melhor sua aderência ao modelo, e isso aumenta a força da candidatura.
 
-Depois disso, vale aprofundar **carta de apresentação ainda vale a pena?**.
+

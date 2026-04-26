@@ -3,16 +3,16 @@ title: "Como avaliar uma vaga antes de dizer sua pretensão salarial"
 date: 2025-12-02
 author: "Thiago Areias"
 description: "Entenda como avaliar escopo, senioridade, contexto e pacote de uma vaga antes de definir sua pretensão salarial."
+summary: "Responder sua pretensão salarial sem entender a vaga costuma dar errado. Antes de falar qualquer faixa, vale ler escopo, senioridade, pacote e contexto com mais calma."
 category: "Busca e candidatura"
 ---
-
 # Como avaliar uma vaga antes de dizer sua pretensão salarial
 
 Definir pretensão salarial sem avaliar direito a vaga é uma das formas mais comuns de se posicionar mal em um processo seletivo. Isso acontece porque o valor que faz sentido para você depende menos de um número fixo e mais do contexto da oportunidade.
 
 Antes de dizer sua pretensão, vale entender o que realmente está na mesa.
 
-Antes de avançar, vale também entender [Como acompanhar candidaturas sem se perder no processo](/blog/como-acompanhar-candidaturas-sem-se-perder-no-processo/).
+Esse tema fica mais claro quando você passa por [como acompanhar candidaturas sem se perder no processo](/blog/como-acompanhar-candidaturas-sem-se-perder-no-processo/).
 
 ## Por que essa avaliação importa
 
@@ -101,7 +101,7 @@ Evite:
 - tratar toda vaga como equivalente
 - definir a mesma pretensão para cenários muito diferentes
 
-Esse ponto conversa diretamente com [Como adaptar o currículo para cada vaga sem começar do zero](/blog/como-adaptar-o-curriculo-para-cada-vaga-sem-comecar-do-zero/).
+No fim das contas, essa conversa também passa por [como adaptar o currículo para cada vaga sem começar do zero](/blog/como-adaptar-o-curriculo-para-cada-vaga-sem-comecar-do-zero/).
 
 ## Conclusão
 

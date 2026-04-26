@@ -3,16 +3,16 @@ title: "Como acompanhar candidaturas sem se perder no processo"
 date: 2025-10-21
 author: "Thiago Areias"
 description: "Aprenda a organizar candidaturas, entrevistas e retornos sem se perder durante a busca por vagas."
+summary: "Sem organização, a busca por vaga vira confusão rápido. Acompanhar empresa, etapa e contexto de cada candidatura ajuda você a decidir melhor e se preparar melhor."
 category: "Busca e candidatura"
 ---
-
 # Como acompanhar candidaturas sem se perder no processo
 
 Buscar emprego sem organização rapidamente vira confusão. Depois de algumas candidaturas, fica fácil esquecer para quais vagas você aplicou, em que etapa está cada processo, quais empresas já responderam e quais oportunidades realmente ainda fazem sentido.
 
 Acompanhar candidaturas bem não é excesso de controle. É uma forma de pensar melhor.
 
-Um bom complemento para essa discussão é [Como avaliar uma vaga antes de dizer sua pretensão salarial](/blog/como-avaliar-uma-vaga-antes-de-dizer-sua-pretensao-salarial/).
+Antes de avançar, vale olhar também para [como avaliar uma vaga antes de dizer sua pretensão salarial](/blog/como-avaliar-uma-vaga-antes-de-dizer-sua-pretensao-salarial/).
 
 ## Por que esse acompanhamento importa
 
@@ -82,7 +82,7 @@ Evite:
 - repetir candidatura sem perceber
 - chegar em entrevista sem lembrar o contexto da vaga
 
-Esse raciocínio ganha ainda mais força quando você compara com [Como responder “qual é a sua pretensão salarial?” na entrevista](/blog/como-responder-qual-e-a-sua-pretensao-salarial-na-entrevista/).
+Na prática, isso se conecta com [como responder à pergunta sobre pretensão salarial na entrevista](/blog/o-que-o-recrutador-quer-ouvir-quando-pergunta-sua-pretensao-salarial/).
 
 ## Conclusão
 

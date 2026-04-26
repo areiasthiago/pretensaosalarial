@@ -3,16 +3,16 @@ title: "Quando aceitar a proposta e quando fazer contraproposta"
 date: 2026-04-21
 author: "Thiago Areias"
 description: "Entenda quando faz sentido aceitar uma proposta de trabalho e quando vale abrir uma contraproposta salarial."
+summary: "Nem toda proposta boa precisa ser tensionada, e nem toda proposta abaixo da expectativa deve ser aceita rápido. O ponto é entender se há espaço real para ajuste e se ele vale a pena."
 category: "Negociação salarial"
 ---
-
 # Quando aceitar a proposta e quando fazer contraproposta
 
 Receber uma proposta é um momento importante, mas também delicado. Muita gente sente vontade de aceitar rápido para não correr risco. Outras pessoas entram no automático da contraproposta, como se negociar fosse sempre obrigatório. Nenhum dos dois caminhos funciona bem sem contexto.
 
 O ponto central é este: nem toda proposta deve ser aceita de imediato, e nem toda proposta precisa ser rebatida.
 
-Esse tema fica mais claro quando você cruza a leitura com [Como fazer uma contraproposta salarial do jeito certo](/blog/como-fazer-uma-contraproposta-salarial-do-jeito-certo/).
+Boa parte dessa decisão depende de saber [como fazer uma contraproposta salarial do jeito certo](/blog/como-fazer-uma-contraproposta-salarial-do-jeito-certo/).
 
 ## O que avaliar antes de decidir
 
@@ -100,7 +100,7 @@ Evite:
 - tensionar por diferenças irrelevantes
 - fazer contraproposta sem saber sua própria linha de corte
 
-Na prática, essa leitura fica ainda mais útil quando conectada a [Como usar dados de mercado para defender sua pretensão salarial](/blog/como-usar-dados-de-mercado-para-defender-sua-pretensao-salarial/).
+Essa escolha também fica mais segura quando você tem base para [sustentar sua pretensão salarial com dados de mercado](/blog/como-usar-dados-de-mercado-para-sustentar-sua-pretensao-salarial/).
 
 ## Conclusão
 

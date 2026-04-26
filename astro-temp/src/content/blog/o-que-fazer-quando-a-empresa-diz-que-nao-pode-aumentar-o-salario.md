@@ -3,16 +3,16 @@ title: "O que fazer quando a empresa diz que não pode aumentar o salário"
 date: 2026-03-31
 author: "Thiago Areias"
 description: "Entenda como reagir quando a empresa diz que não pode aumentar a oferta e como decidir os próximos passos."
+summary: "Quando a empresa diz que não há margem para subir o salário, a negociação não acaba necessariamente. Mas o foco muda: agora você precisa entender se o pacote e o contexto ainda fazem sentido."
 category: "Negociação salarial"
 ---
-
 # O que fazer quando a empresa diz que não pode aumentar o salário
 
 Nem toda negociação termina com aumento da proposta. Em alguns casos, a empresa responde que não tem margem para subir o salário. Esse momento costuma gerar frustração, mas não precisa encerrar a conversa de forma impulsiva ou desorganizada.
 
 Quando isso acontece, o ponto principal é ganhar clareza.
 
-Esse tema fica mais claro quando você cruza a leitura com [Como negociar benefícios além do salário](/blog/como-negociar-beneficios-alem-do-salario/).
+Quando o salário trava, uma saída possível é entender [como negociar benefícios além do salário](/blog/como-negociar-beneficios-alem-do-salario/).
 
 ## Primeiro: não reaja no calor do momento
 
@@ -96,7 +96,7 @@ Evite:
 - recusar de forma ríspida
 - ignorar seu próprio limite só para não perder a vaga
 
-Na prática, essa leitura fica ainda mais útil quando conectada a [Como saber se você está ganhando abaixo do mercado](/blog/como-saber-se-voce-esta-ganhando-abaixo-do-mercado/).
+Essa decisão fica mais clara quando você consegue [avaliar se está ganhando abaixo do mercado](/blog/como-saber-se-voce-esta-ganhando-abaixo-do-mercado/).
 
 ## Conclusão
 

@@ -3,16 +3,16 @@ title: "Como montar um currículo mais competitivo sem exagerar"
 date: 2026-01-15
 author: "Thiago Areias"
 description: "Aprenda a montar um currículo mais competitivo com clareza, foco e sem recorrer a exageros ou distorções."
+summary: "Currículo forte não é currículo inflado. O que realmente ajuda é clareza, foco, boa leitura da vaga e um jeito honesto de mostrar o valor que você entrega."
 category: "Currículo"
 ---
-
 # Como montar um currículo mais competitivo sem exagerar
 
 Muita gente associa currículo forte a currículo chamativo, cheio de palavras de impacto ou com um tom quase publicitário. O problema é que, quando o documento tenta impressionar demais, ele pode perder clareza, credibilidade e aderência.
 
 Um currículo competitivo não é o mais enfeitado. É o mais inteligível, relevante e convincente.
 
-Antes de avançar, vale também entender [Os erros mais comuns que fazem um currículo ser ignorado](/blog/os-erros-mais-comuns-que-fazem-um-curriculo-ser-ignorado/).
+Para chegar lá, também ajuda reconhecer [os erros mais comuns que fazem um currículo ser ignorado](/blog/os-erros-mais-comuns-que-fazem-um-curriculo-ser-ignorado/).
 
 ## O que torna um currículo competitivo
 
@@ -97,10 +97,10 @@ Evite:
 - inserir competências que você não sustenta
 - priorizar efeito em vez de clareza
 
-Esse ponto conversa diretamente com [Como procurar vagas de emprego de forma mais inteligente](/blog/como-procurar-vagas-de-emprego-de-forma-mais-inteligente/).
+No fim, esse currículo rende muito mais quando acompanha [uma busca de vagas feita com mais inteligência](/blog/como-procurar-vagas-de-emprego-de-forma-mais-inteligente/).
 
 ## Conclusão
 
 Montar um currículo mais competitivo sem exagerar é uma questão de foco. Quando você organiza sua trajetória com clareza, destaca o que importa e evita inflar sua narrativa, o documento ganha força de forma muito mais sólida.
 
-Depois disso, vale aprofundar **os erros mais comuns que fazem um currículo ser ignorado**.
+

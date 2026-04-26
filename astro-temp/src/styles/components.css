@@ -611,7 +611,7 @@
    FAQ
 ===================== */
 .faq-section {
-  padding-block: var(--space-16);
+  padding-block: var(--space-8);
 }
 
 .faq-section h2 {

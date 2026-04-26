@@ -3,16 +3,16 @@ title: "O que mais pesa no salário além da experiência"
 date: 2026-02-19
 author: "Thiago Areias"
 description: "Veja quais fatores influenciam o salário além do tempo de experiência profissional."
+summary: "Tempo de carreira importa, mas está longe de explicar tudo. Escopo, impacto, senioridade real, área e setor costumam pesar tanto quanto, ou mais, na remuneração."
 category: "Mercado de trabalho"
 ---
-
 # O que mais pesa no salário além da experiência
 
 Tempo de experiência importa, mas está longe de ser o único fator que influencia remuneração. Duas pessoas com o mesmo número de anos de carreira podem ganhar valores bem diferentes. Isso acontece porque o mercado remunera muito mais do que tempo acumulado.
 
 Experiência conta. Mas contexto pesa tanto quanto, ou mais.
 
-Antes de avançar, vale também entender [Como benefícios mudam o valor real de uma proposta](/blog/como-beneficios-mudam-o-valor-real-de-uma-proposta/).
+Aqui também faz diferença entender [como os benefícios mudam o valor real de uma proposta](/blog/como-beneficios-mudam-o-valor-real-de-uma-proposta/).
 
 ## O mito do tempo como medida única
 
@@ -93,7 +93,7 @@ Evite:
 - tratar toda experiência como equivalente
 - esquecer o impacto real da função
 
-Esse ponto conversa diretamente com [Pretensão salarial CLT x PJ: como comparar corretamente](/blog/pretensao-salarial-clt-x-pj-como-comparar-corretamente/).
+Esse ponto fica mais claro quando você olha para [como comparar sua pretensão salarial entre CLT e PJ](/blog/pretensao-salarial-clt-x-pj-como-comparar-corretamente/).
 
 ## Conclusão
 

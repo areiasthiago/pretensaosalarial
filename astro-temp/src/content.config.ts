@@ -9,6 +9,7 @@ const blog = defineCollection({
     date: z.coerce.date(),
     author: z.string(),
     description: z.string(),
+    summary: z.string(),
     category: z.enum(
       categorias.map(c => c.label) as [string, ...string[]]
     ),

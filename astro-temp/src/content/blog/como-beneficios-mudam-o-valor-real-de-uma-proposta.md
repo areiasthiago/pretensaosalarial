@@ -3,16 +3,16 @@ title: "Como benefícios mudam o valor real de uma proposta"
 date: 2025-11-06
 author: "Thiago Areias"
 description: "Entenda como benefícios, bônus e modelo de trabalho alteram o valor real de uma proposta de emprego."
+summary: "Duas ofertas com salário parecido podem ter valor real muito diferente. Benefícios, bônus e modelo de trabalho mudam bastante a leitura da proposta."
 category: "Mercado de trabalho"
 ---
-
 # Como benefícios mudam o valor real de uma proposta
 
 Comparar proposta de trabalho olhando apenas para salário fixo é um dos erros mais comuns na leitura de remuneração. Isso acontece porque o valor real de uma oferta depende também do pacote que a acompanha. Benefícios, bônus e modelo de trabalho podem alterar bastante a atratividade de uma vaga.
 
 Proposta é salário mais contexto.
 
-Esse tema fica mais claro quando você cruza a leitura com [Transparência salarial: por que ela importa para profissionais e empresas](/blog/transparencia-salarial-por-que-ela-importa-para-profissionais-e-empresas/).
+Esse raciocínio ganha contexto quando você observa [por que a transparência salarial importa para profissionais e empresas](/blog/transparencia-salarial-por-que-ela-importa-para-profissionais-e-empresas/).
 
 ## Por que benefícios importam tanto
 
@@ -90,7 +90,7 @@ Evite:
 - esquecer impacto do modelo remoto ou presencial
 - subestimar pacote quando a diferença de salário for pequena
 
-Na prática, essa leitura fica ainda mais útil quando conectada a [Como usar dados de mercado para sustentar sua negociação](/blog/como-usar-dados-de-mercado-para-sustentar-sua-negociacao/).
+Isso ajuda bastante quando chega a hora de entender [como usar dados de mercado para sustentar sua negociação](/blog/como-usar-dados-de-mercado-para-sustentar-sua-negociacao/).
 
 ## Conclusão
 

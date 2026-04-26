@@ -3,18 +3,16 @@ title: "Pretensão salarial CLT x PJ: como comparar corretamente"
 date: 2026-03-05
 author: "Thiago Areias"
 description: "Entenda como comparar propostas CLT e PJ sem cair na armadilha de olhar apenas para o valor mensal."
+summary: "Dar a mesma pretensão para CLT e PJ costuma distorcer a conta. Para comparar direito, você precisa colocar na mesa férias, 13º, benefícios, impostos, risco e previsibilidade."
 category: "Pretensão salarial"
 ---
-
 # Pretensão salarial CLT x PJ: como comparar corretamente
 
 Uma das comparações mais perigosas no mercado de trabalho é esta: olhar uma proposta CLT e uma proposta PJ e decidir com base apenas no valor mensal.
 
 Esse atalho costuma distorcer bastante a análise. Em muitos casos, a proposta PJ parece melhor num primeiro olhar, mas perde força quando você considera a estrutura completa. Em outros, a proposta CLT parece mais segura, mas pode não compensar financeiramente o escopo.
 
-Comparar corretamente exige sair do bruto simples.
-
-Um bom complemento para essa discussão é [Como sua senioridade muda a sua pretensão salarial](/blog/como-sua-senioridade-muda-a-sua-pretensao-salarial/).
+Comparar corretamente exige sair do bruto simples. E, antes mesmo de colocar CLT e PJ lado a lado, vale entender [como calcular sua pretensão salarial considerando os benefícios](/blog/como-calcular-sua-pretensao-salarial-considerando-os-beneficios/).
 
 ## Por que CLT e PJ não são equivalentes
 
@@ -143,7 +141,7 @@ Evite:
 - assumir que todo PJ compensa mais
 - aceitar diferença pequena como se fosse grande vantagem
 
-Esse raciocínio ganha ainda mais força quando você compara com [Como negociar salário sem parecer inflexível](/blog/como-negociar-salario-sem-parecer-inflexivel/).
+Essa leitura faz diferença quando você precisa [negociar salário sem parecer inflexível](/blog/como-negociar-salario-sem-parecer-inflexivel/).
 
 ## Conclusão
 
@@ -151,4 +149,3 @@ CLT e PJ não devem ser comparados no piloto automático. São estruturas difere
 
 Quando você entende isso, sua pretensão salarial deixa de ser um número genérico e passa a refletir o contexto real da proposta.
 
-O próximo passo é entender **como senioridade muda sua pretensão salarial** e **como a região também altera essa conta**.

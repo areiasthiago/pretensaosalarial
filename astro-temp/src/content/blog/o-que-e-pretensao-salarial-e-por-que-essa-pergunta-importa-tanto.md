@@ -3,16 +3,16 @@ title: "O que é pretensão salarial e por que essa pergunta importa tanto"
 date: 2026-01-22
 author: "Thiago Areias"
 description: "Entenda o que é pretensão salarial, por que essa pergunta pesa tanto em processos seletivos e como responder sem se desvalorizar."
+summary: "Pretensão salarial não é um chute nem um detalhe da entrevista. É uma forma de mostrar quanto você entende seu valor, o contexto da vaga e o que faz sentido para o seu momento."
 category: "Pretensão salarial"
 ---
-
 # O que é pretensão salarial e por que essa pergunta importa tanto
 
 Pretensão salarial é o valor, ou a faixa de valor, que você considera adequada para aceitar uma vaga ou uma mudança de posição. Na prática, é a resposta para uma pergunta que aparece cedo ou tarde em muitos processos seletivos: **"qual é a sua pretensão salarial?"**
 
 Muita gente trava nessa hora porque entende a pergunta como uma armadilha. Em parte, ela realmente é um ponto sensível. Se você pedir muito abaixo do mercado, pode se desvalorizar. Se pedir muito acima do que a empresa está disposta a pagar, pode sair do processo cedo demais. Por isso, pretensão salarial não deveria ser um chute. Ela precisa ser uma resposta pensada.
 
-Antes de avançar, vale também entender [Como definir sua pretensão salarial sem chutar](/blog/como-definir-sua-pretensao-salarial-sem-chutar/).
+Se a ideia é não responder no susto, o próximo passo é entender [como definir sua pretensão salarial com mais critério](/blog/como-definir-sua-pretensao-salarial-com-mais-criterio/).
 
 ## Por que as empresas perguntam isso
 
@@ -110,7 +110,7 @@ Você pode dizer:
 
 A segunda resposta transmite mais preparo, flexibilidade e critério.
 
-Esse ponto conversa diretamente com [Como negociar salário sem parecer inflexível](/blog/como-negociar-salario-sem-parecer-inflexivel/).
+Essa diferença fica ainda mais importante quando a conversa avança e você precisa [negociar salário sem parecer inflexível](/blog/como-negociar-salario-sem-parecer-inflexivel/).
 
 ## Conclusão
 
@@ -118,4 +118,3 @@ Pretensão salarial importa porque ela influencia sua entrada, sua permanência 
 
 Quem trata isso como chute corre mais risco de se desvalorizar ou perder boas oportunidades por desalinhamento. Quem trata como decisão tende a negociar melhor.
 
-Se você quiser dar o próximo passo, o ponto certo é aprender **como definir sua pretensão salarial sem chutar** e depois entender **quando falar uma faixa e quando falar um número exato**.

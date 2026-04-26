@@ -3,16 +3,16 @@ title: "Como pedir aumento no emprego atual com mais segurança"
 date: 2026-01-27
 author: "Thiago Areias"
 description: "Aprenda como pedir aumento no emprego atual com mais clareza, preparo e argumentos mais fortes."
+summary: "Pedir aumento no emprego atual mexe com relação, timing e percepção de valor. Por isso, o pedido fica muito mais forte quando se apoia em escopo, resultado e contexto."
 category: "Negociação salarial"
 ---
-
 # Como pedir aumento no emprego atual com mais segurança
 
 Pedir aumento no emprego atual costuma ser mais difícil, emocionalmente, do que negociar em um processo seletivo. Isso acontece porque a conversa envolve histórico, relação com liderança, percepção de valor e medo de desgaste. Ainda assim, quando feita com preparo, ela pode ser bastante legítima e produtiva.
 
 O ponto não é pedir em qualquer momento. É pedir com base.
 
-Um bom complemento para essa discussão é [Como encerrar uma negociação sem se queimar com a empresa](/blog/como-encerrar-uma-negociacao-sem-se-queimar-com-a-empresa/).
+Pedir aumento nem sempre termina como você espera. Por isso, além de saber abrir a conversa, vale entender [como encerrar uma negociação sem se queimar com a empresa](/blog/como-encerrar-uma-negociacao-sem-se-queimar-com-a-empresa/).
 
 ## Por que essa conversa gera tanto desconforto
 
@@ -93,7 +93,7 @@ Isso pode acontecer. Nesse caso, vale tentar entender:
 
 Essa clareza importa tanto quanto o pedido em si.
 
-Esse raciocínio ganha ainda mais força quando você compara com [Salário CLT x PJ: como comparar de verdade](/blog/salario-clt-x-pj-como-comparar-de-verdade/).
+E, se a comparação com o mercado entrar na conversa, ajuda muito saber [como comparar salário CLT e PJ de verdade](/blog/salario-clt-x-pj-como-comparar-de-verdade/).
 
 ## Conclusão
 

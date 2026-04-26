@@ -1,18 +1,18 @@
 ---
-title: "Como definir sua pretensão salarial sem chutar"
+title: "Como definir sua pretensão salarial com mais critério"
 date: 2025-10-30
 author: "Thiago Areias"
-description: "Aprenda a definir sua pretensão salarial com base em escopo, senioridade, região, benefícios e regime de contratação."
+description: "Aprenda a definir sua pretensão salarial com mais critério, sem depender de chute ou improviso."
+summary: "Se você responde sua pretensão salarial no improviso, a chance de errar aumenta muito. O caminho mais seguro é cruzar escopo, senioridade, benefícios e modelo de contratação antes de falar qualquer número."
 category: "Pretensão salarial"
 ---
-
-# Como definir sua pretensão salarial sem chutar
+# Como definir sua pretensão salarial com mais critério
 
 Definir pretensão salarial no improviso é uma das formas mais fáceis de perder dinheiro em um processo seletivo. O problema é que muita gente só pensa nisso quando o recrutador pergunta. E, nessa hora, tende a recorrer a um palpite, ao salário atual ou a um número qualquer que "pareça razoável".
 
 O caminho mais seguro é outro: montar uma faixa com critério.
 
-Esse tema fica mais claro quando você cruza a leitura com [Pretensão salarial: falar um número exato ou uma faixa?](/blog/pretensao-salarial-falar-um-numero-exato-ou-uma-faixa/).
+Essa definição fica bem mais clara quando você entende [quando faz mais sentido falar um número exato ou uma faixa](/blog/pretensao-salarial-numero-exato-ou-faixa/).
 
 ## O erro de tentar adivinhar
 
@@ -152,7 +152,7 @@ Evite respostas como:
 
 Essas falas podem ser verdadeiras, mas enfraquecem sua posição se vierem sem argumento.
 
-Na prática, essa leitura fica ainda mais útil quando conectada a [Como usar dados de mercado para sustentar sua negociação](/blog/como-usar-dados-de-mercado-para-sustentar-sua-negociacao/).
+Quanto mais contexto você tiver, mais fácil fica [sustentar sua pretensão salarial com dados de mercado](/blog/como-usar-dados-de-mercado-para-sustentar-sua-pretensao-salarial/).
 
 ## Conclusão
 
@@ -165,4 +165,3 @@ Definir pretensão salarial sem chutar é cruzar cinco variáveis:
 
 Quando você faz isso, deixa de responder no susto e passa a conduzir a conversa com mais clareza.
 
-O próximo passo natural é entender **quando vale falar um número exato e quando é melhor trabalhar com uma faixa**.

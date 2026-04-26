@@ -79,7 +79,6 @@ const pageTitle = currentPage === 1
   description={`Artigos sobre ${categoriaLabel.toLowerCase()} no Brasil.`}
   path={baseHref}
   schemaType="blog"
-  noindex
 >
   <BlogHeader
     titulo={categoriaLabel}
@@ -106,7 +105,7 @@ const pageTitle = currentPage === 1
                     {post.data.category}
                   </span>
                   <h2 class="blog-card-titulo">{post.data.title}</h2>
-                  <p class="blog-card-descricao">{post.data.description}</p>
+                  <p class="blog-card-descricao">{post.data.summary}</p>
                   <div class="blog-card-meta">
                     {post.data.author} · {formatDate(post.data.date)}
                   </div>
