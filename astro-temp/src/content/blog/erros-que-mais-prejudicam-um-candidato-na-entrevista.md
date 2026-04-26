@@ -1,6 +1,6 @@
 ---
 title: "Erros que mais prejudicam um candidato na entrevista"
-date: 2026-04-24
+date: 2026-03-03
 author: "Thiago Areias"
 description: "Conheça os erros mais comuns em entrevistas de emprego e veja como evitar atitudes que prejudicam sua avaliação."
 category: "Entrevista de emprego"
@@ -11,6 +11,8 @@ category: "Entrevista de emprego"
 Nem sempre um candidato vai mal em uma entrevista por falta de competência. Muitas vezes, ele se prejudica por erros de preparo, posicionamento ou comunicação. O problema é que alguns desses deslizes parecem pequenos, mas mudam bastante a percepção do recrutador.
 
 Entender esses erros ajuda a evitá-los antes que virem obstáculo real.
+
+Esse tema fica mais claro quando você cruza a leitura com [Como falar sobre seus pontos fortes e fracos sem parecer ensaiado](/blog/como-falar-sobre-seus-pontos-fortes-e-fracos-sem-parecer-ensaiado/).
 
 ## 1. Chegar sem entender a vaga
 
@@ -113,6 +115,8 @@ Algumas medidas reduzem bastante o risco:
 - separar exemplos concretos
 - revisar sua pretensão salarial
 - preparar perguntas para o final
+
+Na prática, essa leitura fica ainda mais útil quando conectada a [Como avaliar uma vaga antes de dizer sua pretensão salarial](/blog/como-avaliar-uma-vaga-antes-de-dizer-sua-pretensao-salarial/).
 
 ## Conclusão
 

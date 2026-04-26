@@ -1,6 +1,6 @@
 ---
 title: "Como responder por que você quer trabalhar nesta empresa"
-date: 2026-04-24
+date: 2025-12-09
 author: "Thiago Areias"
 description: "Veja como responder por que você quer trabalhar na empresa sem soar genérico e com mais aderência ao contexto da vaga."
 category: "Entrevista de emprego"
@@ -11,6 +11,8 @@ category: "Entrevista de emprego"
 A pergunta **“por que você quer trabalhar aqui?”** parece simples, mas costuma revelar bastante sobre o candidato. Ela mostra se você pesquisou a empresa, se existe interesse real e se consegue conectar sua trajetória ao contexto da vaga.
 
 Responder mal aqui é mais comum do que parece. O problema costuma ser a genericidade.
+
+Antes de avançar, vale também entender [Como se sair bem em entrevista online](/blog/como-se-sair-bem-em-entrevista-online/).
 
 ## O que o recrutador quer entender com essa pergunta
 
@@ -97,6 +99,8 @@ Antes da entrevista, tente levantar:
 - por que isso faz sentido agora para você
 
 Com isso, a resposta sai mais natural.
+
+Esse ponto conversa diretamente com [O que responder quando pedem pretensão salarial na entrevista](/blog/o-que-responder-quando-pedem-pretensao-salarial-na-entrevista/).
 
 ## Conclusão
 

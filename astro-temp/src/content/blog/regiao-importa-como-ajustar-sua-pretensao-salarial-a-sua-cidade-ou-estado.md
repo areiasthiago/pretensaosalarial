@@ -1,6 +1,6 @@
 ---
 title: "Região importa: como ajustar sua pretensão salarial à sua cidade ou estado"
-date: 2026-04-24
+date: 2026-04-16
 author: "Thiago Areias"
 description: "Entenda como cidade, estado, trabalho remoto e contexto geográfico influenciam sua pretensão salarial."
 category: "Pretensão salarial"
@@ -11,6 +11,8 @@ category: "Pretensão salarial"
 Muita gente fala de pretensão salarial como se existisse uma única faixa nacional para cada cargo. Na prática, isso raramente funciona assim. Região ainda influencia bastante remuneração, mesmo em um mercado mais digital e com avanço do trabalho remoto.
 
 A pergunta certa não é só "quanto esse cargo paga". É também: **quanto esse cargo paga neste contexto geográfico?**
+
+Esse tema fica mais claro quando você cruza a leitura com [Erros que fazem você pedir uma pretensão salarial abaixo do mercado](/blog/erros-que-fazem-voce-pedir-uma-pretensao-salarial-abaixo-do-mercado/).
 
 ## Por que região ainda pesa
 
@@ -116,6 +118,8 @@ Evite:
 - usar um benchmark de outra praça sem filtro
 - aceitar argumento regional para qualquer redução
 - descolar sua pretensão do escopo real da vaga
+
+Na prática, essa leitura fica ainda mais útil quando conectada a [Como salários variam por cargo, área e senioridade](/blog/como-salarios-variam-por-cargo-area-e-senioridade/).
 
 ## Conclusão
 

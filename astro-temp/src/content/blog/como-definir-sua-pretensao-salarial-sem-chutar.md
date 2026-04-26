@@ -1,6 +1,6 @@
 ---
 title: "Como definir sua pretensão salarial sem chutar"
-date: 2026-04-24
+date: 2025-10-30
 author: "Thiago Areias"
 description: "Aprenda a definir sua pretensão salarial com base em escopo, senioridade, região, benefícios e regime de contratação."
 category: "Pretensão salarial"
@@ -11,6 +11,8 @@ category: "Pretensão salarial"
 Definir pretensão salarial no improviso é uma das formas mais fáceis de perder dinheiro em um processo seletivo. O problema é que muita gente só pensa nisso quando o recrutador pergunta. E, nessa hora, tende a recorrer a um palpite, ao salário atual ou a um número qualquer que "pareça razoável".
 
 O caminho mais seguro é outro: montar uma faixa com critério.
+
+Esse tema fica mais claro quando você cruza a leitura com [Pretensão salarial: falar um número exato ou uma faixa?](/blog/pretensao-salarial-falar-um-numero-exato-ou-uma-faixa/).
 
 ## O erro de tentar adivinhar
 
@@ -149,6 +151,8 @@ Evite respostas como:
 - "depende"
 
 Essas falas podem ser verdadeiras, mas enfraquecem sua posição se vierem sem argumento.
+
+Na prática, essa leitura fica ainda mais útil quando conectada a [Como usar dados de mercado para sustentar sua negociação](/blog/como-usar-dados-de-mercado-para-sustentar-sua-negociacao/).
 
 ## Conclusão
 

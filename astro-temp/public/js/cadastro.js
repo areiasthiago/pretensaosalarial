@@ -75,7 +75,7 @@ function validarEtapa1() {
   let valido = true
 
   const email = document.getElementById('email').value.trim()
-  const cargo = document.getElementById('cargo').value.trim()
+  const cargo = document.getElementById('cargo').value.trim().toUpperCase()
   const area = document.getElementById('area').value.trim()
   const posicao = document.getElementById('posicao').value
   const nivel = document.getElementById('nivel').value

@@ -1,6 +1,6 @@
 ---
 title: "Como responder “qual é a sua pretensão salarial?” na entrevista"
-date: 2026-04-24
+date: 2025-12-30
 author: "Thiago Areias"
 description: "Aprenda como responder à pergunta sobre pretensão salarial na entrevista sem improvisar e sem se desvalorizar."
 category: "Entrevista de emprego"
@@ -11,6 +11,8 @@ category: "Entrevista de emprego"
 Poucas perguntas geram tanta tensão em uma entrevista quanto esta: **“qual é a sua pretensão salarial?”** Isso acontece porque a resposta parece simples, mas envolve valor de mercado, contexto da vaga, segurança emocional e margem de negociação.
 
 Responder bem não é acertar um número mágico. É mostrar critério.
+
+Um bom complemento para essa discussão é [O que o recrutador quer avaliar em uma entrevista de emprego](/blog/o-que-o-recrutador-quer-avaliar-em-uma-entrevista-de-emprego/).
 
 ## Por que essa pergunta existe
 
@@ -116,6 +118,8 @@ Evite:
 - ignorar benefícios
 - abrir uma faixa ampla demais
 - demonstrar insegurança excessiva
+
+Esse raciocínio ganha ainda mais força quando você compara com [Como negociar salário sem parecer inflexível](/blog/como-negociar-salario-sem-parecer-inflexivel/).
 
 ## Conclusão
 

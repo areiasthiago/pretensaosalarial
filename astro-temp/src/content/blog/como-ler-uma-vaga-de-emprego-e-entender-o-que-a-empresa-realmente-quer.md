@@ -1,6 +1,6 @@
 ---
 title: "Como ler uma vaga de emprego e entender o que a empresa realmente quer"
-date: 2026-04-24
+date: 2026-01-13
 author: "Thiago Areias"
 description: "Aprenda a interpretar descrições de vagas e entender o que a empresa realmente espera do candidato."
 category: "Busca e candidatura"
@@ -11,6 +11,8 @@ category: "Busca e candidatura"
 Uma descrição de vaga nem sempre diz tudo de forma direta. Muitas vezes, o texto mistura requisitos, linguagem genérica, prioridades implícitas e até algumas contradições. Por isso, ler uma vaga bem não é apenas passar os olhos pela lista de exigências. É interpretar o que está nas entrelinhas.
 
 Quem lê melhor a vaga costuma se candidatar melhor.
+
+Um bom complemento para essa discussão é [Antes de se candidatar: como saber se a vaga vale a pena](/blog/antes-de-se-candidatar-como-saber-se-a-vaga-vale-a-pena/).
 
 ## Por que essa leitura importa
 
@@ -108,6 +110,8 @@ Evite:
 - ignorar sinais de senioridade
 - tratar linguagem genérica como dado principal
 - se candidatar sem entender escopo
+
+Esse raciocínio ganha ainda mais força quando você compara com [Como definir sua pretensão salarial sem chutar](/blog/como-definir-sua-pretensao-salarial-sem-chutar/).
 
 ## Conclusão
 

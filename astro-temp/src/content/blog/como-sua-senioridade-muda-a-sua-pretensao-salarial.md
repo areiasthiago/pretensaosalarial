@@ -1,6 +1,6 @@
 ---
 title: "Como sua senioridade muda a sua pretensão salarial"
-date: 2026-04-24
+date: 2025-11-20
 author: "Thiago Areias"
 description: "Saiba como senioridade, autonomia e complexidade de entrega influenciam sua pretensão salarial e sua negociação."
 category: "Pretensão salarial"
@@ -11,6 +11,8 @@ category: "Pretensão salarial"
 Uma das formas mais comuns de errar na pretensão salarial é tratar senioridade como detalhe. Não é. Senioridade muda profundamente a faixa esperada para uma vaga porque ela altera o tipo de entrega, o grau de autonomia e o impacto esperado da pessoa na função.
 
 Na prática, não basta saber seu cargo. Você precisa entender seu nível dentro dele.
+
+Antes de avançar, vale também entender [Região importa: como ajustar sua pretensão salarial à sua cidade ou estado](/blog/regiao-importa-como-ajustar-sua-pretensao-salarial-a-sua-cidade-ou-estado/).
 
 ## O que senioridade realmente mede
 
@@ -112,6 +114,8 @@ Evite:
 - ignorar escopo real da vaga
 - tratar promoção de título como promoção automática de valor
 - usar o cargo anterior como única âncora
+
+Esse ponto conversa diretamente com [Como usar dados de mercado para sustentar sua negociação](/blog/como-usar-dados-de-mercado-para-sustentar-sua-negociacao/).
 
 ## Conclusão
 

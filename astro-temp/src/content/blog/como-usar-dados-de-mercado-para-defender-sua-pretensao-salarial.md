@@ -1,6 +1,6 @@
 ---
 title: "Como usar dados de mercado para defender sua pretensão salarial"
-date: 2026-04-24
+date: 2025-12-11
 author: "Thiago Areias"
 description: "Veja como usar dados de mercado, referências salariais e contexto da vaga para defender sua pretensão salarial com segurança."
 category: "Pretensão salarial"
@@ -11,6 +11,8 @@ category: "Pretensão salarial"
 Ter uma pretensão salarial em mente já ajuda bastante. Mas o que realmente fortalece sua posição é conseguir sustentar essa faixa com argumento. E é aí que entram os dados de mercado.
 
 Eles não servem para transformar conversa em disputa. Servem para tirar sua resposta do campo do achismo.
+
+Antes de avançar, vale também entender [Erros que fazem você pedir uma pretensão salarial abaixo do mercado](/blog/erros-que-fazem-voce-pedir-uma-pretensao-salarial-abaixo-do-mercado/).
 
 ## Por que dados fortalecem sua posição
 
@@ -127,6 +129,8 @@ Mesmo com boa referência, a decisão final continua passando por:
 - interesse estratégico na oportunidade
 
 Ou seja, dado não substitui julgamento. Ele melhora o julgamento.
+
+Esse ponto conversa diretamente com [Como responder “qual é a sua pretensão salarial?” na entrevista](/blog/como-responder-qual-e-a-sua-pretensao-salarial-na-entrevista/).
 
 ## Conclusão
 

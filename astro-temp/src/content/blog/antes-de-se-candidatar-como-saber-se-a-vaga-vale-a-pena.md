@@ -1,6 +1,6 @@
 ---
 title: "Antes de se candidatar: como saber se a vaga vale a pena"
-date: 2026-04-24
+date: 2025-09-30
 author: "Thiago Areias"
 description: "Veja como avaliar uma vaga antes de se candidatar e evitar processos seletivos desalinhados com seu momento e seus objetivos."
 category: "Busca e candidatura"
@@ -11,6 +11,8 @@ category: "Busca e candidatura"
 Nem toda vaga que parece boa no título vale seu tempo, sua energia e sua expectativa. Antes de entrar em um processo seletivo, vale fazer uma análise mínima para entender se aquela oportunidade realmente faz sentido para você.
 
 Isso não é excesso de exigência. É estratégia.
+
+Antes de avançar, vale também entender [Como montar uma candidatura mais forte para uma vaga](/blog/como-montar-uma-candidatura-mais-forte-para-uma-vaga/).
 
 ## Por que essa avaliação importa
 
@@ -98,6 +100,8 @@ Evite:
 - ignorar sinais de desalinhamento
 - tratar qualquer oportunidade como melhor do que nenhuma
 - esquecer de cruzar a vaga com seu momento real
+
+Esse ponto conversa diretamente com [Como responder “qual é a sua pretensão salarial?” na entrevista](/blog/como-responder-qual-e-a-sua-pretensao-salarial-na-entrevista/).
 
 ## Conclusão
 

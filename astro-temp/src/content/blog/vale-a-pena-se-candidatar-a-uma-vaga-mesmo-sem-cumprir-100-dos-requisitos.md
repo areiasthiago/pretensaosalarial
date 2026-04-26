@@ -1,6 +1,6 @@
 ---
 title: "Vale a pena se candidatar a uma vaga mesmo sem cumprir 100% dos requisitos?"
-date: 2026-04-24
+date: 2026-04-07
 author: "Thiago Areias"
 description: "Entenda quando faz sentido se candidatar a uma vaga mesmo sem cumprir todos os requisitos listados no anúncio."
 category: "Busca e candidatura"
@@ -11,6 +11,8 @@ category: "Busca e candidatura"
 Essa é uma das dúvidas mais comuns de quem está buscando trabalho: **faz sentido se candidatar mesmo sem cumprir tudo o que a vaga pede?** Na maior parte dos casos, a resposta é sim, desde que exista aderência suficiente e leitura estratégica.
 
 O problema não é não cumprir 100%. O problema é não entender o que realmente importa.
+
+Esse tema fica mais claro quando você cruza a leitura com [Como acompanhar candidaturas sem se perder no processo](/blog/como-acompanhar-candidaturas-sem-se-perder-no-processo/).
 
 ## Nem tudo na vaga tem o mesmo peso
 
@@ -69,6 +71,8 @@ Evite:
 - tratar desejável como obrigatório
 - ignorar senioridade implícita
 - aplicar sem conseguir sustentar a escolha
+
+Na prática, essa leitura fica ainda mais útil quando conectada a [Como definir sua pretensão salarial sem chutar](/blog/como-definir-sua-pretensao-salarial-sem-chutar/).
 
 ## Conclusão
 

@@ -1,6 +1,6 @@
 ---
 title: "Pretensão salarial: falar um número exato ou uma faixa?"
-date: 2026-04-24
+date: 2026-03-26
 author: "Thiago Areias"
 description: "Descubra quando vale mais a pena informar um número exato ou uma faixa de pretensão salarial em processos seletivos."
 category: "Pretensão salarial"
@@ -13,6 +13,8 @@ Uma das maiores dúvidas sobre pretensão salarial é esta: vale mais a pena fal
 A resposta curta é: **na maior parte dos casos, faixa funciona melhor**. Mas não sempre. Há situações em que ser mais exato faz sentido.
 
 O importante é entender o efeito de cada escolha.
+
+Um bom complemento para essa discussão é [O que responder quando pedem pretensão salarial na entrevista](/blog/o-que-responder-quando-pedem-pretensao-salarial-na-entrevista/).
 
 ## O que acontece quando você fala um número exato
 
@@ -136,6 +138,8 @@ Evite:
 - mudar o valor toda vez que falam um pouco mais da vaga
 
 Sua resposta precisa ser flexível, mas consistente.
+
+Esse raciocínio ganha ainda mais força quando você compara com [Como salários variam por cargo, área e senioridade](/blog/como-salarios-variam-por-cargo-area-e-senioridade/).
 
 ## Conclusão
 

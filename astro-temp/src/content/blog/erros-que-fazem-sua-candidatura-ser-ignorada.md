@@ -1,6 +1,6 @@
 ---
 title: "Erros que fazem sua candidatura ser ignorada"
-date: 2026-04-24
+date: 2026-03-17
 author: "Thiago Areias"
 description: "Conheça os erros mais comuns que fazem candidaturas serem ignoradas e veja como evitá-los."
 category: "Busca e candidatura"
@@ -11,6 +11,8 @@ category: "Busca e candidatura"
 Nem sempre uma candidatura é ignorada porque falta capacidade técnica. Muitas vezes, ela passa batida por erros simples de leitura, apresentação ou posicionamento. O problema é que, quando isso acontece várias vezes, a pessoa tende a achar que o mercado inteiro está fechado, quando parte do problema pode estar na forma de se candidatar.
 
 Entender esses erros ajuda a melhorar a qualidade do processo.
+
+Um bom complemento para essa discussão é [Como adaptar seu currículo para cada vaga sem reescrever tudo](/blog/como-adaptar-seu-curriculo-para-cada-vaga-sem-reescrever-tudo/).
 
 ## 1. Se candidatar sem aderência mínima
 
@@ -72,6 +74,8 @@ Evite:
 - ausência de resultado concreto
 - falta de leitura da vaga
 - desorganização total do processo
+
+Esse raciocínio ganha ainda mais força quando você compara com [Como montar um currículo mais competitivo sem exagerar](/blog/como-montar-um-curriculo-mais-competitivo-sem-exagerar/).
 
 ## Conclusão
 

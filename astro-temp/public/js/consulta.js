@@ -62,7 +62,7 @@ function applySelectFilter(name, value) {
 function updateChip(name, value) {
   const chip = document.getElementById('chip-' + name)
   const label = document.getElementById('chip-' + name + '-label')
-  if (!chip) return
+  if (!chip) { updateChipMais(); return }
 
   const labels = {
     cargo: 'Cargo',
@@ -100,6 +100,15 @@ function updateChip(name, value) {
 
   const temFiltros = Object.values(filtros).some(v => v !== null)
   document.getElementById('btn-limpar').style.display = temFiltros ? 'inline-block' : 'none'
+}
+
+const FILTROS_MAIS = ['porte', 'setor', 'genero', 'orientacao', 'raca', 'pcd', 'bonus']
+
+function updateChipMais() {
+  const chipMais = document.getElementById('chip-mais')
+  if (!chipMais) return
+  const temAtivo = FILTROS_MAIS.some(k => filtros[k] !== null)
+  chipMais.classList.toggle('active', temAtivo)
 }
 
 function removeFilter(name) {
@@ -213,7 +222,7 @@ async function buscar() {
       : count === 0
       ? `<p>Nossa base ainda está crescendo. Seja um dos primeiros a contribuir!</p>
         <a href="/cadastro/" class="btn btn-primary">Ajude nossa base a crescer</a>`
-      : `<p>Encontramos <strong>${count} resposta${count > 1 ? 's' : ''}</strong> para essa consulta, mas precisamos de <strong>mais cadastros</strong> para exibir os dados com segurança e proteger a privacidade dos usuários.</p>
+      : `<p>Por enquanto ainda encontramos <strong>poucas respostas</strong> para essa consulta. Precisamos de <strong>mais cadastros</strong> para exibir os dados com segurança e proteger a privacidade dos usuários.</p>
         <a href="/cadastro/" class="btn btn-primary">Ajude nossa base a crescer</a>`
 
     document.querySelector('.consulta-results').classList.add('loaded')
@@ -318,7 +327,7 @@ async function setupConsultaAutocompletes() {
     })
   }
 
-  const topCargos = Object.entries(cargoCount).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([c]) => c)
+  const topCargos = Object.entries(cargoCount).filter(([, n]) => n >= 5).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([c]) => c)
   const topAreas = Object.entries(areaCount).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([a]) => a)
   const topSetores = Object.entries(setorCount).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([s]) => s)
 
@@ -364,7 +373,9 @@ async function setupConsultaAutocompletes() {
 
       if (!data || !data.length) { cargoList.classList.remove('visible'); return }
 
-      const unicos = [...new Set(data.map(d => d.cargo))].slice(0, 8)
+      const contagem = {}
+      data.forEach(d => { if (d.cargo) contagem[d.cargo] = (contagem[d.cargo] || 0) + 1 })
+      const unicos = Object.entries(contagem).sort((a, b) => b[1] - a[1]).slice(0, 8).map(([c]) => c)
       mostrarSugestoes('filtro-cargo-suggestions', unicos, (cargo) => {
         cargoInput.value = cargo
         filtros.cargo = cargo
@@ -421,12 +432,19 @@ async function setupConsultaAutocompletes() {
       mostrarSugestoes('filtro-setor-suggestions', topSetores, (setor) => {
         setorInput.value = setor
         filtros.setor = setor
-        updateChip('mais', setor)
+        updateChipMais()
         buscar()
       })
     })
 
     setorInput.addEventListener('blur', () => setTimeout(() => setorList.classList.remove('visible'), 150))
+    setorInput.addEventListener('input', () => {
+      if (!setorInput.value.trim()) {
+        filtros.setor = null
+        updateChipMais()
+        buscar()
+      }
+    })
 
     criarAutocomplete('filtro-setor', 'filtro-setor-suggestions', setorNomes, (valor) => {
       filtros.setor = valor

@@ -1,6 +1,6 @@
 ---
 title: "Como procurar vagas de emprego de forma mais inteligente"
-date: 2026-04-24
+date: 2026-02-24
 author: "Thiago Areias"
 description: "Aprenda a procurar vagas de emprego com mais estratégia, filtrando melhor oportunidades e evitando candidaturas aleatórias."
 category: "Busca e candidatura"
@@ -11,6 +11,8 @@ category: "Busca e candidatura"
 Procurar emprego não deveria ser um exercício de abrir dezenas de abas e sair clicando em “candidatar-se” o mais rápido possível. Esse modelo costuma gerar desgaste, frustração e pouca qualidade na busca. Em vez de aumentar suas chances, muitas vezes ele só aumenta o volume de tentativas sem direção.
 
 Procurar vagas de forma mais inteligente é buscar com critério.
+
+Antes de avançar, vale também entender [Como encontrar vagas que combinam com o seu perfil](/blog/como-encontrar-vagas-que-combinam-com-o-seu-perfil/).
 
 ## O problema da busca aleatória
 
@@ -110,6 +112,8 @@ Evite:
 - ignorar senioridade e escopo
 - fazer busca sem filtros
 - perder registro do que já foi enviado
+
+Esse ponto conversa diretamente com [Como montar um currículo mais competitivo sem exagerar](/blog/como-montar-um-curriculo-mais-competitivo-sem-exagerar/).
 
 ## Conclusão
 

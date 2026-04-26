@@ -1,6 +1,6 @@
 ---
 title: "Como ganhar confiança para entrevistas e negociar melhor"
-date: 2026-04-24
+date: 2025-11-18
 author: "Thiago Areias"
 description: "Descubra como ganhar mais confiança em entrevistas de emprego e chegar mais preparado para negociar com clareza."
 category: "Entrevista de emprego"
@@ -11,6 +11,8 @@ category: "Entrevista de emprego"
 Confiança em entrevista não é um traço fixo de personalidade. Na maior parte das vezes, ela nasce de preparo, clareza e repetição. O problema é que muita gente espera se sentir confiante primeiro para depois se posicionar melhor, quando geralmente o caminho é o contrário.
 
 Você ganha confiança quando entende o contexto e entra na conversa com mais estrutura.
+
+Antes de avançar, vale também entender [O que perguntar ao recrutador no fim da entrevista](/blog/o-que-perguntar-ao-recrutador-no-fim-da-entrevista/).
 
 ## Por que tanta gente se sente insegura
 
@@ -116,6 +118,8 @@ Confiança em entrevista se conecta diretamente à negociação. Quem consegue:
 - falar de pretensão com critério
 
 normalmente chega mais forte à etapa de proposta.
+
+Esse ponto conversa diretamente com [Como avaliar uma vaga antes de dizer sua pretensão salarial](/blog/como-avaliar-uma-vaga-antes-de-dizer-sua-pretensao-salarial/).
 
 ## Conclusão
 

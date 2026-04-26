@@ -1,6 +1,6 @@
 ---
 title: "O que é pretensão salarial e por que essa pergunta importa tanto"
-date: 2026-04-24
+date: 2026-01-22
 author: "Thiago Areias"
 description: "Entenda o que é pretensão salarial, por que essa pergunta pesa tanto em processos seletivos e como responder sem se desvalorizar."
 category: "Pretensão salarial"
@@ -11,6 +11,8 @@ category: "Pretensão salarial"
 Pretensão salarial é o valor, ou a faixa de valor, que você considera adequada para aceitar uma vaga ou uma mudança de posição. Na prática, é a resposta para uma pergunta que aparece cedo ou tarde em muitos processos seletivos: **"qual é a sua pretensão salarial?"**
 
 Muita gente trava nessa hora porque entende a pergunta como uma armadilha. Em parte, ela realmente é um ponto sensível. Se você pedir muito abaixo do mercado, pode se desvalorizar. Se pedir muito acima do que a empresa está disposta a pagar, pode sair do processo cedo demais. Por isso, pretensão salarial não deveria ser um chute. Ela precisa ser uma resposta pensada.
+
+Antes de avançar, vale também entender [Como definir sua pretensão salarial sem chutar](/blog/como-definir-sua-pretensao-salarial-sem-chutar/).
 
 ## Por que as empresas perguntam isso
 
@@ -107,6 +109,8 @@ Você pode dizer:
 > "Considerando o escopo da vaga, meu nível de experiência e o que tenho visto para posições semelhantes, minha expectativa está em uma faixa de X a Y, dependendo também do pacote total."
 
 A segunda resposta transmite mais preparo, flexibilidade e critério.
+
+Esse ponto conversa diretamente com [Como negociar salário sem parecer inflexível](/blog/como-negociar-salario-sem-parecer-inflexivel/).
 
 ## Conclusão
 

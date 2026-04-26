@@ -1,6 +1,6 @@
 ---
 title: "Como encontrar vagas que combinam com o seu perfil"
-date: 2026-04-24
+date: 2025-12-23
 author: "Thiago Areias"
 description: "Veja como encontrar vagas mais alinhadas ao seu perfil, à sua experiência e ao seu momento profissional."
 category: "Busca e candidatura"
@@ -11,6 +11,8 @@ category: "Busca e candidatura"
 Uma das armadilhas mais comuns na busca por emprego é achar que o problema está só na quantidade de vagas disponíveis. Muitas vezes, a dificuldade real está no filtro. Você até encontra oportunidades, mas não necessariamente as que fazem sentido para sua experiência, seu momento e sua intenção de carreira.
 
 Encontrar vagas que combinam com o seu perfil é uma questão de leitura.
+
+Esse tema fica mais claro quando você cruza a leitura com [Como ler uma vaga de emprego e entender o que a empresa realmente quer](/blog/como-ler-uma-vaga-de-emprego-e-entender-o-que-a-empresa-realmente-quer/).
 
 ## O que significa uma vaga combinar com você
 
@@ -94,6 +96,8 @@ Evite:
 - ignorar escopo real
 - se candidatar para vagas que não consegue sustentar
 - mirar oportunidades completamente desconectadas da sua trajetória sem plano de transição
+
+Na prática, essa leitura fica ainda mais útil quando conectada a [Como se preparar para uma entrevista de emprego](/blog/como-se-preparar-para-uma-entrevista-de-emprego/).
 
 ## Conclusão
 

@@ -1,6 +1,6 @@
 ---
 title: "Pretensão salarial CLT x PJ: como comparar corretamente"
-date: 2026-04-24
+date: 2026-03-05
 author: "Thiago Areias"
 description: "Entenda como comparar propostas CLT e PJ sem cair na armadilha de olhar apenas para o valor mensal."
 category: "Pretensão salarial"
@@ -13,6 +13,8 @@ Uma das comparações mais perigosas no mercado de trabalho é esta: olhar uma p
 Esse atalho costuma distorcer bastante a análise. Em muitos casos, a proposta PJ parece melhor num primeiro olhar, mas perde força quando você considera a estrutura completa. Em outros, a proposta CLT parece mais segura, mas pode não compensar financeiramente o escopo.
 
 Comparar corretamente exige sair do bruto simples.
+
+Um bom complemento para essa discussão é [Como sua senioridade muda a sua pretensão salarial](/blog/como-sua-senioridade-muda-a-sua-pretensao-salarial/).
 
 ## Por que CLT e PJ não são equivalentes
 
@@ -140,6 +142,8 @@ Evite:
 - ignorar impostos e custos do PJ
 - assumir que todo PJ compensa mais
 - aceitar diferença pequena como se fosse grande vantagem
+
+Esse raciocínio ganha ainda mais força quando você compara com [Como negociar salário sem parecer inflexível](/blog/como-negociar-salario-sem-parecer-inflexivel/).
 
 ## Conclusão
 

@@ -1,6 +1,6 @@
 ---
 title: "O que responder quando pedem pretensão salarial na entrevista"
-date: 2026-04-24
+date: 2026-02-12
 author: "Thiago Areias"
 description: "Veja como responder à pergunta sobre pretensão salarial na entrevista com clareza, segurança e margem para negociar."
 category: "Pretensão salarial"
@@ -11,6 +11,8 @@ category: "Pretensão salarial"
 A pergunta sobre pretensão salarial costuma gerar tensão porque ela parece simples, mas carrega várias camadas. Você quer parecer valorizado sem soar inflexível. Quer manter margem sem parecer indeciso. Quer ser honesto sem se enfraquecer.
 
 A boa notícia é que existe uma forma melhor de responder.
+
+Antes de avançar, vale também entender [Como calcular sua pretensão salarial considerando benefícios](/blog/como-calcular-sua-pretensao-salarial-considerando-beneficios/).
 
 ## Primeiro: entenda o momento da pergunta
 
@@ -115,6 +117,8 @@ Com isso, a conversa fica muito mais leve.
 > "Considerando o escopo da vaga, minha experiência e as referências que tenho acompanhado para posições semelhantes, minha expectativa está entre X e Y. Avalio isso junto com benefícios, modelo de trabalho e possibilidades de crescimento."
 
 Essa resposta serve para a maior parte dos contextos.
+
+Esse ponto conversa diretamente com [Como saber se você está ganhando abaixo do mercado](/blog/como-saber-se-voce-esta-ganhando-abaixo-do-mercado/).
 
 ## Conclusão
 
