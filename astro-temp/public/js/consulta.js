@@ -244,7 +244,7 @@ async function buscar() {
   document.getElementById('stat-bonus').textContent = pctBonus + '%'
 
   const resultsHeader = document.getElementById('results-header')
-  resultsHeader.style.display = 'block'
+  resultsHeader.style.display = 'none'
   const temFiltros = Object.values(filtros).some(v => v !== null)
   document.getElementById('results-count').innerHTML = temFiltros
     ? `<strong>${data.length} respostas</strong> para os filtros selecionados`
@@ -327,7 +327,7 @@ async function setupConsultaAutocompletes() {
     })
   }
 
-  const topCargos = Object.entries(cargoCount).filter(([, n]) => n >= 5).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([c]) => c)
+  const topCargos = Object.entries(cargoCount).filter(([, n]) => n >= 10).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([c]) => c)
   const topAreas = Object.entries(areaCount).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([a]) => a)
   const topSetores = Object.entries(setorCount).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([s]) => s)
 
