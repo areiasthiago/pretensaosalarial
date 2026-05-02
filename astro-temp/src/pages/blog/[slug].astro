@@ -4,6 +4,7 @@ import { getCollection, render } from 'astro:content'
 import { slugAutor, iniciaisAutor, avatarAutor } from '../../data/autores'
 import { slugCategoria, corCategoria } from '../../data/categorias'
 import BlogBusca from '../../components/BlogBusca.astro'
+import AdSlot from '../../components/AdSlot.astro'
 import '../../styles/main.css'
 import '../../styles/pages/blog.css'
 
@@ -85,7 +86,7 @@ const h2s = headings.filter(h => h.depth === 2)
             {post.data.summary}
           </div>
 
-          <!-- Autor após o resumo -->
+          <!-- Autor -->
           <div class="post-autor" data-pagefind-ignore>
             <a href={`/blog/autor/${autorSlug}/`} class="post-autor-avatar-link">
               {autorAvatar
@@ -99,10 +100,16 @@ const h2s = headings.filter(h => h.depth === 2)
             </div>
           </div>
 
+          <!-- AD: após o autor -->
+          <AdSlot id="ad-post-top" />
+
           <div class="post-content">
             <div class="prose">
               <Content />
             </div>
+
+            <!-- AD: após o conteúdo -->
+            <AdSlot id="ad-post-bottom" />
 
             {relacionados.length > 0 && (
               <div class="post-relacionados" data-pagefind-ignore>
@@ -135,6 +142,9 @@ const h2s = headings.filter(h => h.depth === 2)
             </div>
           )}
 
+          <!-- AD: sidebar -->
+          <AdSlot id="ad-post-sidebar" variant="sidebar" />
+
           <div class="sidebar-cta">
             <div class="sidebar-cta-title">Contribua com a pesquisa</div>
             <p class="sidebar-cta-text">Seu salário ajuda outros profissionais a negociar melhor. Leva menos de 3 minutos.</p>
@@ -153,14 +163,33 @@ const h2s = headings.filter(h => h.depth === 2)
   </div>
 </template>
 
+<template id="ad-post-mid-tpl">
+  <div class="ad-slot ad-slot-inline active post-ad-mid" data-pagefind-ignore>
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-8916110376682921"
+      data-ad-slot="6848210144"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  </div>
+</template>
+
 <script>
   document.addEventListener('DOMContentLoaded', () => {
     const prose = document.querySelector('.prose')
-    const tpl = document.getElementById('cta-consulta-tpl') as HTMLTemplateElement
-    if (prose && tpl) {
+    const ctaTpl = document.getElementById('cta-consulta-tpl') as HTMLTemplateElement
+    const adTpl = document.getElementById('ad-post-mid-tpl') as HTMLTemplateElement
+
+    if (prose && ctaTpl) {
       const ps = prose.querySelectorAll('p')
       if (ps.length >= 3) {
-        ps[2].after(tpl.content.cloneNode(true))
+        ps[2].after(ctaTpl.content.cloneNode(true))
+        if (ps.length >= 6 && adTpl) {
+          ps[5].after(adTpl.content.cloneNode(true))
+          if (typeof (window as any).adsbygoogle !== 'undefined') {
+            ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({})
+          }
+        }
       }
     }
 
@@ -188,6 +217,10 @@ const h2s = headings.filter(h => h.depth === 2)
 </script>
 
 <style>
+  .post-ad-mid {
+    margin: var(--space-6) 0;
+  }
+
   .post-header-layout {
     display: flex;
     align-items: flex-start;
@@ -248,4 +281,6 @@ const h2s = headings.filter(h => h.depth === 2)
   .prose a { color: var(--color-primary-500); text-decoration: underline; text-underline-offset: 2px; }
   .prose blockquote { border-left: 3px solid var(--color-primary-500); padding: 0.75rem 1rem; background: var(--color-surface); border-radius: 0 var(--radius-md) var(--radius-md) 0; margin-block: 1.5rem; }
   .prose blockquote p { color: var(--color-text); margin-bottom: 0; font-style: italic; }
+  #ad-post-top {margin-bottom: var(--space-6);}
+  #ad-post-sidebar {min-height: 250px;min-height: 100px;}
 </style>

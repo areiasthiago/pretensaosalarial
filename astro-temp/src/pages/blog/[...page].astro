@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content'
 import { categorias, slugCategoria, corCategoria } from '../../data/categorias'
 import BlogFiltros from '../../components/BlogFiltros.astro'
 import BlogHeader from '../../components/BlogHeader.astro'
+import AdSlot from '../../components/AdSlot.astro'
 import '../../styles/main.css'
 import '../../styles/pages/blog.css'
 
@@ -20,27 +21,18 @@ function formatDate(date: Date) {
   return date.toLocaleDateString('pt-BR', { day: 'numeric', month: 'short', year: 'numeric' })
 }
 
-// Gera o array de páginas para a navegação numerada
 const totalPages = page.lastPage
 const currentPage = page.currentPage
 
-// Lógica para mostrar no máximo 5 números + reticências
 function getPageNumbers(current: number, total: number): (number | '...')[] {
   if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1)
-
   const pages: (number | '...')[] = [1]
-
   if (current > 3) pages.push('...')
-
   const start = Math.max(2, current - 1)
   const end = Math.min(total - 1, current + 1)
-
   for (let i = start; i <= end; i++) pages.push(i)
-
   if (current < total - 2) pages.push('...')
-
   pages.push(total)
-
   return pages
 }
 
@@ -49,6 +41,16 @@ const pageNumbers = getPageNumbers(currentPage, totalPages)
 function pageHref(n: number) {
   return n === 1 ? '/blog/' : `/blog/${n}/`
 }
+
+function chunkPosts<T>(arr: T[], size: number): T[][] {
+  const chunks: T[][] = []
+  for (let i = 0; i < arr.length; i += size) {
+    chunks.push(arr.slice(i, i + size))
+  }
+  return chunks
+}
+
+const postChunks = chunkPosts(page.data, 6)
 ---
 
 <Layout
@@ -66,26 +68,39 @@ function pageHref(n: number) {
 
   <section class="blog-lista">
     <div class="container">
-      <div class="blog-grid">
-        {page.data.map(post => {
-          const cor = corCategoria(post.data.category)
-          return (
-            <a href={`/blog/${post.id}/`} class="blog-card">
-              <span
-                class="blog-card-categoria"
-                style={`background: ${cor.bg}; color: ${cor.text};`}
-              >
-                {post.data.category}
-              </span>
-              <h2 class="blog-card-titulo">{post.data.title}</h2>
-              <p class="blog-card-descricao">{post.data.summary}</p>
-              <div class="blog-card-meta">
-                {post.data.author} · {formatDate(post.data.date)}
-              </div>
-            </a>
-          )
-        })}
-      </div>
+
+      <AdSlot id="ad-blog-top" />
+
+      {postChunks.map((chunk, chunkIndex) => (
+        <>
+          <div class="blog-grid">
+            {chunk.map(post => {
+              const cor = corCategoria(post.data.category)
+              return (
+                <a href={`/blog/${post.id}/`} class="blog-card">
+                  <span
+                    class="blog-card-categoria"
+                    style={`background: ${cor.bg}; color: ${cor.text};`}
+                  >
+                    {post.data.category}
+                  </span>
+                  <h2 class="blog-card-titulo">{post.data.title}</h2>
+                  <p class="blog-card-descricao">{post.data.summary}</p>
+                  <div class="blog-card-meta">
+                    {post.data.author} · {formatDate(post.data.date)}
+                  </div>
+                </a>
+              )
+            })}
+          </div>
+
+          {chunkIndex < postChunks.length - 1 && (
+            <AdSlot id={`ad-blog-${chunkIndex}`} />
+          )}
+        </>
+      ))}
+
+      <AdSlot id="ad-blog-bottom" />
 
       {totalPages > 1 && (
         <nav class="blog-paginacao" aria-label="Paginação do blog">
@@ -120,6 +135,10 @@ function pageHref(n: number) {
 </Layout>
 
 <style>
+  .ad-slot {
+    margin-block: var(--space-8);
+  }
+
   .blog-paginacao {
     display: flex;
     align-items: center;
@@ -140,7 +159,7 @@ function pageHref(n: number) {
     border-radius: var(--radius-md);
     font-size: var(--text-sm);
     font-weight: 500;
-    color: var(--color-text-secondary);
+    color: var(--color-muted);
     text-decoration: none;
     transition: background 0.15s, color 0.15s;
   }
@@ -148,7 +167,7 @@ function pageHref(n: number) {
   .blog-paginacao-num:hover,
   .blog-paginacao-btn:hover {
     background: var(--color-surface);
-    color: var(--color-text-primary);
+    color: var(--color-text);
   }
 
   .blog-paginacao-num.ativo {
@@ -163,7 +182,20 @@ function pageHref(n: number) {
     justify-content: center;
     min-width: 36px;
     height: 36px;
-    color: var(--color-text-secondary);
+    color: var(--color-muted);
     font-size: var(--text-sm);
+  }
+</style>
+<style is:global>
+  #ad-blog-top {
+    margin-bottom: var(--space-8);
+  }
+
+  [id^="ad-blog-"]:not(#ad-blog-top):not(#ad-blog-bottom) {
+    margin-block: var(--space-8);
+  }
+
+  #ad-blog-bottom {
+    margin-top: var(--space-8);
   }
 </style>

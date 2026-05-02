@@ -202,7 +202,7 @@ async function buscar() {
 
   const { data, error } = await query
 
-  if (error || !data || data.length < 10) {
+  if (error || !data || data.length < 5) {
     document.getElementById('stat-mediana').textContent = '—'
     document.getElementById('stat-minimo').textContent = '—'
     document.getElementById('stat-maximo').textContent = '—'
@@ -244,11 +244,11 @@ async function buscar() {
   document.getElementById('stat-bonus').textContent = pctBonus + '%'
 
   const resultsHeader = document.getElementById('results-header')
-  resultsHeader.style.display = 'none'
+  resultsHeader.style.display = 'block'
   const temFiltros = Object.values(filtros).some(v => v !== null)
-  document.getElementById('results-count').innerHTML = temFiltros
-    ? `<strong>${data.length} respostas</strong> para os filtros selecionados`
-    : `<strong>${data.length} respostas</strong> no total`
+  // document.getElementById('results-count').innerHTML = temFiltros
+  //   ? `<strong>${data.length} respostas</strong> para os filtros selecionados`
+  //   : `<strong>${data.length} respostas</strong> no total`
 
   const beneficiosCount = {}
   BENEFICIOS_LABELS.forEach(b => beneficiosCount[b] = 0)
@@ -327,7 +327,7 @@ async function setupConsultaAutocompletes() {
     })
   }
 
-  const topCargos = Object.entries(cargoCount).filter(([, n]) => n >= 10).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([c]) => c)
+  const topCargos = Object.entries(cargoCount).filter(([, n]) => n >= 5).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([c]) => c)
   const topAreas = Object.entries(areaCount).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([a]) => a)
   const topSetores = Object.entries(setorCount).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([s]) => s)
 
