@@ -12,7 +12,7 @@ Grande parte da ansiedade em uma entrevista vem do medo de ser pego de surpresa.
 
 Saber quais são as perguntas mais comuns não serve para decorar respostas artificiais. Serve para evitar improviso ruim.
 
-Inclusive em momentos mais sensíveis, como quando o recrutador pergunta sua pretensão salarial e você precisa entender [o que ele quer ouvir](/blog/o-que-o-recrutador-quer-ouvir-quando-pergunta-sua-pretensao-salarial/).
+Isso aparece com força quando você entende [o que o recrutador quer ouvir quando pergunta sua pretensão salarial](/blog/o-que-o-recrutador-quer-ouvir-quando-pergunta-sua-pretensao-salarial/).
 
 ## 1. Fale sobre você
 

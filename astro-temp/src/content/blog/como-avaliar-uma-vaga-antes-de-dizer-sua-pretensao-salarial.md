@@ -12,7 +12,7 @@ Definir pretensão salarial sem avaliar direito a vaga é uma das formas mais co
 
 Antes de dizer sua pretensão, vale entender o que realmente está na mesa.
 
-Esse tema fica mais claro quando você passa por [como acompanhar candidaturas sem se perder no processo](/blog/como-acompanhar-candidaturas-sem-se-perder-no-processo/).
+Esse tipo de avaliação fica bem mais fácil quando você consegue [acompanhar candidaturas sem se perder no processo](/blog/como-acompanhar-candidaturas-sem-se-perder-no-processo/). E, se o problema parecer estar na remuneração da vaga, ajuda perceber [como saber se uma vaga tem salário incompatível antes da entrevista](/blog/como-saber-se-uma-vaga-tem-salario-incompativel-antes-da-entrevista/).
 
 ## Por que essa avaliação importa
 
@@ -101,10 +101,10 @@ Evite:
 - tratar toda vaga como equivalente
 - definir a mesma pretensão para cenários muito diferentes
 
-No fim das contas, essa conversa também passa por [como adaptar o currículo para cada vaga sem começar do zero](/blog/como-adaptar-o-curriculo-para-cada-vaga-sem-comecar-do-zero/).
+E, quando a vaga fizer sentido, o currículo também precisa acompanhar, por isso vale [adaptar o currículo para cada vaga sem começar do zero](/blog/como-adaptar-o-curriculo-para-cada-vaga-sem-comecar-do-zero/).
 
 ## Conclusão
 
 Antes de dizer sua pretensão salarial, vale avaliar a vaga com calma. Quando você entende escopo, senioridade, pacote e contexto, sua resposta deixa de ser um chute e passa a ser uma decisão mais estratégica.
 
-Esse é justamente o ponto de conexão entre o silo de **Busca e aplicação a vagas** e o silo de **Pretensão salarial**.
+

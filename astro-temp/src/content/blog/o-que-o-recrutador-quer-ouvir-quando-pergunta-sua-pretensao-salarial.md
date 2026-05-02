@@ -78,4 +78,4 @@ Essa é uma boa pergunta para lembrar que entrevista não é só checagem de his
 
 Quando o recrutador pergunta sua pretensão salarial, ele não quer ouvir apenas um número. Ele quer entender se sua resposta revela coerência, leitura de contexto e capacidade de se posicionar com segurança.
 
-A melhor resposta, nesse caso, não é a mais ensaiada. É a que mostra que você sabe o que está fazendo.
+A melhor resposta, nesse caso, não é a mais ensaiada. É a que mostra que você sabe o que está fazendo. E, se a sua dúvida for transformar essa leitura em resposta prática, vale ver [como responder pretensão salarial sem se queimar no processo](/blog/como-responder-pretensao-salarial-sem-se-queimar-no-processo/).

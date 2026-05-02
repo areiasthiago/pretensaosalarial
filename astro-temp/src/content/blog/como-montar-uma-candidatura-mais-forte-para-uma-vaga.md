@@ -12,7 +12,7 @@ Uma candidatura forte não é apenas o envio de um currículo. Ela é o resultad
 
 Em outras palavras: não basta se candidatar. É preciso fazer sentido.
 
-Antes de avançar, vale olhar também para [os erros que fazem uma candidatura ser ignorada](/blog/erros-que-fazem-sua-candidatura-ser-ignorada/).
+Parte disso começa por reconhecer [os erros que fazem uma candidatura ser ignorada](/blog/erros-que-fazem-sua-candidatura-ser-ignorada/).
 
 ## O que enfraquece uma candidatura
 
@@ -89,10 +89,10 @@ Evite:
 - destacar experiências pouco conectadas ao escopo
 - enviar candidatura para vaga que você não consegue sustentar
 
-Na prática, isso se conecta com [como adaptar o currículo para cada vaga sem começar do zero](/blog/como-adaptar-o-curriculo-para-cada-vaga-sem-comecar-do-zero/).
+Na prática, muita dessa força vem de [adaptar o currículo para cada vaga sem começar do zero](/blog/como-adaptar-o-curriculo-para-cada-vaga-sem-comecar-do-zero/).
 
 ## Conclusão
 
 Montar uma candidatura mais forte depende de alinhamento. Quando você entende a vaga, organiza melhor sua trajetória e apresenta seus resultados com clareza, a empresa consegue ver mais rápido por que você merece avançar.
 
-Depois disso, vale aprofundar **erros que fazem sua candidatura ser ignorada**.
+

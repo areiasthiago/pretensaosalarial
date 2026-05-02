@@ -82,7 +82,7 @@ Essa resposta mostra abertura sem parecer evasiva.
 
 Responder bem não é só escolher palavras bonitas. É mostrar maturidade de leitura sobre valor, contexto e negociação.
 
-E isso fica ainda mais importante quando a conversa avança e você precisa [negociar salário sem parecer inflexível](/blog/como-negociar-salario-sem-parecer-inflexivel/).
+E isso fica ainda mais importante quando a conversa avança e você precisa [negociar salário sem parecer inflexível](/blog/como-negociar-salario-sem-parecer-inflexivel/). Se a sua preocupação for fazer isso sem soar travado ou se complicar cedo demais, vale entender [como responder pretensão salarial sem se queimar no processo](/blog/como-responder-pretensao-salarial-sem-se-queimar-no-processo/).
 
 ## Conclusão
 

@@ -152,7 +152,7 @@ Evite respostas como:
 
 Essas falas podem ser verdadeiras, mas enfraquecem sua posição se vierem sem argumento.
 
-Quanto mais contexto você tiver, mais fácil fica [sustentar sua pretensão salarial com dados de mercado](/blog/como-usar-dados-de-mercado-para-sustentar-sua-pretensao-salarial/).
+Quanto mais contexto você tiver, mais fácil fica [sustentar sua pretensão salarial com dados de mercado](/blog/como-usar-dados-de-mercado-para-sustentar-sua-pretensao-salarial/). E, se a sua dúvida for mais imediata, também ajuda entender [quanto pedir de pretensão salarial em 2026](/blog/quanto-pedir-de-pretensao-salarial-em-2026/).
 
 ## Conclusão
 

@@ -12,7 +12,7 @@ Essa é uma das dúvidas mais comuns de quem está buscando trabalho: **faz sent
 
 O problema não é não cumprir 100%. O problema é não entender o que realmente importa.
 
-Esse raciocínio ganha contexto quando você observa [como acompanhar candidaturas sem se perder no processo](/blog/como-acompanhar-candidaturas-sem-se-perder-no-processo/).
+Para não transformar essa decisão em bagunça, também ajuda [acompanhar candidaturas sem se perder no processo](/blog/como-acompanhar-candidaturas-sem-se-perder-no-processo/).
 
 ## Nem tudo na vaga tem o mesmo peso
 
@@ -72,10 +72,10 @@ Evite:
 - ignorar senioridade implícita
 - aplicar sem conseguir sustentar a escolha
 
-Isso ajuda bastante quando chega a hora de entender [como definir sua pretensão salarial sem apelar para um mero chute](/blog/como-definir-sua-pretensao-salarial-com-mais-criterio/).
+Esse julgamento também pesa quando chega a hora de [definir sua pretensão salarial sem apelar para um mero chute](/blog/como-definir-sua-pretensao-salarial-com-mais-criterio/).
 
 ## Conclusão
 
 Nem toda vaga exige 100% de aderência para merecer candidatura. O mais importante é entender o que realmente é central na posição e avaliar se seu perfil consegue sustentar o núcleo daquela demanda.
 
-Depois desse ponto, vale aprofundar **como acompanhar candidaturas sem se perder no processo**.
+

@@ -12,7 +12,7 @@ Ter uma pretensão salarial em mente já ajuda bastante. Mas o que realmente for
 
 Eles não servem para transformar conversa em disputa. Servem para tirar sua resposta do campo do achismo.
 
-Isso fica ainda mais claro quando você reconhece [os erros que fazem muita gente pedir menos do que o mercado pode pagar](/blog/erros-que-fazem-pedir-menos-do-que-o-mercado-pode-pagar/).
+Isso fica ainda mais claro quando você reconhece [os erros que fazem muita gente pedir menos do que o mercado pode pagar](/blog/erros-que-fazem-pedir-menos-do-que-o-mercado-pode-pagar/). E, se a dúvida for transformar isso em uma faixa mais atual, vale ver [quanto pedir de pretensão salarial em 2026](/blog/quanto-pedir-de-pretensao-salarial-em-2026/).
 
 ## Por que dados fortalecem sua posição
 

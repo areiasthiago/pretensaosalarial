@@ -12,7 +12,7 @@ Uma das armadilhas mais comuns na busca por emprego é achar que o problema est�
 
 Encontrar vagas que combinam com o seu perfil é uma questão de leitura.
 
-Esse tema fica mais claro quando você passa por [como ler uma vaga com mais atenção e entender o que a empresa realmente quer](/blog/como-ler-uma-vaga-de-emprego-e-entender-o-que-a-empresa-realmente-quer/).
+Essa leitura melhora bastante quando você aprende [como ler uma vaga de emprego e entender o que a empresa realmente quer](/blog/como-ler-uma-vaga-de-emprego-e-entender-o-que-a-empresa-realmente-quer/).
 
 ## O que significa uma vaga combinar com você
 
@@ -97,10 +97,10 @@ Evite:
 - se candidatar para vagas que não consegue sustentar
 - mirar oportunidades completamente desconectadas da sua trajetória sem plano de transição
 
-No fim das contas, essa conversa também passa por [como se preparar melhor para uma entrevista de emprego](/blog/como-se-preparar-para-uma-entrevista-de-emprego/).
+Se a vaga fizer sentido, o próximo desafio passa a ser [se preparar para uma entrevista de emprego](/blog/como-se-preparar-para-uma-entrevista-de-emprego/).
 
 ## Conclusão
 
 Encontrar vagas que combinam com o seu perfil é menos sobre sorte e mais sobre leitura estratégica. Quando você cruza experiência, senioridade, escopo e momento profissional, sua busca fica mais inteligente e suas candidaturas passam a ter mais qualidade.
 
-Depois disso, vale aprofundar **como ler uma vaga de emprego e entender o que a empresa realmente quer**.
+

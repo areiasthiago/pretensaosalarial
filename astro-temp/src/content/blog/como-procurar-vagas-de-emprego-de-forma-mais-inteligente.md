@@ -12,7 +12,7 @@ Procurar emprego não deveria ser um exercício de abrir dezenas de abas e sair 
 
 Procurar vagas de forma mais inteligente é buscar com critério.
 
-Antes de avançar, vale olhar também para [como encontrar vagas que realmente combinam com o seu perfil](/blog/como-encontrar-vagas-que-combinam-com-o-seu-perfil/).
+Buscar com critério começa por [encontrar vagas que realmente combinam com o seu perfil](/blog/como-encontrar-vagas-que-combinam-com-o-seu-perfil/).
 
 ## O problema da busca aleatória
 
@@ -113,10 +113,10 @@ Evite:
 - fazer busca sem filtros
 - perder registro do que já foi enviado
 
-Na prática, isso se conecta com [como montar um currículo mais competitivo sem exagerar](/blog/como-montar-um-curriculo-mais-competitivo-sem-exagerar/).
+E, quando uma vaga realmente combina com você, faz diferença ter [um currículo mais competitivo sem exagerar](/blog/como-montar-um-curriculo-mais-competitivo-sem-exagerar/).
 
 ## Conclusão
 
 Procurar vagas de emprego de forma mais inteligente não é buscar menos. É buscar melhor. Quando você entende o que procura, filtra com critério e organiza sua jornada, suas candidaturas ficam mais fortes e sua energia é usada com mais eficiência.
 
-Depois disso, vale aprofundar **como encontrar vagas que combinam com o seu perfil**.
+

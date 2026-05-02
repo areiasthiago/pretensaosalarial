@@ -12,7 +12,7 @@ Nem toda vaga que parece boa no título vale seu tempo, sua energia e sua expect
 
 Isso não é excesso de exigência. É estratégia.
 
-Esse raciocínio ganha contexto quando você observa [como montar uma candidatura mais forte para uma vaga](/blog/como-montar-uma-candidatura-mais-forte-para-uma-vaga/).
+E, quando a vaga passa nesse filtro, o próximo passo é [montar uma candidatura mais forte para uma vaga](/blog/como-montar-uma-candidatura-mais-forte-para-uma-vaga/). Se o desalinhamento parecer financeiro, também vale entender [como saber se uma vaga tem salário incompatível antes da entrevista](/blog/como-saber-se-uma-vaga-tem-salario-incompativel-antes-da-entrevista/).
 
 ## Por que essa avaliação importa
 
@@ -101,10 +101,10 @@ Evite:
 - tratar qualquer oportunidade como melhor do que nenhuma
 - esquecer de cruzar a vaga com seu momento real
 
-Isso ajuda bastante quando chega a hora de entender [como responder à pergunta sobre pretensão salarial na entrevista](/blog/o-que-o-recrutador-quer-ouvir-quando-pergunta-sua-pretensao-salarial/).
+Essa triagem também evita que você chegue à entrevista sem clareza sobre [o que o recrutador quer ouvir quando pergunta sua pretensão salarial](/blog/o-que-o-recrutador-quer-ouvir-quando-pergunta-sua-pretensao-salarial/).
 
 ## Conclusão
 
 Saber se a vaga vale a pena antes de se candidatar ajuda você a preservar energia, tomar decisões melhores e entrar em processos mais aderentes ao que realmente busca.
 
-Depois disso, vale aprofundar **como montar uma candidatura mais forte para uma vaga**.
+

@@ -12,7 +12,7 @@ Nem sempre uma candidatura é ignorada porque falta capacidade técnica. Muitas 
 
 Entender esses erros ajuda a melhorar a qualidade do processo.
 
-Esse tema fica mais claro quando você passa por [como adaptar seu currículo para cada vaga sem reescrever tudo](/blog/como-aumentar-suas-chances-na-gupy-e-em-outras-ias-de-recrutamento/).
+Parte desses erros aparece logo na triagem automática, e por isso vale entender [como aumentar suas chances na Gupy e em outras IAs de recrutamento](/blog/como-aumentar-suas-chances-na-gupy-e-em-outras-ias-de-recrutamento/).
 
 ## 1. Se candidatar sem aderência mínima
 
@@ -75,10 +75,10 @@ Evite:
 - falta de leitura da vaga
 - desorganização total do processo
 
-No fim das contas, essa conversa também passa por [como montar um currículo mais competitivo sem exagerar](/blog/como-montar-um-curriculo-mais-competitivo-sem-exagerar/).
+E, na prática, muita coisa melhora quando você constrói [um currículo mais competitivo sem exagerar](/blog/como-montar-um-curriculo-mais-competitivo-sem-exagerar/).
 
 ## Conclusão
 
 Candidaturas são ignoradas por muitos motivos, mas vários deles podem ser corrigidos. Quando você aumenta a aderência, melhora a clareza do currículo e trata a busca com mais estratégia, suas chances de atenção real sobem bastante.
 
-Depois disso, vale aprofundar **como adaptar o currículo para cada vaga sem começar do zero**.
+

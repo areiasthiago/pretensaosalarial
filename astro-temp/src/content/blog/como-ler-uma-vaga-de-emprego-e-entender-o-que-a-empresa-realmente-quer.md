@@ -12,7 +12,7 @@ Uma descrição de vaga nem sempre diz tudo de forma direta. Muitas vezes, o tex
 
 Quem lê melhor a vaga costuma se candidatar melhor.
 
-Aqui também faz diferença entender [como saber se uma vaga realmente vale a pena antes de se candidatar](/blog/antes-de-se-candidatar-como-saber-se-a-vaga-vale-a-pena/).
+Boa parte dessa leitura começa por [saber se uma vaga realmente vale a pena antes de se candidatar](/blog/antes-de-se-candidatar-como-saber-se-a-vaga-vale-a-pena/).
 
 ## Por que essa leitura importa
 
@@ -111,10 +111,10 @@ Evite:
 - tratar linguagem genérica como dado principal
 - se candidatar sem entender escopo
 
-Esse ponto fica mais claro quando você olha para [como definir sua pretensão salarial sem apelar para um mero chute](/blog/como-definir-sua-pretensao-salarial-com-mais-criterio/).
+Essa leitura também pesa quando chega a hora de [definir sua pretensão salarial sem apelar para um mero chute](/blog/como-definir-sua-pretensao-salarial-com-mais-criterio/).
 
 ## Conclusão
 
 Ler uma vaga bem é entender prioridade, contexto, senioridade e intenção da empresa. Quando você faz isso, sua candidatura fica mais estratégica e sua entrevista tende a ser muito melhor.
 
-Depois desse ponto, vale aprofundar **antes de se candidatar: como saber se a vaga vale a pena**.
+

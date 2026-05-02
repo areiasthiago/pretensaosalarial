@@ -3,7 +3,7 @@ title: "Transparência salarial: por que ela importa para profissionais e empres
 date: 2026-04-23
 author: "Thiago Areias"
 description: "Entenda por que a transparência salarial importa para profissionais, empresas e para a maturidade do mercado de trabalho."
-summary: "Transparência salarial importa porque ajuda profissionais a entender melhor seu valor de mercado, negociar com mais critério e perceber possíveis defasagens."
+summary: "Transparência salarial importa porque ajuda profissionais a entender melhor seu valor de mercado, negociar com mais critério e perceber possíveis defasagens. Para as empresas, ela reduz ruído, melhora alinhamento e torna a relação com talentos mais madura."
 category: "Mercado de trabalho"
 ---
 # Transparência salarial: por que ela importa para profissionais e empresas

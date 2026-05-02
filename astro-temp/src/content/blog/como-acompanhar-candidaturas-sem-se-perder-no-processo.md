@@ -12,7 +12,7 @@ Buscar emprego sem organização rapidamente vira confusão. Depois de algumas c
 
 Acompanhar candidaturas bem não é excesso de controle. É uma forma de pensar melhor.
 
-Antes de avançar, vale olhar também para [como avaliar uma vaga antes de dizer sua pretensão salarial](/blog/como-avaliar-uma-vaga-antes-de-dizer-sua-pretensao-salarial/).
+Esse acompanhamento começa a fazer sentido bem antes da entrevista, quando você consegue [avaliar uma vaga antes de dizer sua pretensão salarial](/blog/como-avaliar-uma-vaga-antes-de-dizer-sua-pretensao-salarial/).
 
 ## Por que esse acompanhamento importa
 
@@ -82,10 +82,10 @@ Evite:
 - repetir candidatura sem perceber
 - chegar em entrevista sem lembrar o contexto da vaga
 
-Na prática, isso se conecta com [como responder à pergunta sobre pretensão salarial na entrevista](/blog/o-que-o-recrutador-quer-ouvir-quando-pergunta-sua-pretensao-salarial/).
+Sem esse contexto, até perguntas simples da entrevista ficam mais difíceis, inclusive quando você precisa entender [o que o recrutador quer ouvir quando pergunta sua pretensão salarial](/blog/o-que-o-recrutador-quer-ouvir-quando-pergunta-sua-pretensao-salarial/).
 
 ## Conclusão
 
 Acompanhar candidaturas sem se perder no processo é uma forma simples de ganhar clareza, reduzir ansiedade e melhorar sua estratégia ao longo da busca. Quanto melhor você organiza sua jornada, mais fácil fica tomar boas decisões em cada etapa.
 
-A partir daqui, o próximo passo natural é avançar para o silo de **Currículo e posicionamento profissional** ou conectar com **Entrevista de emprego**.
+

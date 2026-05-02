@@ -164,7 +164,7 @@ const h2s = headings.filter(h => h.depth === 2)
 </template>
 
 <template id="ad-post-mid-tpl">
-  <div class="ad-slot ad-slot-inline active post-ad-mid" data-pagefind-ignore>
+  <div class="ad-slot ad-slot-inline post-ad-mid" data-pagefind-ignore>
     <ins class="adsbygoogle"
       style="display:block"
       data-ad-client="ca-pub-8916110376682921"
@@ -185,7 +185,10 @@ const h2s = headings.filter(h => h.depth === 2)
       if (ps.length >= 3) {
         ps[2].after(ctaTpl.content.cloneNode(true))
         if (ps.length >= 6 && adTpl) {
-          ps[5].after(adTpl.content.cloneNode(true))
+          const adNode = adTpl.content.cloneNode(true) as DocumentFragment
+          // const adDiv = adNode.firstElementChild
+          // if (adDiv) adDiv.classList.add('active')
+          ps[5].after(adNode)
           if (typeof (window as any).adsbygoogle !== 'undefined') {
             ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({})
           }
